@@ -1,0 +1,40 @@
+/static StaticR Static appStatic
+
+/favicon.ico FaviconR GET
+/robots.txt RobotsR GET
+
+/                           LoginR        POST
+/home                       HomeR         GET
+
+/login                      LoginR        GET POST
+
+/user/insert         InsertUserR  POST
+/user/#UserId/read   ReadUserR    GET
+/user/#UserId/update UpdateUserR  PUT
+
+/load/insert         InsertLoadR       POST
+/load/#LoadId/read   ReadLoadR         GET
+/load/#LoadId/update UpdateLoadR       PUT
+/load/#ClientId/read ReadClientLoadsR  GET
+/load/read/list      ReadLoadListR     GET
+
+/ship/insert          InsertShipR   POST
+/ship/read            ReadShipR     GET
+/ship/#ShipId/update  UpdateShipR   PUT
+
+/client/insert           InsertClientR POST
+/client/read             ReadClienteR  GET
+/client/#ClientId/update UpdateClientR PUT
+
+/product/insert            InsertProductR POST
+/product/read              ReadProductR   GET
+/product/#ProductId/update UpdateProductR PUT
+
+/terminal/registrar           CreateTerminalR  POST
+/terminal/buscar              ReadTerminalR    GET
+/terminal/#TerminalId/alterar UpdateTerminalR  PUT
+
+/sampleType/insert      InsertSampleTypeR POST
+/sampleType/read        ReadSampleTypeR   GET
+/sampleType/list        ListSampleTypesR  GET
+

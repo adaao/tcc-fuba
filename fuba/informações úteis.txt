@@ -1,0 +1,7 @@
+#####     POSTGRESQL     #####
+senha: saybolt
+porta: 5432
+database cluster: C:\PostgreSQL\data\pg10
+username: postgres
+
+
