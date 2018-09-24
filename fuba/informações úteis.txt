@@ -1,7 +1,39 @@
 #####     POSTGRESQL     #####
+# A seguinte configuração fora usada para desnvolver a aplicação tendo em 
+# mente o desenvolvimento e execução da ferramenta em ambiente offline.
+# A partir deste momento, seram utilizadas ferramentas online como, 
+# por exemplo, heroku, github, codenvy e etc.
 senha: saybolt
 porta: 5432
 database cluster: C:\PostgreSQL\data\pg10
 username: postgres
+
+#####     LISTA DE TECNOLOGIAS/SISTEMAS USADOS     #####
+
+Heroku
+
+codenvy
+
+atom
+
+github
+
+Haskell
+
+Yesod
+
+Postgersql
+
+HTML - Uma versão modificada usada no Yesod
+
+Css
+
+Javascript
+
+UML
+
+Visual Paradigm - Versão Community
+
+
 
 
