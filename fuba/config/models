@@ -12,10 +12,6 @@ Product json
    description Text
    deriving Show
 
-SampleTypes json
-   description Text
-   deriving Show
-
 SugarAnalisysResults json
    loadId LoadId
    source Text
@@ -25,6 +21,10 @@ SugarAnalisysResults json
    samplesId SamplesId
    deriving Show
    
+SampleType json
+   description Text
+   deriving Show
+
 CornAnalisysResuts json
    umidity Double
    temperature Double
