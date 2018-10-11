@@ -5,9 +5,13 @@ Haskell Stack -> https://docs.haskellstack.org/en/stable/README/
 postgresql -> https://www.postgresql.org/
 
 * Simplificando, basta execultar os seguintes comandos em um terminal:
+
 $ curl -sSL https://get.haskellstack.org/ | sh
+
 $ sudo apt-get update
+
 $ sudo apt-get install postgresql postgresql-contrib
+
 $ sudo apt-get install libpq-dev
 
 Para executar o programa, navegue ate a o diretório 
