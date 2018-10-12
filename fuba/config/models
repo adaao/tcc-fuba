@@ -1,38 +1,11 @@
-Ship json
-   name Text
-   deriving Show
-
-Client json
-   name Text
-   cnpj Text
-   deriving Show
-
-Product json
-   internationalCode Text
-   description Text
-   deriving Show
-
 SugarAnalisysResults json
-   loadId LoadId
-   source Text
-   umidity Double
-   insolubleResuduePresence Bool
+   gravimetricInsolubleResidue Double
    dateTime UTCTime
    samplesId SamplesId
    deriving Show
    
 SampleType json
-   description Text
-   deriving Show
-
-CornAnalisysResuts json
-   umidity Double
-   temperature Double
-   strangeMaterialAndImpurityQauntity Double
-   liveBugsPresence Bool
-   ph Double
-   isAflatoxinLevelHigherThan20 Bool 
-   sampleType SampleType
+   description Text //deve armazenar se é parcial de duas mil, dez mil ou algum tipo de composta - escolher um nome melhor e mais significativo
    deriving Show
 
 Samples json
@@ -41,22 +14,9 @@ Samples json
    sampleType SampleType //deve armazenar se é parcial de duas mil, dez mil ou algum tipo de composta - escolher um nome melhor e mais significativo
    deriving Show
 
-Terminal json
-   description Text
-   city Text
-   deriving Show
-
-Load json
-   clientId ClientId
-   shipId ShipId
-   dateTime UTCTime
-   productId ProductId
-   terminalId TerminalId
-   deriving Show
-
 UserType json
-   userDescription Text
-   userAccessLevel Int
+   userTypeDescription Text
+   userTypeAccessLevel Int
    deriving Show
 
 User json
