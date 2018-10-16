@@ -10,13 +10,13 @@ import Import
 import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
-postIsertSampleTypeR :: Handler Value
-postIsertSampleTypeR = do
+postInsertSampleTypeR :: Handler Value
+postInsertSampleTypeR = do
    newSampleType <- requireJsonBody :: Handler SampleTypes
    newSampleTypeId <- runDB $ insert newSampleType
    sendStatusJSON created201 (object ["resp" .= (fromSqlKey newSampleTypeId)])
    
-getReadSampleType :: SampleTypesId -> Handler Value
+getReadSampleType :: SampleTypeId -> Handler Value
 getReadSampleType sampleTypeId = do
    sampleType <- runDB $ get404 sampleTypeId
    sendStatusJSON ok200 (object ["resp" .= (toJSON sampleType)])
