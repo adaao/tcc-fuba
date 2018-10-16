@@ -22,7 +22,7 @@ UserType json
 User json
    email Text
    name Text
-   userType UserTypeId
+   userType UserTypeAccessLevel
    password Text
    UniqueEmail email
    deriving Show
