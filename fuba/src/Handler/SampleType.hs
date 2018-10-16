@@ -12,14 +12,22 @@ import Database.Persist.Postgresql
 
 postInsertSampleTypeR :: Handler Value
 postInsertSampleTypeR = do
-   newSampleType <- requireJsonBody :: Handler SampleTypes
+   newSampleType <- requireJsonBody :: Handler SampleType
    newSampleTypeId <- runDB $ insert newSampleType
    sendStatusJSON created201 (object ["resp" .= (fromSqlKey newSampleTypeId)])
    
-getReadSampleType :: SampleTypeId -> Handler Value
-getReadSampleType sampleTypeId = do
+getReadSampleTypeR :: SampleTypeId -> Handler Value
+getReadSampleTypeR sampleTypeId = do
    sampleType <- runDB $ get404 sampleTypeId
    sendStatusJSON ok200 (object ["resp" .= (toJSON sampleType)])
+
+putUpdateSampleTypeR :: SampleTypeId -> Handler SampleType
+putUpdateSampleTypeR sampleTypeToBeUpdatedId = do
+   _ <- runDB $ get404 sampleTypeToBeUpdatedId
+   updatedSampleType <- requireJsonBody :: Handler SampleType
+   runDB $ replace sampleTypeToBeUpdatedId updatedSampleType
+   sendStatusJSON noContent204 (object ["resp" .= (fromSqlKey sampleTypeToBeUpdatedId)])
+
 
 getListSampleTypes :: Handler Value
 getListSampleTypes = do

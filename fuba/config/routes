@@ -5,9 +5,16 @@
 
 /login LoginR GET POST
 
-/home HomeR GET
+/ HomeR GET
 
 /user/insert         InsertUserR  POST
 /user/#UserId/read   ReadUserR    GET
 /user/#UserId/update UpdateUserR  PUT
 
+/sampleType/insert   InsertSampleTypeR POST
+/sampleType/#SampleTypeId/read   ReadSampleTypeR GET
+/sampleType/#SampleTypeId/update   UpdateSampleTypeR PUT
+
+/userType/insert   InsertuserTypeR POST
+/userType/#UserType/read   ReadUserTypeR GET
+/userType/#UserType/update   UpdateUserType PUT

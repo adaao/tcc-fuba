@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 7a4d47899f5938d7f7eec641df91d0c7ec5c4aa31dabb390e5adea242e5e40ec
+-- hash: a597dcb30ababd2bf372dd7fa3c02d908a35f6c51b40e8b9f36c09e820a41104
 
 name:           fuba
 version:        0.0.0
@@ -69,20 +69,17 @@ library
   exposed-modules:
       Application
       Foundation
-      Handler.Client
       Handler.Comment
       Handler.Common
       Handler.Dao
       Handler.Home
-      Handler.Load
       Handler.Login
-      Handler.Product
       Handler.Profile
+      Handler.Samples
       Handler.SampleType
-      Handler.Ship
-      Handler.Terminal
+      Handler.SugarAnalisysResults
       Handler.User
-      Handler.UserCategory
+      Handler.UserType
       Import
       Import.NoFoundation
       Model

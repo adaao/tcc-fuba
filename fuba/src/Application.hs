@@ -43,14 +43,13 @@ import Handler.Home
 import Handler.Comment
 import Handler.Profile
 import Handler.Client
-import Handler.Load
-import Handler.Product
 import Handler.SampleType
-import Handler.Ship
-import Handler.Terminal
 import Handler.User
-import Handler.UserCategory
+import Handler.UserTypes
 import Handler.Login
+import Handler.Sample
+import Handler.SugarAnalisysResults
+
 
 -- This line actually creates our YesodDispatch instance. It is the second half
 -- of the call to mkYesodData which occurs in Foundation.hs. Please see the

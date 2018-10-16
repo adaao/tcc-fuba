@@ -10,5 +10,6 @@ import Yesod.Form.Bootstrap3 (BootstrapFormLayout (..), renderBootstrap3)
 import Text.Julius (RawJS (..))
 
 getHomeR :: Handler Html
-getHomeR = undefined
+getHomeR = do
+   defaultLayout $(whamletFile "templates/HomePage.hamlet"
 
