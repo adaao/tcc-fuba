@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-21 15:14:00.901916 UTC
+2018-10-21 17:34:33.617245 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Application [orphan module] 8002
-  interface hash: 0dd1982b9bdea13bd72c7f814cfb314f
-  ABI hash: c94068f9a7713e5067fb595158c5ed90
+  interface hash: bca6108e2a38b641503d065d945d1e44
+  ABI hash: 88600264a8b0b0fe03d7f750a458f2af
   export-list hash: 373e4f1f3b09b8697cfea694fa73b495
   orphan hash: df8c1ce5c6f6441cfdd2cd42584310c8
   flag hash: 5c61ced8fce96568580582466a9bf356
@@ -386,9 +386,9 @@ import  -/  Handler.Common e17586ec104e6790ac70108c5e3865d2
   exports: f0b7a101d75ce1d630752e99f57442ee
   getFaviconR 4a8fa2012ef1a4a2ff05db92cfdf109b
   getRobotsR bfe477e2f5aa53d8701ede42d1084ed1
-import  -/  Handler.Home 0871882f76ef67e96f59e473611989fb
+import  -/  Handler.Home e2b2aa6f6b9be2e5ddf7abeafa40154b
   exports: 887f21f01793a1406a3a2997e2f9581c
-  getHomeR 46d0088fc1a6cec957443f85ee540a38
+  getHomeR 09b2c0c97950b97e4a8dbee0e1a19608
 import  -/  Handler.Login 8fec1173b356e931d14b1bdc5066c91d
   exports: 503bcf161e4cf716266fdf7d143d75a7
   getLoginnR 5bee1575805086983babfa389115003b
@@ -882,12 +882,12 @@ d2f495c029d48dac073caa3b57407dc8
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <S,U> -}
-95740328aa2826317e8fb821ed097350
+5ab1796c6519154f4b2037c2883e1393
   develMain :: GHC.Types.IO ()
   {- Arity: 1,
      Unfolding: InlineRule (0, True, True)
                 Application.develMain1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-7ce67bb4a7bd15735f1e7b27347e48f0
+dd832e3efa2ad906c3935f90cf86733f
   develMain1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -898,7 +898,7 @@ d2f495c029d48dac073caa3b57407dc8
                    (Sym (GHC.Types.N:IO[0]
                              <(Network.Wai.Handler.Warp.Settings.Settings,
                                Network.Wai.Application)>_R))) -}
-44a97740369ab8a6794b1d6f0b13af18
+6cbfc0858d90011b0a5d30adeeb7d968
   develMain10 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((Application.develMain9, Application.develMain11)) -}
@@ -929,7 +929,7 @@ fed162c89f0ccaee0f64ad2547f022d9
                    @ GHC.IO.FilePath
                    Yesod.Default.Config2.configSettingsYml
                    (GHC.Types.[] @ GHC.IO.FilePath)) -}
-4d167f92c2759eb73cd4d5e58aa11b5d
+4fd4383830430280af73759acd2a03f8
   develMain2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -977,7 +977,7 @@ fed162c89f0ccaee0f64ad2547f022d9
 dc0bef058499b27d5b8f573ba0df6db5
   develMain5 :: Control.Monad.Logger.LogSource
   {- Unfolding: (Data.Text.Show.unpackCString# "yesod"#) -}
-6b41bf1f6ef4dfb70af79af9892b4556
+925dcf20884db0427e0bafa80dfed66d
   develMain6 :: Language.Haskell.TH.Syntax.Loc
   {- Strictness: m,
      Unfolding: (Language.Haskell.TH.Syntax.Loc
@@ -986,17 +986,17 @@ dc0bef058499b27d5b8f573ba0df6db5
                    Application.develMain12
                    Application.develMain10
                    Application.develMain7) -}
-0702a2f446f1b15f2e072d3ce0b1b589
+520133f0a69dec2da0bf047929a27c25
   develMain7 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((Application.develMain9, Application.develMain8)) -}
 7148a6fdc99cc8942090e5a48fa24235
   develMain8 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 36#) -}
-504aa6e23c98a8ced59fd954f6be0a1d
+719296dd16974ba52a6816d6fe6abadb
   develMain9 :: GHC.Types.Int
-  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 124#) -}
-e166741ed2c5ea6807d259e86a624628
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 123#) -}
+ba1becccc2f14c9f48f6ab3104e2dfcb
   getApplicationDev ::
     GHC.Types.IO
       (Network.Wai.Handler.Warp.Settings.Settings,
@@ -1008,7 +1008,7 @@ e166741ed2c5ea6807d259e86a624628
                 (Sym (GHC.Types.N:IO[0]
                           <(Network.Wai.Handler.Warp.Settings.Settings,
                             Network.Wai.Application)>_R)) -}
-8fe809d782715cbb5bbff3690bf9f00c
+e10c8903f3f7be1f6ed444a49fc3e368
   getApplicationRepl ::
     GHC.Types.IO
       (GHC.Types.Int, Foundation.App, Network.Wai.Application)
@@ -1018,7 +1018,7 @@ e166741ed2c5ea6807d259e86a624628
                   `cast`
                 (Sym (GHC.Types.N:IO[0]
                           <(GHC.Types.Int, Foundation.App, Network.Wai.Application)>_R)) -}
-a916790f33139b8b1ad17ba1f4f8939f
+292bf775864033b7e3727d5fcbc879f9
   getApplicationRepl1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -1112,7 +1112,7 @@ a41431495480ef7e45fd2c1656906d97
      Unfolding: InlineRule (1, True, False)
                 (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  (# s, GHC.Tuple.() #)) -}
-e8c2d5ffef19836179c1eb376663bb12
+2fc76672395daa99417d6c040a9800c4
   warpSettings ::
     Foundation.App -> Network.Wai.Handler.Warp.Settings.Settings
   {- Arity: 1,
