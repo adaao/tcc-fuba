@@ -15,13 +15,13 @@ formLogin = renderDivs $ (,)
     <$> areq emailField "Email: " Nothing
     <*> areq passwordField "Senha: " Nothing
 
-postLoginR :: Handler Html
-postLoginR = undefined
+postLoginnR :: Handler Html
+postLoginnR = undefined
 
-getLoginR :: Handler Html
-getLoginR = undefined
+getLoginnR :: Handler Html
+getLoginnR = undefined
 
-/*   
+{-   
 getLoginR :: Handler Html
 getLoginR = do 
     (widget,enctype) <- generateFormPost formLogin
@@ -60,7 +60,7 @@ postLoginR = do
                     redirect HomeR
             redirect ClienteR
         _ -> redirect HomeR
-
+-}
 postLogoutR :: Handler Html
 postLogoutR = do 
     deleteSession "_NOME"

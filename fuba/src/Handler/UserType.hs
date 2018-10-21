@@ -14,7 +14,7 @@ postInsertUserTypeR :: Handler Value
 postInsertUserTypeR = do
    newUserType <- requireJsonBody :: Handler UserType
    newUserTypeId <- runDB $ insert newUserType
-   sendStautsJSON created201 (object ["resp" .= (fromSqlKey newUserTypeId)])
+   sendStatusJSON created201 (object ["resp" .= (fromSqlKey newUserTypeId)])
 
 getReadUserTypeR :: UserTypeId -> Handler Value
 getReadUserTypeR userTypeId = do

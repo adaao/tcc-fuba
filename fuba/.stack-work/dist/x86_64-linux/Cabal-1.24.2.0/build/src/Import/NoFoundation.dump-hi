@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-16 06:23:27.22738 UTC
+2018-10-17 23:31:51.340403 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import.NoFoundation 8002
-  interface hash: 91dd0991b12014d6854e0c945a4bb67d
+  interface hash: d59683d92c5f0322992e6e39cc170e66
   ABI hash: fb4288dd559caa50ce1ad5c99b22212a
   export-list hash: 0c50b3c7cbb6936141f71e5eadec287b
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -2262,6 +2262,7 @@ import  -/  base-4.9.1.0:Data.Maybe d876c4ffe4b3c43755a781e8ad860d88
 import  -/  base-4.9.1.0:Data.Semigroup fc55c71ff629dcbd821309c310055959
 import  -/  base-4.9.1.0:Data.String b34df69c7b6358cd40a379c8a0a78dcf
 import  -/  base-4.9.1.0:Data.Traversable 556020d7cf3c4a34a774600512918a37
+import  -/  base-4.9.1.0:Data.Typeable.Internal 0e9bdefa4325a0112d8e73b5e1e1f85d
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
 import  -/  base-4.9.1.0:GHC.Conc.Sync 8d0a228e5fc4d8c110495066f4d52ea1
 import  -/  base-4.9.1.0:GHC.Enum 3811281f7b5f26da514529cf3ed44009
@@ -2271,6 +2272,7 @@ import  -/  base-4.9.1.0:GHC.Float 33e2b9ffe427edd6a5c2fd6a3b26703c
 import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
 import  -/  base-4.9.1.0:GHC.IO eb504c57b397cf133849f8586f15dafb
 import  -/  base-4.9.1.0:GHC.IO.Exception 5064be4c355632a1d1c4f2322f56ac52
+import  -/  base-4.9.1.0:GHC.IO.Handle.Types 17aa0e2ab137800e3a31992d780c071f
 import  -/  base-4.9.1.0:GHC.IORef 306bd532f2f3b000347cbe6316adc20e
 import  -/  base-4.9.1.0:GHC.Int e6f85fcab22769385fba2b5fce0acb40
 import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
@@ -2419,12 +2421,17 @@ import  -/  primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.M
 import  -/  primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.MutVar 0d45f1c497d8105899d11b3601a0ead9
 import  -/  resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource.Internal 50c93ad6ec81754501e8820a059dce55
 import  -/  resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Data.Acquire.Internal 03aadd6eb41ed38f345bda80017b4879
+import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Cassius 593355065707daaadb588974801506b6
+import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Hamlet b54f8e8ba6616588e422adb94b1a3919
 import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Internal.Css 4ed10a2d128e3527172fd6aa23d3a177
+import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Julius 2f02a954f5d2f7ddbf843c50c57f3cd2
+import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Lucius 45f3d025466fbe8340f39196e64587f5
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Days 0625fb086700e00eeabe68d7be3fc9e6
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian 04a8b2fb0c663c25de5cf9d7024d8458
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.UTC a11128e40404d4167f29d45f57b1b0af
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse ca4fefe1846c5cb51836ffb85274a6e6
+import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Class 45530f1305724ee3931a9be21b40ca7e
 import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Reader 1b607a084a390ae0e50e8f8dcbf2541a
 import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base 214d0e8bbe09552a4e9173f83388cb27
 import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet fc979ee2b38aaa038af760db40c35f4a
@@ -2437,6 +2444,7 @@ import  -/  yesod-auth-1.4.21@yesod-auth-1.4.21-4kWFKa6yvCgHyqdlKx65BJ:Yesod.Aut
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Class.Handler 23f393bd82033ca05bfb472a51d774da
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Internal.LiteApp 6dd9ec44ff7a1dfaf07b435788e4584f
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Types 4312717abb372718199b51cfb01b15db
+import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Widget cdad171ddeebf1a4ede8cc08021b65ea
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Routes.Class fc13bd739641aa8e978d7faf04060a5b
 import  -/  yesod-static-1.5.3.1@yesod-static-1.5.3.1-2G6lCuWl1K7ErbmGT3O91D:Yesod.Static 84c83bc706b901083f1837be308e26b6
 addDependentFile "/home/user/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h"

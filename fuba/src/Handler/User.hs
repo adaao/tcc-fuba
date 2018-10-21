@@ -14,10 +14,10 @@ postInsertUserR :: Handler Value
 postInsertUserR = do
    newUser <- requireJsonBody :: Handler User
    newUserId <- runDB $ insert newUser
-   sendStautsJSON created201 (object ["resp" .= (fromSqlKey newUserId)])
+   sendStatusJSON created201 (object ["resp" .= (fromSqlKey newUserId)])
 
 getReadUserR :: UserId -> Handler Value
-gettReadUserR userId = do
+getReadUserR userId = do
    user <- runDB $ get404 userId
    sendStatusJSON ok200 (object ["resp" .= (toJSON user)])
 

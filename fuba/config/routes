@@ -3,7 +3,7 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/login LoginR GET POST
+/loginn LoginnR GET POST
 
 / HomeR GET
 
@@ -13,8 +13,8 @@
 
 /sampleType/insert   InsertSampleTypeR POST
 /sampleType/#SampleTypeId/read   ReadSampleTypeR GET
-/sampleType/#SampleTypeId/update   UpdateSampleTypeR PUT
+--/sampleType/#SampleTypeId/update   UpdateSampleTypeR PUT
 
-/userType/insert   InsertuserTypeR POST
-/userType/#UserType/read   ReadUserTypeR GET
-/userType/#UserType/update   UpdateUserType PUT
+/userType/insert   InsertUserTypeR POST
+/userType/#UserTypeId/read   ReadUserTypeR GET
+/userType/#UserTypeId/update   UpdateUserTypeR PUT

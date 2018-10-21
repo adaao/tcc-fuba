@@ -3,6 +3,7 @@
 {-# LANGUAGE TemplateHaskell #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
+
 module Handler.Home where
 
 import Import
@@ -11,5 +12,4 @@ import Text.Julius (RawJS (..))
 
 getHomeR :: Handler Html
 getHomeR = do
-   defaultLayout $(whamletFile "templates/HomePage.hamlet"
-
+   defaultLayout $(whamletFile "templates/homepage.hamlet")
