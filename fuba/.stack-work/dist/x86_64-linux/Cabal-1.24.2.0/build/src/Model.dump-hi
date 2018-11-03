@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-21 17:34:25.159578 UTC
+2018-10-25 16:45:28.405574 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Model [family instance module] 8002
-  interface hash: ca572991ddae6cf57e2c39dc41244cad
-  ABI hash: 395c2a948895596dcf30cb9ace49313d
+  interface hash: de2dd7fc9fe620f8ca1fef73281781e0
+  ABI hash: dd4013f537a896231161434636da12e9
   export-list hash: ae406b99b8bcdf02763a4aa820b0a2a3
   orphan hash: 479d52bef924044143dff0ed3f6521d4
   flag hash: 52ff668dc27d6990aed1fb19c88425bb
@@ -452,7 +452,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeyUserType[0]))
                                     (Sym (Model.D:R:KeyUserType0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fEqKey1 ::
     GHC.Classes.Eq
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -462,7 +462,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
                   Model.$fEqKey1_$c==
                   Model.$fEqKey1_$c/= -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fEqKey1_$c/= ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -485,7 +485,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fEqKey1_$c== ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -508,7 +508,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fEqKey2 ::
     GHC.Classes.Eq
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -518,7 +518,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                   Model.$fEqKey2_$c==
                   Model.$fEqKey2_$c/= -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fEqKey2_$c/= ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -542,7 +542,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fEqKey2_$c== ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -566,7 +566,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fEqKey3 ::
     GHC.Classes.Eq
       (Database.Persist.Class.PersistEntity.Key
@@ -578,7 +578,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                        Model.SugarAnalisysResults)
                   Model.$fEqKey3_$c==
                   Model.$fEqKey3_$c/= -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fEqKey3_$c/= ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -603,7 +603,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                     (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                     (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fEqKey3_$c== ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -730,7 +730,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                    (Trans
                                         (Sym (Model.N:R:KeyUserType[0]))
                                         (Sym (Model.D:R:KeyUserType0[0]))))))_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromHttpApiDataKey1 ::
     Web.Internal.HttpApiData.FromHttpApiData
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -741,7 +741,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   Model.$fFromHttpApiDataKey1_$cparseUrlPiece
                   Model.$fFromHttpApiDataKey1_$cparseHeader
                   Model.$fFromHttpApiDataKey1_$cparseUrlPiece -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromHttpApiDataKey1_$cparseHeader ::
     Data.ByteString.Internal.ByteString
     -> Data.Either.Either
@@ -761,7 +761,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                    (Trans
                                         (Sym (Model.N:R:KeySamples[0]))
                                         (Sym (Model.D:R:KeySamples0[0]))))))_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromHttpApiDataKey1_$cparseUrlPiece ::
     Data.Text.Internal.Text
     -> Data.Either.Either
@@ -781,7 +781,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                    (Trans
                                         (Sym (Model.N:R:KeySamples[0]))
                                         (Sym (Model.D:R:KeySamples0[0]))))))_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromHttpApiDataKey2 ::
     Web.Internal.HttpApiData.FromHttpApiData
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -792,7 +792,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fFromHttpApiDataKey2_$cparseUrlPiece
                   Model.$fFromHttpApiDataKey2_$cparseHeader
                   Model.$fFromHttpApiDataKey2_$cparseUrlPiece -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromHttpApiDataKey2_$cparseHeader ::
     Data.ByteString.Internal.ByteString
     -> Data.Either.Either
@@ -812,7 +812,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                    (Trans
                                         (Sym (Model.N:R:KeySampleType[0]))
                                         (Sym (Model.D:R:KeySampleType0[0]))))))_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromHttpApiDataKey2_$cparseUrlPiece ::
     Data.Text.Internal.Text
     -> Data.Either.Either
@@ -832,7 +832,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                    (Trans
                                         (Sym (Model.N:R:KeySampleType[0]))
                                         (Sym (Model.D:R:KeySampleType0[0]))))))_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromHttpApiDataKey3 ::
     Web.Internal.HttpApiData.FromHttpApiData
       (Database.Persist.Class.PersistEntity.Key
@@ -845,7 +845,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fFromHttpApiDataKey3_$cparseUrlPiece
                   Model.$fFromHttpApiDataKey3_$cparseHeader
                   Model.$fFromHttpApiDataKey3_$cparseUrlPiece -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromHttpApiDataKey3_$cparseHeader ::
     Data.ByteString.Internal.ByteString
     -> Data.Either.Either
@@ -866,7 +866,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                    (Trans
                                         (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                         (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))))_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromHttpApiDataKey3_$cparseUrlPiece ::
     Data.Text.Internal.Text
     -> Data.Either.Either
@@ -1006,7 +1006,7 @@ dd2ead2326104bee5799e5b1dc7fc515
     -> [Data.Aeson.Types.Internal.Parser
           (Database.Persist.Class.PersistEntity.Entity Model.UserType)]
   {- Arity: 2, Strictness: <L,U><S,1*U> -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONEntity1 ::
     Data.Aeson.Types.FromJSON.FromJSON
       (Database.Persist.Class.PersistEntity.Entity Model.Samples)
@@ -1016,7 +1016,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   @ (Database.Persist.Class.PersistEntity.Entity Model.Samples)
                   Model.$fFromJSONEntity1_$cparseJSON
                   Model.$fFromJSONEntity1_$cparseJSONList -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONEntity1_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1029,7 +1029,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                    Model.$fPersistEntitySamples
                    Model.$fFromJSONSamples
                    w3) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONEntity1_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1068,14 +1068,14 @@ dd2ead2326104bee5799e5b1dc7fc515
                       (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                                 <[Database.Persist.Class.PersistEntity.Entity
                                     Model.Samples]>_R)) } }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONEntity1_go ::
     GHC.Prim.Int#
     -> [Data.Aeson.Types.Internal.Value]
     -> [Data.Aeson.Types.Internal.Parser
           (Database.Persist.Class.PersistEntity.Entity Model.Samples)]
   {- Arity: 2, Strictness: <L,U><S,1*U> -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONEntity2 ::
     Data.Aeson.Types.FromJSON.FromJSON
       (Database.Persist.Class.PersistEntity.Entity Model.SampleType)
@@ -1085,7 +1085,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ (Database.Persist.Class.PersistEntity.Entity Model.SampleType)
                   Model.$fFromJSONEntity2_$cparseJSON
                   Model.$fFromJSONEntity2_$cparseJSONList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONEntity2_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1098,7 +1098,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    Model.$fPersistEntitySampleType
                    Model.$fFromJSONSampleType
                    w3) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONEntity2_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1137,14 +1137,14 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                       (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                                 <[Database.Persist.Class.PersistEntity.Entity
                                     Model.SampleType]>_R)) } }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONEntity2_go ::
     GHC.Prim.Int#
     -> [Data.Aeson.Types.Internal.Value]
     -> [Data.Aeson.Types.Internal.Parser
           (Database.Persist.Class.PersistEntity.Entity Model.SampleType)]
   {- Arity: 2, Strictness: <L,U><S,1*U> -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONEntity3 ::
     Data.Aeson.Types.FromJSON.FromJSON
       (Database.Persist.Class.PersistEntity.Entity
@@ -1156,7 +1156,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                        Model.SugarAnalisysResults)
                   Model.$fFromJSONEntity3_$cparseJSON
                   Model.$fFromJSONEntity3_$cparseJSONList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONEntity3_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1170,7 +1170,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    Model.$fPersistEntitySugarAnalisysResults
                    Model.$fFromJSONSugarAnalisysResults
                    w3) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONEntity3_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1211,7 +1211,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                       (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                                 <[Database.Persist.Class.PersistEntity.Entity
                                     Model.SugarAnalisysResults]>_R)) } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONEntity3_go ::
     GHC.Prim.Int#
     -> [Data.Aeson.Types.Internal.Value]
@@ -1244,7 +1244,7 @@ dd2ead2326104bee5799e5b1dc7fc515
             [Database.Persist.Class.PersistEntity.Entity Model.UserType] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONEntity7 ::
     [Data.Aeson.Types.Internal.Parser
        (Database.Persist.Class.PersistEntity.Entity Model.Samples)]
@@ -1255,7 +1255,7 @@ dd2ead2326104bee5799e5b1dc7fc515
             [Database.Persist.Class.PersistEntity.Entity Model.Samples] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONEntity8 ::
     [Data.Aeson.Types.Internal.Parser
        (Database.Persist.Class.PersistEntity.Entity Model.SampleType)]
@@ -1266,7 +1266,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
             [Database.Persist.Class.PersistEntity.Entity Model.SampleType] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONEntity9 ::
     [Data.Aeson.Types.Internal.Parser
        (Database.Persist.Class.PersistEntity.Entity
@@ -1396,7 +1396,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Trans
                                          (Sym (Model.N:R:KeyUserType[0]))
                                          (Sym (Model.D:R:KeyUserType0[0]))))])_R)_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONKey1 ::
     Data.Aeson.Types.FromJSON.FromJSON
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -1406,7 +1406,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
                   Model.$fFromJSONKey1_$cparseJSON
                   Model.$fFromJSONKey1_$cparseJSONList -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONKey1_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1424,7 +1424,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                    (Trans
                                         (Sym (Model.N:R:KeySamples[0]))
                                         (Sym (Model.D:R:KeySamples0[0]))))))_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONKey1_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1442,7 +1442,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Trans
                                          (Sym (Model.N:R:KeySamples[0]))
                                          (Sym (Model.D:R:KeySamples0[0]))))])_R)_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONKey2 ::
     Data.Aeson.Types.FromJSON.FromJSON
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -1452,7 +1452,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                   Model.$fFromJSONKey2_$cparseJSON
                   Model.$fFromJSONKey2_$cparseJSONList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONKey2_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1470,7 +1470,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                    (Trans
                                         (Sym (Model.N:R:KeySampleType[0]))
                                         (Sym (Model.D:R:KeySampleType0[0]))))))_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONKey2_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1488,7 +1488,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Trans
                                          (Sym (Model.N:R:KeySampleType[0]))
                                          (Sym (Model.D:R:KeySampleType0[0]))))])_R)_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONKey3 ::
     Data.Aeson.Types.FromJSON.FromJSON
       (Database.Persist.Class.PersistEntity.Key
@@ -1500,7 +1500,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                        Model.SugarAnalisysResults)
                   Model.$fFromJSONKey3_$cparseJSON
                   Model.$fFromJSONKey3_$cparseJSONList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONKey3_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1519,7 +1519,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                    (Trans
                                         (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                         (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))))_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONKey3_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser
@@ -1574,7 +1574,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                     (Trans
                                          (Sym (Model.N:R:KeyUser[0]))
                                          (Sym (Model.D:R:KeyUser0[0]))))])_R)_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONSampleType ::
     Data.Aeson.Types.FromJSON.FromJSON Model.SampleType
   DFunId
@@ -1583,7 +1583,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ Model.SampleType
                   Model.$fFromJSONSampleType_$cparseJSON
                   Model.$fFromJSONSampleType_$cparseJSONList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONSampleType1 ::
     [Data.Aeson.Types.Internal.Parser Model.SampleType]
     -> forall (f :: * -> *) r.
@@ -1622,7 +1622,7 @@ aca6dfc512c70eb0a8d1d2205c4c3571
 bd3a7224510447063c2f265be61d0a73
   $fFromJSONSampleType5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# " not present"#) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONSampleType_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser Model.SampleType
@@ -1706,7 +1706,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         `cast`
                       (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                                 <Model.SampleType>_R)) }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONSampleType_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser [Model.SampleType]
@@ -1743,7 +1743,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         `cast`
                       (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                                 <[Model.SampleType]>_R)) } }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fFromJSONSampleType_go ::
     GHC.Prim.Int#
     -> [Data.Aeson.Types.Internal.Value]
@@ -1759,7 +1759,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
     Data.Aeson.Types.Internal.JSONPathElement
   {- Unfolding: (Data.Aeson.Types.Internal.Key
                    Model.$fPersistEntitySamples6) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONSamples ::
     Data.Aeson.Types.FromJSON.FromJSON Model.Samples
   DFunId
@@ -1768,7 +1768,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ Model.Samples
                   Model.$fFromJSONSamples_$cparseJSON
                   Model.$fFromJSONSamples_$cparseJSONList -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONSamples1 ::
     [Data.Aeson.Types.Internal.Parser Model.Samples]
     -> forall (f :: * -> *) r.
@@ -1777,12 +1777,12 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
        -> Data.Aeson.Types.Internal.Success [Model.Samples] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONSamples_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser Model.Samples
   {- Arity: 1, Strictness: <S,1*U> -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONSamples_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser [Model.Samples]
@@ -1819,13 +1819,13 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         `cast`
                       (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                                 <[Model.Samples]>_R)) } }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fFromJSONSamples_go ::
     GHC.Prim.Int#
     -> [Data.Aeson.Types.Internal.Value]
     -> [Data.Aeson.Types.Internal.Parser Model.Samples]
   {- Arity: 2, Strictness: <L,U><S,1*U> -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONSugarAnalisysResults ::
     Data.Aeson.Types.FromJSON.FromJSON Model.SugarAnalisysResults
   DFunId
@@ -1834,7 +1834,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   @ Model.SugarAnalisysResults
                   Model.$fFromJSONSugarAnalisysResults_$cparseJSON
                   Model.$fFromJSONSugarAnalisysResults_$cparseJSONList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONSugarAnalisysResults1 ::
     [Data.Aeson.Types.Internal.Parser Model.SugarAnalisysResults]
     -> forall (f :: * -> *) r.
@@ -1844,12 +1844,12 @@ b0f4b2ca3e0231845a3334ace325c01b
             [Model.SugarAnalisysResults] f r
        -> f r
   {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONSugarAnalisysResults_$cparseJSON ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser Model.SugarAnalisysResults
   {- Arity: 1, Strictness: <S,1*U> -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONSugarAnalisysResults_$cparseJSONList ::
     Data.Aeson.Types.Internal.Value
     -> Data.Aeson.Types.Internal.Parser [Model.SugarAnalisysResults]
@@ -1886,7 +1886,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                         `cast`
                       (Sym (Data.Aeson.Types.Internal.N:Parser[0]
                                 <[Model.SugarAnalisysResults]>_R)) } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fFromJSONSugarAnalisysResults_go ::
     GHC.Prim.Int#
     -> [Data.Aeson.Types.Internal.Value]
@@ -2235,7 +2235,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                (Trans
                                     (Sym (Model.N:R:KeyUserType[0]))
                                     (Sym (Model.D:R:KeyUserType0[0]))))) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1 ::
     GHC.Classes.Ord
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -2251,7 +2251,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   Model.$fOrdKey1_$c>=
                   Model.$fOrdKey1_$cmax
                   Model.$fOrdKey1_$cmin -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1_$c< ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -2274,7 +2274,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1_$c<= ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -2297,7 +2297,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1_$c> ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -2320,7 +2320,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1_$c>= ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -2343,7 +2343,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1_$ccompare ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -2366,7 +2366,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <GHC.Types.Ordering>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1_$cmax ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -2395,7 +2395,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                (Trans
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fOrdKey1_$cmin ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -2424,7 +2424,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                (Trans
                                     (Sym (Model.N:R:KeySamples[0]))
                                     (Sym (Model.D:R:KeySamples0[0]))))) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2 ::
     GHC.Classes.Ord
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -2440,7 +2440,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fOrdKey2_$c>=
                   Model.$fOrdKey2_$cmax
                   Model.$fOrdKey2_$cmin -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2_$c< ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -2464,7 +2464,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2_$c<= ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -2488,7 +2488,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2_$c> ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -2512,7 +2512,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2_$c>= ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -2536,7 +2536,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2_$ccompare ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -2560,7 +2560,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <GHC.Types.Ordering>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2_$cmax ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -2590,7 +2590,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Trans
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fOrdKey2_$cmin ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -2620,7 +2620,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Trans
                                     (Sym (Model.N:R:KeySampleType[0]))
                                     (Sym (Model.D:R:KeySampleType0[0]))))) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3 ::
     GHC.Classes.Ord
       (Database.Persist.Class.PersistEntity.Key
@@ -2638,7 +2638,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fOrdKey3_$c>=
                   Model.$fOrdKey3_$cmax
                   Model.$fOrdKey3_$cmin -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3_$c< ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -2663,7 +2663,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                     (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                     (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3_$c<= ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -2688,7 +2688,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                     (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                     (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3_$c> ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -2713,7 +2713,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                     (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                     (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3_$c>= ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -2738,7 +2738,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                     (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                     (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <GHC.Types.Bool>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3_$ccompare ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -2763,7 +2763,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                     (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                     (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <GHC.Types.Ordering>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3_$cmax ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -2795,7 +2795,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                (Trans
                                     (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                     (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fOrdKey3_$cmin ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key
@@ -3031,7 +3031,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                (Sym (Model.N:R:KeyUserType[0]))
                                (Sym (Model.D:R:KeyUserType0[0]))))
                  ->_R <Data.Text.Internal.Text>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPathPieceKey1 ::
     Web.PathPieces.PathPiece
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -3041,7 +3041,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
                   Model.$fPathPieceKey1_$cfromPathPiece
                   Model.$fPathPieceKey1_$ctoPathPiece -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPathPieceKey1_$cfromPathPiece ::
     Data.Text.Internal.Text
     -> GHC.Base.Maybe
@@ -3059,7 +3059,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                    (Trans
                                         (Sym (Model.N:R:KeySamples[0]))
                                         (Sym (Model.D:R:KeySamples0[0]))))))_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPathPieceKey1_$ctoPathPiece ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Data.Text.Internal.Text
@@ -3074,7 +3074,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                           (Trans
                                (Sym (Model.N:R:KeySamples[0])) (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <Data.Text.Internal.Text>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPathPieceKey2 ::
     Web.PathPieces.PathPiece
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -3084,7 +3084,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                   Model.$fPathPieceKey2_$cfromPathPiece
                   Model.$fPathPieceKey2_$ctoPathPiece -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPathPieceKey2_$cfromPathPiece ::
     Data.Text.Internal.Text
     -> GHC.Base.Maybe
@@ -3102,7 +3102,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                    (Trans
                                         (Sym (Model.N:R:KeySampleType[0]))
                                         (Sym (Model.D:R:KeySampleType0[0]))))))_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPathPieceKey2_$ctoPathPiece ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Data.Text.Internal.Text
@@ -3118,7 +3118,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Sym (Model.N:R:KeySampleType[0]))
                                (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <Data.Text.Internal.Text>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPathPieceKey3 ::
     Web.PathPieces.PathPiece
       (Database.Persist.Class.PersistEntity.Key
@@ -3130,7 +3130,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                        Model.SugarAnalisysResults)
                   Model.$fPathPieceKey3_$cfromPathPiece
                   Model.$fPathPieceKey3_$ctoPathPiece -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPathPieceKey3_$cfromPathPiece ::
     Data.Text.Internal.Text
     -> GHC.Base.Maybe
@@ -3149,7 +3149,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                    (Trans
                                         (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                         (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))))_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPathPieceKey3_$ctoPathPiece ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Data.Text.Internal.Text
@@ -3197,7 +3197,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                           (Sym (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0]))
                           (Trans (Sym (Model.N:R:KeyUser[0])) (Sym (Model.D:R:KeyUser0[0]))))
                  ->_R <Data.Text.Internal.Text>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType ::
     Database.Persist.Class.PersistEntity.PersistEntity Model.SampleType
   DFunId
@@ -3222,7 +3222,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fPersistEntitySampleType_$cpersistUniqueToFieldNames
                   Model.$fPersistEntitySampleType_$cpersistUniqueToValues
                   Model.$fPersistEntitySampleType_$cfieldLens -}
-6e532644ef3e16399047123871244838
+48d0d4c65b7150dc7d011f73271c3069
   $fPersistEntitySampleType1 :: Database.Persist.Types.Base.FieldDef
   {- Unfolding: (case Model.$fPersistEntitySamples6 of nt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
                  Database.Persist.Types.Base.FieldDef
@@ -3230,11 +3230,29 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    nt `cast` (Sym (Database.Persist.Types.Base.N:DBName[0]))
                    Model.$fPersistEntityUser5
                    Database.Persist.Types.Base.SqlString
-                   Model.$fPersistEntitySamples8
+                   Model.$fPersistEntitySampleType2
                    GHC.Types.True
                    Database.Persist.Types.Base.NoReference }) -}
-754fba87326fa8529e31a8f938f9a14a
-  $fPersistEntitySampleType2 :: Database.Persist.Types.Base.FieldDef
+e2e8e382930680ae2d67f937c6f5a0b1
+  $fPersistEntitySampleType10 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySampleType11
+                   Model.$fPersistEntitySamples23) -}
+00163d1604929c244f2aaccd4d471301
+  $fPersistEntitySampleType11 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "talho"#) -}
+d928228680a14ac72bc9603a3acd41d8
+  $fPersistEntitySampleType12 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "compostas"#) -}
+8f6cb53671ac5ddd6a68fe2084d59816
+  $fPersistEntitySampleType13 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "geral,"#) -}
+a376739ed353d64a4475ed8ce576a68d
+  $fPersistEntitySampleType14 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "parcial,"#) -}
+8819cfc537d5a3e3af199d8a685e1c98
+  $fPersistEntitySampleType15 :: Database.Persist.Types.Base.FieldDef
   {- Unfolding: (case Data.Text.Show.unpackCString#
                         "Id"# of nt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
                  case Data.Text.Show.unpackCString#
@@ -3243,23 +3261,25 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                  Database.Persist.Types.Base.FieldDef
                    nt `cast` (Sym (Database.Persist.Types.Base.N:HaskellName[0]))
                    nt1 `cast` (Sym (Database.Persist.Types.Base.N:DBName[0]))
-                   Model.$fPersistEntitySampleType3
+                   Model.$fPersistEntitySampleType16
                    Database.Persist.Types.Base.SqlInt64
                    (GHC.Types.[] @ Database.Persist.Types.Base.Attr)
                    GHC.Types.True
                    (Database.Persist.Types.Base.ForeignRef
                       nt2 `cast` (Sym (Database.Persist.Types.Base.N:HaskellName[0]))
                       Model.$fPersistEntityUser9) } } }) -}
-2b4ad433dd2985d0d4bec29761a64569
-  $fPersistEntitySampleType3 :: Database.Persist.Types.Base.FieldType
+2582373371947bb3883bee773b3d9c21
+  $fPersistEntitySampleType16 ::
+    Database.Persist.Types.Base.FieldType
   {- Unfolding: (Database.Persist.Types.Base.FTTypeCon
                    (GHC.Base.Nothing @ Data.Text.Internal.Text)
-                   Model.$fPersistEntitySampleType4) -}
-75f0d7b4cac60d8b60ad67db1f74c325
-  $fPersistEntitySampleType4 :: Data.Text.Internal.Text
+                   Model.$fPersistEntitySampleType17) -}
+161898b79805df437fc4abf7216fa649
+  $fPersistEntitySampleType17 :: Data.Text.Internal.Text
   {- Unfolding: (Data.Text.Show.unpackCString# "SampleTypeId"#) -}
-c6bad516e8a79b540bdc38c56f9b5eff
-  $fPersistEntitySampleType5 :: Database.Persist.Types.Base.EntityDef
+f01d0164711336fc4d7982386f47594f
+  $fPersistEntitySampleType18 ::
+    Database.Persist.Types.Base.EntityDef
   {- Unfolding: (case Model.$fPersistEntitySamples7 of nt { Data.Text.Internal.Text ipv ipv1 ipv2 ->
                  case Data.Text.Show.unpackCString#
                         "sample_type"# of nt1 { Data.Text.Internal.Text ipv3 ipv4 ipv5 ->
@@ -3278,7 +3298,7 @@ c6bad516e8a79b540bdc38c56f9b5eff
                    (Database.Persist.Types.Base.FieldDef
                       nt2 `cast` (Sym (Database.Persist.Types.Base.N:HaskellName[0]))
                       nt3 `cast` (Sym (Database.Persist.Types.Base.N:DBName[0]))
-                      Model.$fPersistEntitySampleType3
+                      Model.$fPersistEntitySampleType16
                       Database.Persist.Types.Base.SqlInt64
                       (GHC.Types.[] @ Database.Persist.Types.Base.Attr)
                       GHC.Types.True
@@ -3286,34 +3306,40 @@ c6bad516e8a79b540bdc38c56f9b5eff
                          nt `cast` (Sym (Database.Persist.Types.Base.N:HaskellName[0]))
                          Model.$fPersistEntityUser9))
                    Model.$fPersistEntityUser31
-                   Model.$fPersistEntitySampleType6
+                   Model.$fPersistEntitySampleType19
                    (GHC.Types.[] @ Database.Persist.Types.Base.UniqueDef)
                    (GHC.Types.[] @ Database.Persist.Types.Base.ForeignDef)
                    Model.$fPersistEntityUser23
                    dt
                    GHC.Types.False } } } } }) -}
-0b4ead4c0593201f661cb53c85587c83
-  $fPersistEntitySampleType6 ::
+d74de74c793662a9399d2df1e50abbf1
+  $fPersistEntitySampleType19 ::
     [Database.Persist.Types.Base.FieldDef]
   {- Unfolding: (GHC.Types.:
                    @ Database.Persist.Types.Base.FieldDef
                    Model.$fPersistEntitySampleType1
                    (GHC.Types.[] @ Database.Persist.Types.Base.FieldDef)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
-  $fPersistEntitySampleType7 ::
+46ca565fa420331bab50c2fce3be7d3e
+  $fPersistEntitySampleType2 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySamples52
+                   Model.$fPersistEntitySampleType3) -}
+68b593e7dd054d474113b4771aaed50d
+  $fPersistEntitySampleType20 ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     Data.Type.Equality.~ Database.Persist.Class.PersistEntity.Key
                            Model.SampleType
   {- Strictness: m,
      Unfolding: InlineRule (0, True, True)
-                Model.$fPersistEntitySampleType8
+                Model.$fPersistEntitySampleType21
                   `cast`
                 (Sym (Data.Type.Equality.N:~[0]
                           <*>_N) <Database.Persist.Class.PersistEntity.Key
                                     Model.SampleType>_N <Database.Persist.Class.PersistEntity.Key
                                                            Model.SampleType>_N) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
-  $fPersistEntitySampleType8 ::
+68b593e7dd054d474113b4771aaed50d
+  $fPersistEntitySampleType21 ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     GHC.Types.~~ Database.Persist.Class.PersistEntity.Key
                    Model.SampleType
@@ -3325,7 +3351,49 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                    @~ <Database.Persist.Class.PersistEntity.Key
                          Model.SampleType>_N) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+10e7da5fe9313cf571bc09bb591b76e4
+  $fPersistEntitySampleType3 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySamples51
+                   Model.$fPersistEntitySampleType4) -}
+1b3770adbbbfd7fa386fd55452f10ab0
+  $fPersistEntitySampleType4 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySamples50
+                   Model.$fPersistEntitySampleType5) -}
+b93f23c22578e179bdff75eae1c45404
+  $fPersistEntitySampleType5 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySamples49
+                   Model.$fPersistEntitySampleType6) -}
+40f5c23b21010aa706f383b8967c0ac1
+  $fPersistEntitySampleType6 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySampleType14
+                   Model.$fPersistEntitySampleType7) -}
+766c491fb8abc78301b4f1efebabac4c
+  $fPersistEntitySampleType7 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySampleType13
+                   Model.$fPersistEntitySampleType8) -}
+a784e67c6e6241c5a8a73db03b24546e
+  $fPersistEntitySampleType8 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySampleType12
+                   Model.$fPersistEntitySampleType9) -}
+6243e90dc57103a83fb283d88ec563a2
+  $fPersistEntitySampleType9 :: [Database.Persist.Types.Base.Attr]
+  {- Unfolding: (GHC.Types.:
+                   @ Database.Persist.Types.Base.Attr
+                   Model.$fPersistEntitySamples43
+                   Model.$fPersistEntitySampleType10) -}
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$centityDef ::
     GHC.Base.Monad m =>
     m Model.SampleType -> Database.Persist.Types.Base.EntityDef
@@ -3334,8 +3402,8 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (\ @ (m :: * -> *)
                    ($dMonad :: GHC.Base.Monad m)
                    (ds :: m Model.SampleType) ->
-                 Model.$fPersistEntitySampleType5) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+                 Model.$fPersistEntitySampleType18) -}
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$cfieldLens ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.SampleType field
@@ -3410,7 +3478,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                            (case eta1 of wild1 { Database.Persist.Class.PersistEntity.Entity $dPersistEntity ds1 ds2 ->
                             case ds2 of wild2 { Model.SampleType ds ->
                             ds `cast` (Sub (Sym cobox0)) } })) } }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$ckeyFromValues ::
     [Database.Persist.Types.Base.PersistValue]
     -> Data.Either.Either
@@ -3440,7 +3508,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         (Trans
                              (Sym (Model.N:R:KeySampleType[0]))
                              (Sym (Model.D:R:KeySampleType0[0]))) }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$ckeyToValues ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> [Database.Persist.Types.Base.PersistValue]
@@ -3460,7 +3528,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                      (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0])
                                      (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0])))))
                    (GHC.Types.[] @ Database.Persist.Types.Base.PersistValue)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$cpersistFieldDef ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.SampleType typ
@@ -3484,7 +3552,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                              (Data.Type.Equality.N:~[0]
                                   <GHC.Types.*>_N <typ>_N <Database.Persist.Class.PersistEntity.Key
                                                              Model.SampleType>_N) of cobox0 { DEFAULT ->
-                      Model.$fPersistEntitySampleType2 }
+                      Model.$fPersistEntitySampleType15 }
                    Model.SampleTypeDescription $d~
                    -> case GHC.Types.HEq_sc
                              @ GHC.Types.*
@@ -3496,7 +3564,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                              (Data.Type.Equality.N:~[0]
                                   <GHC.Types.*>_N <typ>_N <Data.Text.Internal.Text>_N) of cobox0 { DEFAULT ->
                       Model.$fPersistEntitySampleType1 } }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$cpersistUniqueKeys ::
     Model.SampleType
     -> [Database.Persist.Class.PersistEntity.Unique Model.SampleType]
@@ -3507,7 +3575,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                  GHC.Types.[]
                    @ (Database.Persist.Class.PersistEntity.Unique
                         Model.SampleType) }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$cpersistUniqueToFieldNames ::
     Database.Persist.Class.PersistEntity.Unique Model.SampleType
     -> [(Database.Persist.Types.Base.HaskellName,
@@ -3517,7 +3585,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (\ (ds :: Database.Persist.Class.PersistEntity.Unique
                             Model.SampleType) ->
                  Model.$fPersistEntityUserType2) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$cpersistUniqueToValues ::
     Database.Persist.Class.PersistEntity.Unique Model.SampleType
     -> [Database.Persist.Types.Base.PersistValue]
@@ -3526,7 +3594,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (\ (ds :: Database.Persist.Class.PersistEntity.Unique
                             Model.SampleType) ->
                  Model.$fPersistEntityUserType1) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$ctoPersistFields ::
     Model.SampleType
     -> [Database.Persist.Class.PersistField.SomePersistField]
@@ -3542,7 +3610,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                       x)
                    (GHC.Types.[]
                       @ Database.Persist.Class.PersistField.SomePersistField) }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistEntitySampleType_$s$WSampleTypeId ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.SampleType
@@ -3551,11 +3619,11 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
      Unfolding: InlineRule (0, False, False)
                 (Model.SampleTypeId
                    @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
-                   Model.$fPersistEntitySampleType7)
+                   Model.$fPersistEntitySampleType20)
                   `cast`
                 (Sym (Model.D:R:EntityFieldSampleTypetyp0[0]) <Database.Persist.Class.PersistEntity.Key
                                                                  Model.SampleType>_N) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples ::
     Database.Persist.Class.PersistEntity.PersistEntity Model.Samples
   DFunId
@@ -3941,7 +4009,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                    @ Database.Persist.Types.Base.FieldDef
                    Model.$fPersistEntitySamples1
                    (GHC.Types.[] @ Database.Persist.Types.Base.FieldDef)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples68 ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     Data.Type.Equality.~ Database.Persist.Class.PersistEntity.Key
@@ -3954,7 +4022,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                           <*>_N) <Database.Persist.Class.PersistEntity.Key
                                     Model.Samples>_N <Database.Persist.Class.PersistEntity.Key
                                                         Model.Samples>_N) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples69 ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     GHC.Types.~~ Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -3980,7 +4048,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                    @ Database.Persist.Types.Base.Attr
                    Model.$fPersistEntitySamples51
                    Model.$fPersistEntitySamples10) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$centityDef ::
     GHC.Base.Monad m =>
     m Model.Samples -> Database.Persist.Types.Base.EntityDef
@@ -3990,7 +4058,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                    ($dMonad :: GHC.Base.Monad m)
                    (ds :: m Model.Samples) ->
                  Model.$fPersistEntitySamples64) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$cfieldLens ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.Samples field
@@ -4123,12 +4191,12 @@ a9ab38ab7265ecec24de5868f8dac6ed
                            (case eta1 of wild1 { Database.Persist.Class.PersistEntity.Entity $dPersistEntity ds1 ds2 ->
                             case ds2 of wild2 { Model.Samples dt ds dt1 ->
                             (Model.SampleType dt1) `cast` (Sub (Sym cobox0)) } })) } }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$cfromPersistValues ::
     [Database.Persist.Types.Base.PersistValue]
     -> Data.Either.Either Data.Text.Internal.Text Model.Samples
   {- Arity: 1, Strictness: <S,U> -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$ckeyFromValues ::
     [Database.Persist.Types.Base.PersistValue]
     -> Data.Either.Either
@@ -4158,7 +4226,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                         (Trans
                              (Sym (Model.N:R:KeySamples[0]))
                              (Sym (Model.D:R:KeySamples0[0]))) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$ckeyToValues ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> [Database.Persist.Types.Base.PersistValue]
@@ -4177,7 +4245,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                                      (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0])
                                      (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0])))))
                    (GHC.Types.[] @ Database.Persist.Types.Base.PersistValue)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$cpersistFieldDef ::
     Database.Persist.Class.PersistEntity.EntityField Model.Samples typ
     -> Database.Persist.Types.Base.FieldDef
@@ -4233,7 +4301,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                              (Data.Type.Equality.N:~[0]
                                   <GHC.Types.*>_N <typ>_N <Model.SampleType>_N) of cobox0 { DEFAULT ->
                       Model.$fPersistEntitySamples1 } }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$cpersistUniqueKeys ::
     Model.Samples
     -> [Database.Persist.Class.PersistEntity.Unique Model.Samples]
@@ -4243,7 +4311,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                  case ds of wild { Model.Samples dt _resultTime dt1 ->
                  GHC.Types.[]
                    @ (Database.Persist.Class.PersistEntity.Unique Model.Samples) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$cpersistUniqueToFieldNames ::
     Database.Persist.Class.PersistEntity.Unique Model.Samples
     -> [(Database.Persist.Types.Base.HaskellName,
@@ -4253,7 +4321,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                 (\ (ds :: Database.Persist.Class.PersistEntity.Unique
                             Model.Samples) ->
                  Model.$fPersistEntityUserType2) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$cpersistUniqueToValues ::
     Database.Persist.Class.PersistEntity.Unique Model.Samples
     -> [Database.Persist.Types.Base.PersistValue]
@@ -4262,7 +4330,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                 (\ (ds :: Database.Persist.Class.PersistEntity.Unique
                             Model.Samples) ->
                  Model.$fPersistEntityUserType1) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$ctoPersistFields ::
     Model.Samples
     -> [Database.Persist.Class.PersistField.SomePersistField]
@@ -4290,7 +4358,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                             (Model.SampleType ww3))
                          (GHC.Types.[]
                             @ Database.Persist.Class.PersistField.SomePersistField))) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistEntitySamples_$s$WSamplesId ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.Samples
@@ -4303,7 +4371,7 @@ a9ab38ab7265ecec24de5868f8dac6ed
                   `cast`
                 (Sym (Model.D:R:EntityFieldSamplestyp0[0]) <Database.Persist.Class.PersistEntity.Key
                                                               Model.Samples>_N) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults ::
     Database.Persist.Class.PersistEntity.PersistEntity
       Model.SugarAnalisysResults
@@ -4414,7 +4482,7 @@ c3d9965fc659c2d2cb8b5209a026072d
                    @ Database.Persist.Types.Base.FieldDef
                    Model.$fPersistEntitySugarAnalisysResults1
                    (GHC.Types.[] @ Database.Persist.Types.Base.FieldDef)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults16 ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     Data.Type.Equality.~ Database.Persist.Class.PersistEntity.Key
@@ -4427,7 +4495,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                           <*>_N) <Database.Persist.Class.PersistEntity.Key
                                     Model.SugarAnalisysResults>_N <Database.Persist.Class.PersistEntity.Key
                                                                      Model.SugarAnalisysResults>_N) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults17 ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     GHC.Types.~~ Database.Persist.Class.PersistEntity.Key
@@ -4508,7 +4576,7 @@ ccba7c3d681b1436a2ca09f925afd728
                    (Database.Persist.Types.Base.ForeignRef
                       nt2 `cast` (Sym (Database.Persist.Types.Base.N:HaskellName[0]))
                       Model.$fPersistEntityUser9) } } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$centityDef ::
     GHC.Base.Monad m =>
     m Model.SugarAnalisysResults
@@ -4519,7 +4587,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    ($dMonad :: GHC.Base.Monad m)
                    (ds :: m Model.SugarAnalisysResults) ->
                  Model.$fPersistEntitySugarAnalisysResults12) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$cfieldLens ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.SugarAnalisysResults field
@@ -4680,13 +4748,13 @@ b0f4b2ca3e0231845a3334ace325c01b
                            (case eta1 of wild1 { Database.Persist.Class.PersistEntity.Entity $dPersistEntity ds1 ds2 ->
                             case ds2 of wild2 { Model.SugarAnalisysResults dt ds ds4 ->
                             ds4 `cast` (Sub (Sym cobox0)) } })) } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$cfromPersistValues ::
     [Database.Persist.Types.Base.PersistValue]
     -> Data.Either.Either
          Data.Text.Internal.Text Model.SugarAnalisysResults
   {- Arity: 1, Strictness: <S,U> -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$ckeyFromValues ::
     [Database.Persist.Types.Base.PersistValue]
     -> Data.Either.Either
@@ -4719,7 +4787,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                         (Trans
                              (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                              (Sym (Model.D:R:KeySugarAnalisysResults0[0]))) }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$ckeyToValues ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> [Database.Persist.Types.Base.PersistValue]
@@ -4739,7 +4807,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                      (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0])
                                      (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0])))))
                    (GHC.Types.[] @ Database.Persist.Types.Base.PersistValue)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$cpersistFieldDef ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.SugarAnalisysResults typ
@@ -4798,7 +4866,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                   <GHC.Types.*>_N <typ>_N <Database.Persist.Class.PersistEntity.Key
                                                              Model.Samples>_N) of cobox0 { DEFAULT ->
                       Model.$fPersistEntitySugarAnalisysResults1 } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$cpersistUniqueKeys ::
     Model.SugarAnalisysResults
     -> [Database.Persist.Class.PersistEntity.Unique
@@ -4810,7 +4878,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                  GHC.Types.[]
                    @ (Database.Persist.Class.PersistEntity.Unique
                         Model.SugarAnalisysResults) }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$cpersistUniqueToFieldNames ::
     Database.Persist.Class.PersistEntity.Unique
       Model.SugarAnalisysResults
@@ -4821,7 +4889,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                 (\ (ds :: Database.Persist.Class.PersistEntity.Unique
                             Model.SugarAnalisysResults) ->
                  Model.$fPersistEntityUserType2) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$cpersistUniqueToValues ::
     Database.Persist.Class.PersistEntity.Unique
       Model.SugarAnalisysResults
@@ -4831,7 +4899,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                 (\ (ds :: Database.Persist.Class.PersistEntity.Unique
                             Model.SugarAnalisysResults) ->
                  Model.$fPersistEntityUserType1) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$ctoPersistFields ::
     Model.SugarAnalisysResults
     -> [Database.Persist.Class.PersistField.SomePersistField]
@@ -4859,7 +4927,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                             x1)
                          (GHC.Types.[]
                             @ Database.Persist.Class.PersistField.SomePersistField))) }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistEntitySugarAnalisysResults_$s$WSugarAnalisysResultsId ::
     Database.Persist.Class.PersistEntity.EntityField
       Model.SugarAnalisysResults
@@ -5966,7 +6034,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                (Sym (Model.N:R:KeyUserType[0]))
                                (Sym (Model.D:R:KeyUserType0[0]))))
                  ->_R <Database.Persist.Types.Base.PersistValue>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldKey1 ::
     Database.Persist.Class.PersistField.PersistField
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -5976,7 +6044,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
                   Model.$fPersistFieldKey1_$ctoPersistValue
                   Model.$fPersistFieldKey1_$cfromPersistValue -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldKey1_$cfromPersistValue ::
     Database.Persist.Types.Base.PersistValue
     -> Data.Either.Either
@@ -5996,7 +6064,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                    (Trans
                                         (Sym (Model.N:R:KeySamples[0]))
                                         (Sym (Model.D:R:KeySamples0[0]))))))_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldKey1_$ctoPersistValue ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Types.Base.PersistValue
@@ -6011,7 +6079,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                           (Trans
                                (Sym (Model.N:R:KeySamples[0])) (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <Database.Persist.Types.Base.PersistValue>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldKey2 ::
     Database.Persist.Class.PersistField.PersistField
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -6021,7 +6089,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                   Model.$fPersistFieldKey2_$ctoPersistValue
                   Model.$fPersistFieldKey2_$cfromPersistValue -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldKey2_$cfromPersistValue ::
     Database.Persist.Types.Base.PersistValue
     -> Data.Either.Either
@@ -6041,7 +6109,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                    (Trans
                                         (Sym (Model.N:R:KeySampleType[0]))
                                         (Sym (Model.D:R:KeySampleType0[0]))))))_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldKey2_$ctoPersistValue ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Types.Base.PersistValue
@@ -6057,7 +6125,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Sym (Model.N:R:KeySampleType[0]))
                                (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <Database.Persist.Types.Base.PersistValue>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldKey3 ::
     Database.Persist.Class.PersistField.PersistField
       (Database.Persist.Class.PersistEntity.Key
@@ -6069,7 +6137,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                        Model.SugarAnalisysResults)
                   Model.$fPersistFieldKey3_$ctoPersistValue
                   Model.$fPersistFieldKey3_$cfromPersistValue -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldKey3_$cfromPersistValue ::
     Database.Persist.Types.Base.PersistValue
     -> Data.Either.Either
@@ -6090,7 +6158,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                    (Trans
                                         (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                         (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))))_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldKey3_$ctoPersistValue ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Types.Base.PersistValue
@@ -6140,7 +6208,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                           (Sym (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0]))
                           (Trans (Sym (Model.N:R:KeyUser[0])) (Sym (Model.D:R:KeyUser0[0]))))
                  ->_R <Database.Persist.Types.Base.PersistValue>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSampleType ::
     Database.Persist.Class.PersistField.PersistField Model.SampleType
   DFunId
@@ -6149,7 +6217,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ Model.SampleType
                   Model.$fPersistFieldSampleType_$ctoPersistValue
                   Model.$fPersistFieldSampleType_$cfromPersistValue -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSampleType1 ::
     [(Data.Text.Internal.Text,
       Database.Persist.Types.Base.PersistValue)]
@@ -6230,7 +6298,7 @@ fd9d7a4f2a6dd17deb33155f8bddc1ed
                         10#
                         s1 of ds1 { (#,#) ipv ipv1 ->
                  Model.$wouter1 ipv1 4# Model.$fPersistFieldSampleType3 0# ipv }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSampleType_$cfromPersistValue ::
     Database.Persist.Types.Base.PersistValue
     -> Data.Either.Either Data.Text.Internal.Text Model.SampleType
@@ -6242,12 +6310,12 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    Data.Either.Left l
                    -> Data.Either.Left @ Data.Text.Internal.Text @ Model.SampleType l
                    Data.Either.Right r -> Model.$fPersistFieldSampleType1 r }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSampleType_$cfromPersistValues ::
     [Database.Persist.Types.Base.PersistValue]
     -> Data.Either.Either Data.Text.Internal.Text Model.SampleType
   {- Arity: 1, Strictness: <S,U> -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSampleType_$ctoPersistValue ::
     Model.SampleType -> Database.Persist.Types.Base.PersistValue
   {- Arity: 1, Strictness: <L,1*U(U)>m12, Inline: INLINE[0],
@@ -6272,7 +6340,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
     -> Data.HashMap.Base.HashMap
          Data.Text.Internal.Text Database.Persist.Types.Base.PersistValue
   {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldSamples ::
     Database.Persist.Class.PersistField.PersistField Model.Samples
   DFunId
@@ -6371,7 +6439,7 @@ e968fe645f18161cb908fdae4fad8821
                         @ Data.Text.Internal.Text
                         Model.$fPersistFieldSamples10 of ds1 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldSamples_$cfromPersistValue ::
     Database.Persist.Types.Base.PersistValue
     -> Data.Either.Either Data.Text.Internal.Text Model.Samples
@@ -6416,7 +6484,7 @@ e968fe645f18161cb908fdae4fad8821
                               GHC.Base.Nothing -> Database.Persist.Types.Base.PersistNull
                               GHC.Base.Just v -> v } } })
                            Model.$fPersistFieldSamples1) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldSamples_$ctoPersistValue ::
     Model.Samples -> Database.Persist.Types.Base.PersistValue
   {- Arity: 1, Strictness: <L,1*U(U,U,U)>m12, Inline: INLINE[0],
@@ -6467,7 +6535,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                     <GHC.Int.Int64, Database.Persist.Class.PersistEntity.Key
                                       Model.UserType>)_R
                  ->_R <Database.Persist.Types.Base.SqlType>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldSqlKey1 ::
     Database.Persist.Sql.Class.PersistFieldSql
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -6477,7 +6545,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
                   Model.$fPersistFieldKey1
                   Model.$fPersistFieldSqlKey1_$csqlType -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldSqlKey1_$csqlType ::
     Data.Proxy.Proxy
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -6491,7 +6559,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                     <GHC.Int.Int64, Database.Persist.Class.PersistEntity.Key
                                       Model.Samples>)_R
                  ->_R <Database.Persist.Types.Base.SqlType>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSqlKey2 ::
     Database.Persist.Sql.Class.PersistFieldSql
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -6501,7 +6569,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                   Model.$fPersistFieldKey2
                   Model.$fPersistFieldSqlKey2_$csqlType -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSqlKey2_$csqlType ::
     Data.Proxy.Proxy
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -6515,7 +6583,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                     <GHC.Int.Int64, Database.Persist.Class.PersistEntity.Key
                                       Model.SampleType>)_R
                  ->_R <Database.Persist.Types.Base.SqlType>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldSqlKey3 ::
     Database.Persist.Sql.Class.PersistFieldSql
       (Database.Persist.Class.PersistEntity.Key
@@ -6527,7 +6595,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                        Model.SugarAnalisysResults)
                   Model.$fPersistFieldKey3
                   Model.$fPersistFieldSqlKey3_$csqlType -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldSqlKey3_$csqlType ::
     Data.Proxy.Proxy
       (Database.Persist.Class.PersistEntity.Key
@@ -6556,7 +6624,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                     <GHC.Int.Int64, Database.Persist.Class.PersistEntity.Key
                                       Model.User>)_R
                  ->_R <Database.Persist.Types.Base.SqlType>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSqlSampleType ::
     Database.Persist.Sql.Class.PersistFieldSql Model.SampleType
   DFunId
@@ -6565,7 +6633,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ Model.SampleType
                   Model.$fPersistFieldSampleType
                   Model.$fPersistFieldSqlSampleType_$csqlType -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fPersistFieldSqlSampleType_$csqlType ::
     Data.Proxy.Proxy Model.SampleType
     -> Database.Persist.Types.Base.SqlType
@@ -6573,7 +6641,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
      Unfolding: InlineRule (1, True, True)
                 (\ (ds :: Data.Proxy.Proxy Model.SampleType) ->
                  Database.Persist.Types.Base.SqlString) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldSqlSamples ::
     Database.Persist.Sql.Class.PersistFieldSql Model.Samples
   DFunId
@@ -6582,7 +6650,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   @ Model.Samples
                   Model.$fPersistFieldSamples
                   Model.$fPersistFieldSqlSamples_$csqlType -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fPersistFieldSqlSamples_$csqlType ::
     Data.Proxy.Proxy Model.Samples
     -> Database.Persist.Types.Base.SqlType
@@ -6590,7 +6658,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
      Unfolding: InlineRule (1, True, True)
                 (\ (ds :: Data.Proxy.Proxy Model.Samples) ->
                  Database.Persist.Types.Base.SqlString) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldSqlSugarAnalisysResults ::
     Database.Persist.Sql.Class.PersistFieldSql
       Model.SugarAnalisysResults
@@ -6600,7 +6668,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   @ Model.SugarAnalisysResults
                   Model.$fPersistFieldSugarAnalisysResults
                   Model.$fPersistFieldSqlSugarAnalisysResults_$csqlType -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldSqlSugarAnalisysResults_$csqlType ::
     Data.Proxy.Proxy Model.SugarAnalisysResults
     -> Database.Persist.Types.Base.SqlType
@@ -6641,7 +6709,7 @@ dd2ead2326104bee5799e5b1dc7fc515
      Unfolding: InlineRule (1, True, True)
                 (\ (ds :: Data.Proxy.Proxy Model.User) ->
                  Database.Persist.Types.Base.SqlString) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldSugarAnalisysResults ::
     Database.Persist.Class.PersistField.PersistField
       Model.SugarAnalisysResults
@@ -6757,7 +6825,7 @@ e08bd87b13a6ec9686cefff9dd1ad1d8
                         @ Data.Text.Internal.Text
                         Model.$fPersistFieldSugarAnalisysResults10 of ds1 { (#,#) ipv ipv1 ->
                  ipv1 }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldSugarAnalisysResults_$cfromPersistValue ::
     Database.Persist.Types.Base.PersistValue
     -> Data.Either.Either
@@ -6806,7 +6874,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                               GHC.Base.Nothing -> Database.Persist.Types.Base.PersistNull
                               GHC.Base.Just v -> v } } })
                            Model.$fPersistFieldSugarAnalisysResults1) }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fPersistFieldSugarAnalisysResults_$ctoPersistValue ::
     Model.SugarAnalisysResults
     -> Database.Persist.Types.Base.PersistValue
@@ -7254,7 +7322,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                       @ (Database.Persist.Class.PersistEntity.Key Model.UserType)
                       (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
                          @ (Database.Persist.Class.PersistEntity.Key Model.UserType)))) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey1 ::
     GHC.Read.Read
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -7295,7 +7363,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                    @ [Database.Persist.Class.PersistEntity.Key Model.UserType]
                    (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
                       @ [Database.Persist.Class.PersistEntity.Key Model.UserType])) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey12 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> forall b.
@@ -7317,7 +7385,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                    eta
                    @ b
                    eta1) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey13 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> Text.ParserCombinators.ReadP.ReadP
@@ -7333,7 +7401,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                        <Database.Persist.Class.PersistEntity.Key Model.Samples>_R))
                         (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                                   <Database.Persist.Class.PersistEntity.Key Model.Samples>_R)))) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey14 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> forall b.
@@ -7348,7 +7416,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                           -> Text.ParserCombinators.ReadP.P b) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Model.$w$creadPrec2 ww1 @ b w1 }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey15 ::
     Text.ParserCombinators.ReadP.P
       [Database.Persist.Class.PersistEntity.Key Model.Samples]
@@ -7362,7 +7430,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                    @ [Database.Persist.Class.PersistEntity.Key Model.Samples]
                    (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
                       @ [Database.Persist.Class.PersistEntity.Key Model.Samples])) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey16 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> forall b.
@@ -7385,7 +7453,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    eta
                    @ b
                    eta1) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey17 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> Text.ParserCombinators.ReadP.ReadP
@@ -7403,7 +7471,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                                   <Database.Persist.Class.PersistEntity.Key
                                      Model.SampleType>_R)))) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey18 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> forall b.
@@ -7418,7 +7486,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                           -> Text.ParserCombinators.ReadP.P b) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Model.$w$creadPrec3 ww1 @ b w1 }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey19 ::
     Text.ParserCombinators.ReadP.P
       [Database.Persist.Class.PersistEntity.Key Model.SampleType]
@@ -7432,7 +7500,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    @ [Database.Persist.Class.PersistEntity.Key Model.SampleType]
                    (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
                       @ [Database.Persist.Class.PersistEntity.Key Model.SampleType])) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey1_$creadList ::
     Text.ParserCombinators.ReadP.ReadS
       [Database.Persist.Class.PersistEntity.Key Model.Samples]
@@ -7440,7 +7508,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
      Unfolding: (Text.ParserCombinators.ReadP.run
                    @ [Database.Persist.Class.PersistEntity.Key Model.Samples]
                    Model.$fReadKey15) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey1_$creadListPrec ::
     Text.ParserCombinators.ReadPrec.ReadPrec
       [Database.Persist.Class.PersistEntity.Key Model.Samples]
@@ -7454,7 +7522,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     <[Database.Persist.Class.PersistEntity.Key Model.Samples]>_R))
                      (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                                <[Database.Persist.Class.PersistEntity.Key Model.Samples]>_R))) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey1_$creadPrec ::
     Text.ParserCombinators.ReadPrec.ReadPrec
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -7464,7 +7532,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   `cast`
                 (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                           <Database.Persist.Class.PersistEntity.Key Model.Samples>_R)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fReadKey1_$creadsPrec ::
     GHC.Types.Int
     -> Text.ParserCombinators.ReadP.ReadS
@@ -7492,7 +7560,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                       @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
                       (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
                          @ (Database.Persist.Class.PersistEntity.Key Model.Samples)))) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey2 ::
     GHC.Read.Read
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -7504,7 +7572,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fReadKey2_$creadList
                   Model.$fReadKey2_$creadPrec
                   Model.$fReadKey2_$creadListPrec -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey20 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> forall b.
@@ -7530,7 +7598,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    eta
                    @ b
                    eta1) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey21 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> Text.ParserCombinators.ReadP.ReadP
@@ -7550,7 +7618,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                         (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                                   <Database.Persist.Class.PersistEntity.Key
                                      Model.SugarAnalisysResults>_R)))) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey22 ::
     Text.ParserCombinators.ReadPrec.Prec
     -> forall b.
@@ -7567,7 +7635,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                           -> Text.ParserCombinators.ReadP.P b) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Model.$w$creadPrec4 ww1 @ b w1 }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey23 ::
     Text.ParserCombinators.ReadP.P
       [Database.Persist.Class.PersistEntity.Key
@@ -7586,7 +7654,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
                       @ [Database.Persist.Class.PersistEntity.Key
                            Model.SugarAnalisysResults])) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey2_$creadList ::
     Text.ParserCombinators.ReadP.ReadS
       [Database.Persist.Class.PersistEntity.Key Model.SampleType]
@@ -7594,7 +7662,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
      Unfolding: (Text.ParserCombinators.ReadP.run
                    @ [Database.Persist.Class.PersistEntity.Key Model.SampleType]
                    Model.$fReadKey19) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey2_$creadListPrec ::
     Text.ParserCombinators.ReadPrec.ReadPrec
       [Database.Persist.Class.PersistEntity.Key Model.SampleType]
@@ -7610,7 +7678,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                      (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                                <[Database.Persist.Class.PersistEntity.Key
                                    Model.SampleType]>_R))) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey2_$creadPrec ::
     Text.ParserCombinators.ReadPrec.ReadPrec
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -7620,7 +7688,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   `cast`
                 (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                           <Database.Persist.Class.PersistEntity.Key Model.SampleType>_R)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fReadKey2_$creadsPrec ::
     GHC.Types.Int
     -> Text.ParserCombinators.ReadP.ReadS
@@ -7649,7 +7717,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                       @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                       (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
                          @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)))) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey3 ::
     GHC.Read.Read
       (Database.Persist.Class.PersistEntity.Key
@@ -7663,7 +7731,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fReadKey3_$creadList
                   Model.$fReadKey3_$creadPrec
                   Model.$fReadKey3_$creadListPrec -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey3_$creadList ::
     Text.ParserCombinators.ReadP.ReadS
       [Database.Persist.Class.PersistEntity.Key
@@ -7673,7 +7741,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    @ [Database.Persist.Class.PersistEntity.Key
                         Model.SugarAnalisysResults]
                    Model.$fReadKey23) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey3_$creadListPrec ::
     Text.ParserCombinators.ReadPrec.ReadPrec
       [Database.Persist.Class.PersistEntity.Key
@@ -7690,7 +7758,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                      (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                                <[Database.Persist.Class.PersistEntity.Key
                                    Model.SugarAnalisysResults]>_R))) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey3_$creadPrec ::
     Text.ParserCombinators.ReadPrec.ReadPrec
       (Database.Persist.Class.PersistEntity.Key
@@ -7702,7 +7770,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                 (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
                           <Database.Persist.Class.PersistEntity.Key
                              Model.SugarAnalisysResults>_R)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fReadKey3_$creadsPrec ::
     GHC.Types.Int
     -> Text.ParserCombinators.ReadP.ReadS
@@ -7955,7 +8023,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                    (w2 :: GHC.Base.String) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Model.$w$cshowsPrec1 ww1 w1 w2 }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowKey1 ::
     GHC.Show.Show
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -7969,7 +8037,7 @@ dd2ead2326104bee5799e5b1dc7fc515
 16fc240da99469c2b73118380b4f0a78
   $fShowKey10 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "UserTypeKey {"#) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowKey11 ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> GHC.Show.ShowS
@@ -7984,7 +8052,7 @@ f19f82165daead8e22ec85f672ad9f47
 1dbfa5d76c2243bcd01d47666a91e229
   $fShowKey13 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "SamplesKey {"#) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowKey14 ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> GHC.Show.ShowS
@@ -7999,7 +8067,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
 ea8e4f1eec242987e15d1f00e73d0863
   $fShowKey16 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "SampleTypeKey {"#) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowKey17 ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> GHC.Show.ShowS
@@ -8016,7 +8084,7 @@ b0f4b2ca3e0231845a3334ace325c01b
   $fShowKey19 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "SugarAnalisysResultsKey {"#) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowKey1_$cshow ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> GHC.Base.String
@@ -8027,7 +8095,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowKey1_$cshowList ::
     [Database.Persist.Class.PersistEntity.Key Model.Samples]
     -> GHC.Show.ShowS
@@ -8035,7 +8103,7 @@ b0f4b2ca3e0231845a3334ace325c01b
      Unfolding: (GHC.Show.showList__
                    @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
                    Model.$fShowKey11) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowKey1_$cshowsPrec ::
     GHC.Types.Int
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -8048,7 +8116,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    (w2 :: GHC.Base.String) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Model.$w$cshowsPrec2 ww1 w1 w2 }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowKey2 ::
     GHC.Show.Show
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -8059,7 +8127,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fShowKey2_$cshowsPrec
                   Model.$fShowKey2_$cshow
                   Model.$fShowKey2_$cshowList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowKey2_$cshow ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> GHC.Base.String
@@ -8071,7 +8139,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowKey2_$cshowList ::
     [Database.Persist.Class.PersistEntity.Key Model.SampleType]
     -> GHC.Show.ShowS
@@ -8079,7 +8147,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
      Unfolding: (GHC.Show.showList__
                    @ (Database.Persist.Class.PersistEntity.Key Model.SampleType)
                    Model.$fShowKey14) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowKey2_$cshowsPrec ::
     GHC.Types.Int
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -8092,7 +8160,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    (w2 :: GHC.Base.String) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Model.$w$cshowsPrec3 ww1 w1 w2 }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowKey3 ::
     GHC.Show.Show
       (Database.Persist.Class.PersistEntity.Key
@@ -8105,7 +8173,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fShowKey3_$cshowsPrec
                   Model.$fShowKey3_$cshow
                   Model.$fShowKey3_$cshowList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowKey3_$cshow ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> GHC.Base.String
@@ -8117,7 +8185,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowKey3_$cshowList ::
     [Database.Persist.Class.PersistEntity.Key
        Model.SugarAnalisysResults]
@@ -8127,7 +8195,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    @ (Database.Persist.Class.PersistEntity.Key
                         Model.SugarAnalisysResults)
                    Model.$fShowKey17) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowKey3_$cshowsPrec ::
     GHC.Types.Int
     -> Database.Persist.Class.PersistEntity.Key
@@ -8204,7 +8272,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                    (w2 :: GHC.Base.String) ->
                  case w of ww { GHC.Types.I# ww1 ->
                  Model.$w$cshowsPrec ww1 w1 w2 }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowSampleType :: GHC.Show.Show Model.SampleType
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -8213,7 +8281,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fShowSampleType_$cshowsPrec
                   Model.$fShowSampleType_$cshow
                   Model.$fShowSampleType_$cshowList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowSampleType1 :: Model.SampleType -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (\ (w :: Model.SampleType) (w1 :: GHC.Base.String) ->
@@ -8227,7 +8295,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
 140eb5902ae5ceab22d64f7e96939b2b
   $fShowSampleType3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "SampleType {"#) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowSampleType_$cshow :: Model.SampleType -> GHC.Base.String
   {- Arity: 1, Strictness: <S(S),1*U(U(U,U,U))>,
      Unfolding: InlineRule (1, True, False)
@@ -8236,13 +8304,13 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowSampleType_$cshowList :: [Model.SampleType] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ Model.SampleType
                    Model.$fShowSampleType1) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fShowSampleType_$cshowsPrec ::
     GHC.Types.Int -> Model.SampleType -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <S(S),1*U(U)><S(S),1*U(U(U,U,U))><L,U>,
@@ -8255,7 +8323,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                  case w1 of ww2 { Model.SampleType ww3 ->
                  case ww3 of ww4 { Data.Text.Internal.Text ww5 ww6 ww7 ->
                  Model.$w$cshowsPrec5 ww1 ww5 ww6 ww7 w2 } } }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowSamples :: GHC.Show.Show Model.Samples
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -8264,7 +8332,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fShowSamples_$cshowsPrec
                   Model.$fShowSamples_$cshow
                   Model.$fShowSamples_$cshowList -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowSamples1 :: Model.Samples -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (\ (w :: Model.Samples) (w1 :: GHC.Base.String) ->
@@ -8289,7 +8357,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
 fe51eed0e0e5b7c794a26c2c2d0832c5
   $fShowSamples6 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "Samples {"#) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowSamples_$cshow :: Model.Samples -> GHC.Base.String
   {- Arity: 1, Strictness: <S(LSS),1*U(U,U(1*U,U),U)>,
      Unfolding: InlineRule (1, True, False)
@@ -8298,13 +8366,13 @@ fe51eed0e0e5b7c794a26c2c2d0832c5
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowSamples_$cshowList :: [Model.Samples] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ Model.Samples
                    Model.$fShowSamples1) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fShowSamples_$cshowsPrec ::
     GHC.Types.Int -> Model.Samples -> GHC.Show.ShowS
   {- Arity: 3,
@@ -8318,7 +8386,7 @@ fe51eed0e0e5b7c794a26c2c2d0832c5
                  case w1 of ww2 { Model.Samples ww3 ww4 ww5 ->
                  case ww4 of ww6 { Data.Time.Clock.UTC.UTCTime ww7 ww8 ->
                  Model.$w$cshowsPrec6 ww1 ww3 ww7 ww8 ww5 w2 } } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowSugarAnalisysResults ::
     GHC.Show.Show Model.SugarAnalisysResults
   DFunId
@@ -8328,7 +8396,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fShowSugarAnalisysResults_$cshowsPrec
                   Model.$fShowSugarAnalisysResults_$cshow
                   Model.$fShowSugarAnalisysResults_$cshowList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowSugarAnalisysResults1 ::
     Model.SugarAnalisysResults -> GHC.Show.ShowS
   {- Arity: 1,
@@ -8364,7 +8432,7 @@ a3fd2037fdf4f53a4a2245647165d425
 5e72eeee72a647a6a1b3ed16bdab5c84
   $fShowSugarAnalisysResults6 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 0#) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowSugarAnalisysResults_$cshow ::
     Model.SugarAnalisysResults -> GHC.Base.String
   {- Arity: 1, Strictness: <S(LSS),1*U(U,U(U,U),U(U))>,
@@ -8374,14 +8442,14 @@ b0f4b2ca3e0231845a3334ace325c01b
                    GHC.Show.shows22
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowSugarAnalisysResults_$cshowList ::
     [Model.SugarAnalisysResults] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ Model.SugarAnalisysResults
                    Model.$fShowSugarAnalisysResults1) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fShowSugarAnalisysResults_$cshowsPrec ::
     GHC.Types.Int -> Model.SugarAnalisysResults -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S(S),1*U(U)><S(LSS),1*U(U,U(U,U),U(U))>,
@@ -8561,7 +8629,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                    ww19
                    ww20
                    w2 } } } } } }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToBackendKeySqlBackendSampleType ::
     Database.Persist.Class.PersistStore.ToBackendKey
       Database.Persist.Sql.Types.Internal.SqlBackend Model.SampleType
@@ -8594,7 +8662,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    @ Database.Persist.Sql.Types.Internal.SqlBackend
                    @ Database.Persist.Sql.Types.Internal.SqlBackend
                    @~ <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToBackendKeySqlBackendSampleType_$cp2ToBackendKey ::
     Database.Persist.Class.PersistEntity.PersistEntityBackend
       Model.SampleType
@@ -8605,7 +8673,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   `cast`
                 (Sym (Data.Type.Equality.N:~[0]
                           <*>_N) (Sym (Model.D:R:PersistEntityBackendSampleType[0])) <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToBackendKeySqlBackendSamples ::
     Database.Persist.Class.PersistStore.ToBackendKey
       Database.Persist.Sql.Types.Internal.SqlBackend Model.Samples
@@ -8627,7 +8695,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                    ->_R Trans
                             (Sym (Model.N:R:KeySamples[0]))
                             (Sym (Model.D:R:KeySamples0[0]))) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToBackendKeySqlBackendSamples_$cp2ToBackendKey ::
     Database.Persist.Class.PersistEntity.PersistEntityBackend
       Model.Samples
@@ -8638,7 +8706,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   `cast`
                 (Sym (Data.Type.Equality.N:~[0]
                           <*>_N) (Sym (Model.D:R:PersistEntityBackendSamples[0])) <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToBackendKeySqlBackendSugarAnalisysResults ::
     Database.Persist.Class.PersistStore.ToBackendKey
       Database.Persist.Sql.Types.Internal.SqlBackend
@@ -8661,7 +8729,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                    ->_R Trans
                             (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                             (Sym (Model.D:R:KeySugarAnalisysResults0[0]))) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToBackendKeySqlBackendSugarAnalisysResults_$cp2ToBackendKey ::
     Database.Persist.Class.PersistEntity.PersistEntityBackend
       Model.SugarAnalisysResults
@@ -8809,7 +8877,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                (Sym (Model.N:R:KeyUserType[0]))
                                (Sym (Model.D:R:KeyUserType0[0]))))
                  ->_R <Data.Text.Internal.Text>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToHttpApiDataKey1 ::
     Web.Internal.HttpApiData.ToHttpApiData
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -8821,7 +8889,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   Model.$fToHttpApiDataKey1_$ctoEncodedUrlPiece
                   Model.$fToHttpApiDataKey1_$ctoHeader
                   Model.$fToHttpApiDataKey1_$ctoUrlPiece -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToHttpApiDataKey1_$ctoEncodedUrlPiece ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Data.ByteString.Builder.Internal.Builder
@@ -8836,7 +8904,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                           (Trans
                                (Sym (Model.N:R:KeySamples[0])) (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <Data.ByteString.Builder.Internal.Builder>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToHttpApiDataKey1_$ctoHeader ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Data.ByteString.Internal.ByteString
@@ -8851,7 +8919,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                           (Trans
                                (Sym (Model.N:R:KeySamples[0])) (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <Data.ByteString.Internal.ByteString>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToHttpApiDataKey1_$ctoUrlPiece ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Data.Text.Internal.Text
@@ -8866,7 +8934,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                           (Trans
                                (Sym (Model.N:R:KeySamples[0])) (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <Data.Text.Internal.Text>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToHttpApiDataKey2 ::
     Web.Internal.HttpApiData.ToHttpApiData
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -8878,7 +8946,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fToHttpApiDataKey2_$ctoEncodedUrlPiece
                   Model.$fToHttpApiDataKey2_$ctoHeader
                   Model.$fToHttpApiDataKey2_$ctoUrlPiece -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToHttpApiDataKey2_$ctoEncodedUrlPiece ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Data.ByteString.Builder.Internal.Builder
@@ -8894,7 +8962,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Sym (Model.N:R:KeySampleType[0]))
                                (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <Data.ByteString.Builder.Internal.Builder>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToHttpApiDataKey2_$ctoHeader ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Data.ByteString.Internal.ByteString
@@ -8910,7 +8978,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Sym (Model.N:R:KeySampleType[0]))
                                (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <Data.ByteString.Internal.ByteString>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToHttpApiDataKey2_$ctoUrlPiece ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Data.Text.Internal.Text
@@ -8926,7 +8994,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Sym (Model.N:R:KeySampleType[0]))
                                (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <Data.Text.Internal.Text>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToHttpApiDataKey3 ::
     Web.Internal.HttpApiData.ToHttpApiData
       (Database.Persist.Class.PersistEntity.Key
@@ -8940,7 +9008,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fToHttpApiDataKey3_$ctoEncodedUrlPiece
                   Model.$fToHttpApiDataKey3_$ctoHeader
                   Model.$fToHttpApiDataKey3_$ctoUrlPiece -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToHttpApiDataKey3_$ctoEncodedUrlPiece ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Data.ByteString.Builder.Internal.Builder
@@ -8956,7 +9024,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <Data.ByteString.Builder.Internal.Builder>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToHttpApiDataKey3_$ctoHeader ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Data.ByteString.Internal.ByteString
@@ -8972,7 +9040,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <Data.ByteString.Internal.ByteString>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToHttpApiDataKey3_$ctoUrlPiece ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Data.Text.Internal.Text
@@ -9185,7 +9253,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     n
                                     eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
                  Data.Aeson.Types.Internal.Array dt1 }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONEntity1 ::
     Data.Aeson.Types.ToJSON.ToJSON
       (Database.Persist.Class.PersistEntity.Entity Model.Samples)
@@ -9197,7 +9265,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   Model.$fToJSONEntity1_$ctoEncoding
                   Model.$fToJSONEntity1_$ctoJSONList
                   Model.$fToJSONEntity1_$ctoEncodingList -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONEntity1_$ctoEncoding ::
     Database.Persist.Class.PersistEntity.Entity Model.Samples
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -9209,7 +9277,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                              Model.Samples) ->
                  Data.Aeson.Encoding.Internal.value
                    (Model.$fToJSONEntity1_$ctoJSON eta)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONEntity1_$ctoEncodingList ::
     [Database.Persist.Class.PersistEntity.Entity Model.Samples]
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -9277,7 +9345,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                         `cast`
                       (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                 <Data.Aeson.Types.Internal.Value>_P)) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONEntity1_$ctoJSON ::
     Database.Persist.Class.PersistEntity.Entity Model.Samples
     -> Data.Aeson.Types.Internal.Value
@@ -9291,7 +9359,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                  case ww3 of ww4 { Model.Samples ww5 ww6 ww7 ->
                  case ww6 of ww8 { Data.Time.Clock.UTC.UTCTime ww9 ww10 ->
                  Model.$w$ctoJSON4 ww2 ww5 ww9 ww10 ww7 } } }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONEntity1_$ctoJSONList ::
     [Database.Persist.Class.PersistEntity.Entity Model.Samples]
     -> Data.Aeson.Types.Internal.Value
@@ -9330,7 +9398,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                     n
                                     eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
                  Data.Aeson.Types.Internal.Array dt1 }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONEntity2 ::
     Data.Aeson.Types.ToJSON.ToJSON
       (Database.Persist.Class.PersistEntity.Entity Model.SampleType)
@@ -9342,7 +9410,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fToJSONEntity2_$ctoEncoding
                   Model.$fToJSONEntity2_$ctoJSONList
                   Model.$fToJSONEntity2_$ctoEncodingList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONEntity2_$ctoEncoding ::
     Database.Persist.Class.PersistEntity.Entity Model.SampleType
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -9353,7 +9421,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                              Model.SampleType) ->
                  Data.Aeson.Encoding.Internal.value
                    (Model.$fToJSONEntity2_$ctoJSON eta)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONEntity2_$ctoEncodingList ::
     [Database.Persist.Class.PersistEntity.Entity Model.SampleType]
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -9421,7 +9489,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         `cast`
                       (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                 <Data.Aeson.Types.Internal.Value>_P)) }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONEntity2_$ctoJSON ::
     Database.Persist.Class.PersistEntity.Entity Model.SampleType
     -> Data.Aeson.Types.Internal.Value
@@ -9443,7 +9511,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                  case ww3 of ww6 { Model.SampleType ww7 ->
                  case Model.$w$ctoJSON6 ww5 ww7 of ww8 { Unit# ww9 ->
                  Data.Aeson.Types.Internal.Object ww9 } } } }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONEntity2_$ctoJSONList ::
     [Database.Persist.Class.PersistEntity.Entity Model.SampleType]
     -> Data.Aeson.Types.Internal.Value
@@ -9483,7 +9551,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     n
                                     eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
                  Data.Aeson.Types.Internal.Array dt1 }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONEntity3 ::
     Data.Aeson.Types.ToJSON.ToJSON
       (Database.Persist.Class.PersistEntity.Entity
@@ -9497,7 +9565,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fToJSONEntity3_$ctoEncoding
                   Model.$fToJSONEntity3_$ctoJSONList
                   Model.$fToJSONEntity3_$ctoEncodingList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONEntity3_$ctoEncoding ::
     Database.Persist.Class.PersistEntity.Entity
       Model.SugarAnalisysResults
@@ -9510,7 +9578,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                              Model.SugarAnalisysResults) ->
                  Data.Aeson.Encoding.Internal.value
                    (Model.$fToJSONEntity3_$ctoJSON eta)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONEntity3_$ctoEncodingList ::
     [Database.Persist.Class.PersistEntity.Entity
        Model.SugarAnalisysResults]
@@ -9581,7 +9649,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                         `cast`
                       (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                 <Data.Aeson.Types.Internal.Value>_P)) }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONEntity3_$ctoJSON ::
     Database.Persist.Class.PersistEntity.Entity
       Model.SugarAnalisysResults
@@ -9605,7 +9673,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                      (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0])
                                      (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0])))) of ww11 { GHC.Int.I64# ww12 ->
                  Model.$w$ctoJSON7 ww2 ww5 ww9 ww10 ww12 } } } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONEntity3_$ctoJSONList ::
     [Database.Persist.Class.PersistEntity.Entity
        Model.SugarAnalisysResults]
@@ -9882,7 +9950,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                  (Sym (Model.N:R:KeyUserType[0]))
                                  (Sym (Model.D:R:KeyUserType0[0]))))])_R
                  ->_R <Data.Aeson.Types.Internal.Value>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONKey1 ::
     Data.Aeson.Types.ToJSON.ToJSON
       (Database.Persist.Class.PersistEntity.Key Model.Samples)
@@ -9894,7 +9962,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                   Model.$fToJSONKey1_$ctoEncoding
                   Model.$fToJSONKey1_$ctoJSONList
                   Model.$fToJSONKey1_$ctoEncodingList -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONKey1_$ctoEncoding ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -9910,7 +9978,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                (Sym (Model.N:R:KeySamples[0])) (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                <Data.Aeson.Types.Internal.Value>_P)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONKey1_$ctoEncodingList ::
     [Database.Persist.Class.PersistEntity.Key Model.Samples]
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -9927,7 +9995,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                  (Sym (Model.N:R:KeySamples[0]))
                                  (Sym (Model.D:R:KeySamples0[0]))))])_R
                  ->_R <Data.Aeson.Encoding.Internal.Encoding>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONKey1_$ctoJSON ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Data.Aeson.Types.Internal.Value
@@ -9942,7 +10010,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                           (Trans
                                (Sym (Model.N:R:KeySamples[0])) (Sym (Model.D:R:KeySamples0[0]))))
                  ->_R <Data.Aeson.Types.Internal.Value>_R) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONKey1_$ctoJSONList ::
     [Database.Persist.Class.PersistEntity.Key Model.Samples]
     -> Data.Aeson.Types.Internal.Value
@@ -9958,7 +10026,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                                  (Sym (Model.N:R:KeySamples[0]))
                                  (Sym (Model.D:R:KeySamples0[0]))))])_R
                  ->_R <Data.Aeson.Types.Internal.Value>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONKey2 ::
     Data.Aeson.Types.ToJSON.ToJSON
       (Database.Persist.Class.PersistEntity.Key Model.SampleType)
@@ -9970,7 +10038,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fToJSONKey2_$ctoEncoding
                   Model.$fToJSONKey2_$ctoJSONList
                   Model.$fToJSONKey2_$ctoEncodingList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONKey2_$ctoEncoding ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -9987,7 +10055,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                <Data.Aeson.Types.Internal.Value>_P)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONKey2_$ctoEncodingList ::
     [Database.Persist.Class.PersistEntity.Key Model.SampleType]
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -10004,7 +10072,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                  (Sym (Model.N:R:KeySampleType[0]))
                                  (Sym (Model.D:R:KeySampleType0[0]))))])_R
                  ->_R <Data.Aeson.Encoding.Internal.Encoding>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONKey2_$ctoJSON ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Data.Aeson.Types.Internal.Value
@@ -10020,7 +10088,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                (Sym (Model.N:R:KeySampleType[0]))
                                (Sym (Model.D:R:KeySampleType0[0]))))
                  ->_R <Data.Aeson.Types.Internal.Value>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONKey2_$ctoJSONList ::
     [Database.Persist.Class.PersistEntity.Key Model.SampleType]
     -> Data.Aeson.Types.Internal.Value
@@ -10036,7 +10104,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                  (Sym (Model.N:R:KeySampleType[0]))
                                  (Sym (Model.D:R:KeySampleType0[0]))))])_R
                  ->_R <Data.Aeson.Types.Internal.Value>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONKey3 ::
     Data.Aeson.Types.ToJSON.ToJSON
       (Database.Persist.Class.PersistEntity.Key
@@ -10050,7 +10118,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fToJSONKey3_$ctoEncoding
                   Model.$fToJSONKey3_$ctoJSONList
                   Model.$fToJSONKey3_$ctoEncodingList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONKey3_$ctoEncoding ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -10067,7 +10135,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                <Data.Aeson.Types.Internal.Value>_P)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONKey3_$ctoEncodingList ::
     [Database.Persist.Class.PersistEntity.Key
        Model.SugarAnalisysResults]
@@ -10085,7 +10153,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                  (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                  (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))])_R
                  ->_R <Data.Aeson.Encoding.Internal.Encoding>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONKey3_$ctoJSON ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Data.Aeson.Types.Internal.Value
@@ -10101,7 +10169,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                (Sym (Model.N:R:KeySugarAnalisysResults[0]))
                                (Sym (Model.D:R:KeySugarAnalisysResults0[0]))))
                  ->_R <Data.Aeson.Types.Internal.Value>_R) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONKey3_$ctoJSONList ::
     [Database.Persist.Class.PersistEntity.Key
        Model.SugarAnalisysResults]
@@ -10178,7 +10246,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                             (Trans
                                  (Sym (Model.N:R:KeyUser[0])) (Sym (Model.D:R:KeyUser0[0]))))])_R
                  ->_R <Data.Aeson.Types.Internal.Value>_R) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONSampleType ::
     Data.Aeson.Types.ToJSON.ToJSON Model.SampleType
   DFunId
@@ -10189,7 +10257,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fToJSONSampleType_$ctoEncoding
                   Model.$fToJSONSampleType_$ctoJSONList
                   Model.$fToJSONSampleType_$ctoEncodingList -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONSampleType_$ctoEncoding ::
     Model.SampleType -> Data.Aeson.Encoding.Internal.Encoding
   {- Arity: 1, Strictness: <S(S),1*U(U)>,
@@ -10198,7 +10266,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (\ (eta :: Model.SampleType) ->
                  Data.Aeson.Encoding.Internal.value
                    (Model.$fToJSONSampleType_$ctoJSON eta)) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONSampleType_$ctoEncodingList ::
     [Model.SampleType] -> Data.Aeson.Encoding.Internal.Encoding
   {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
@@ -10263,7 +10331,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         `cast`
                       (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                 <Data.Aeson.Types.Internal.Value>_P)) }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONSampleType_$ctoJSON ::
     Model.SampleType -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S(S),1*U(U)>m1, Inline: INLINE[0],
@@ -10281,7 +10349,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                            @ Data.Text.Internal.Text
                            @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
                  Data.Aeson.Types.Internal.Object dt } }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $fToJSONSampleType_$ctoJSONList ::
     [Model.SampleType] -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
@@ -10318,7 +10386,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     n
                                     eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
                  Data.Aeson.Types.Internal.Array dt1 }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONSamples :: Data.Aeson.Types.ToJSON.ToJSON Model.Samples
   DFunId
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -10328,7 +10396,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   Model.$fToJSONSamples_$ctoEncoding
                   Model.$fToJSONSamples_$ctoJSONList
                   Model.$fToJSONSamples_$ctoEncodingList -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONSamples_$ctoEncoding ::
     Model.Samples -> Data.Aeson.Encoding.Internal.Encoding
   {- Arity: 1, Strictness: <S(LSS),1*U(U,U(1*U,1*U),U)>,
@@ -10337,7 +10405,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (\ (eta :: Model.Samples) ->
                  Data.Aeson.Encoding.Internal.value
                    (Model.$fToJSONSamples_$ctoJSON eta)) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONSamples_$ctoEncodingList ::
     [Model.Samples] -> Data.Aeson.Encoding.Internal.Encoding
   {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
@@ -10402,7 +10470,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         `cast`
                       (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                 <Data.Aeson.Types.Internal.Value>_P)) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONSamples_$ctoJSON ::
     Model.Samples -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S(LSS),1*U(U,U(1*U,1*U),U)>m1,
@@ -10413,7 +10481,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                  case ww2 of ww4 { Data.Time.Clock.UTC.UTCTime ww5 ww6 ->
                  case Model.$w$ctoJSON5 ww1 ww5 ww6 ww3 of ww7 { Unit# ww8 ->
                  Data.Aeson.Types.Internal.Object ww8 } } }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $fToJSONSamples_$ctoJSONList ::
     [Model.Samples] -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
@@ -10450,7 +10518,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                                     n
                                     eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
                  Data.Aeson.Types.Internal.Array dt1 }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONSugarAnalisysResults ::
     Data.Aeson.Types.ToJSON.ToJSON Model.SugarAnalisysResults
   DFunId
@@ -10461,7 +10529,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                   Model.$fToJSONSugarAnalisysResults_$ctoEncoding
                   Model.$fToJSONSugarAnalisysResults_$ctoJSONList
                   Model.$fToJSONSugarAnalisysResults_$ctoEncodingList -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONSugarAnalisysResults_$ctoEncoding ::
     Model.SugarAnalisysResults -> Data.Aeson.Encoding.Internal.Encoding
   {- Arity: 1, Strictness: <S(LSS),1*U(U,U(1*U,1*U),U(U))>,
@@ -10470,7 +10538,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                 (\ (eta :: Model.SugarAnalisysResults) ->
                  Data.Aeson.Encoding.Internal.value
                    (Model.$fToJSONSugarAnalisysResults_$ctoJSON eta)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONSugarAnalisysResults_$ctoEncodingList ::
     [Model.SugarAnalisysResults]
     -> Data.Aeson.Encoding.Internal.Encoding
@@ -10536,7 +10604,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                         `cast`
                       (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
                                 <Data.Aeson.Types.Internal.Value>_P)) }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONSugarAnalisysResults_$ctoJSON ::
     Model.SugarAnalisysResults -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S(LSS),1*U(U,U(1*U,1*U),U(U))>m1,
@@ -10556,7 +10624,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                      (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0])))) of ww7 { GHC.Int.I64# ww8 ->
                  case Model.$w$ctoJSON8 ww1 ww5 ww6 ww8 of ww9 { Unit# ww10 ->
                  Data.Aeson.Types.Internal.Object ww10 } } } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $fToJSONSugarAnalisysResults_$ctoJSONList ::
     [Model.SugarAnalisysResults] -> Data.Aeson.Types.Internal.Value
   {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
@@ -11160,7 +11228,7 @@ dd2ead2326104bee5799e5b1dc7fc515
         -> Text.ParserCombinators.ReadP.P b)
        -> Text.ParserCombinators.ReadP.P b
   {- Arity: 2, Strictness: <S,U><L,C(U)>, Inline: [0] -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $w$creadPrec2 ::
     GHC.Prim.Int#
     -> forall b.
@@ -11168,7 +11236,7 @@ dd2ead2326104bee5799e5b1dc7fc515
         -> Text.ParserCombinators.ReadP.P b)
        -> Text.ParserCombinators.ReadP.P b
   {- Arity: 2, Strictness: <S,U><L,C(U)>, Inline: [0] -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $w$creadPrec3 ::
     GHC.Prim.Int#
     -> forall b.
@@ -11176,7 +11244,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
         -> Text.ParserCombinators.ReadP.P b)
        -> Text.ParserCombinators.ReadP.P b
   {- Arity: 2, Strictness: <S,U><L,C(U)>, Inline: [0] -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $w$creadPrec4 ::
     GHC.Prim.Int#
     -> forall b.
@@ -11252,7 +11320,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                         @ GHC.Types.Char
                         GHC.Show.shows7
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w1)) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $w$cshowsPrec2 ::
     GHC.Prim.Int#
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -11286,7 +11354,7 @@ dd2ead2326104bee5799e5b1dc7fc515
                         @ GHC.Types.Char
                         GHC.Show.shows7
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w1)) }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   $w$cshowsPrec3 ::
     GHC.Prim.Int#
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -11320,7 +11388,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                         @ GHC.Types.Char
                         GHC.Show.shows7
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w1)) }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $w$cshowsPrec4 ::
     GHC.Prim.Int#
     -> Database.Persist.Class.PersistEntity.Key
@@ -11463,7 +11531,7 @@ e4b1577f9fa58c6bd86721a591124d1f
                         @ GHC.Types.Char
                         GHC.Show.shows7
                         (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w)) }) -}
-9a27304a4c719045cabd31bf2b97edca
+d40c47dac111bdf285897d6868234b5b
   $w$cshowsPrec7 ::
     GHC.Prim.Int#
     -> GHC.Prim.Double#
@@ -11825,7 +11893,7 @@ d88bd9994e55dea53cde29793dcfdf22
                            @ Data.Text.Internal.Text
                            @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
                  (# dt #) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $w$ctoJSON4 ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> GHC.Prim.Int#
@@ -11936,7 +12004,7 @@ db52a27655751ce3bd82e523ca3f373b
                            (Data.Scientific.Scientific dt1 0#))
                         dt of dt2 { DEFAULT ->
                  (# dt2 #) } } } }) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $w$ctoJSON7 ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> GHC.Prim.Double#
@@ -12052,7 +12120,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                            @ Data.Text.Internal.Text
                            @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
                  (# dt #) }) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   $w$ctoPersistValue ::
     Model.Samples
     -> (# [(Data.Text.Internal.Text,
@@ -12116,7 +12184,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                                            (GHC.Types.[]
                                               @ (Data.Text.Internal.Text,
                                                  Database.Persist.Types.Base.PersistValue)) }) }) } } #)) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   $w$ctoPersistValue1 ::
     Model.SugarAnalisysResults
     -> (# [(Data.Text.Internal.Text,
@@ -12746,15 +12814,15 @@ c0417c181da0023636c39e9cbfb27cc2
   {- Arity: 8,
      Strictness: <L,U><L,U><L,U><L,U><L,U><L,U><S,1*U><L,U>,
      Inline: [0] -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   axiom D:R:EntityFieldSampleTypetyp0::
       Database.Persist.Class.PersistEntity.EntityField Model.SampleType
         = Model.R:EntityFieldSampleTypetyp
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   axiom D:R:EntityFieldSamplestyp0::
       Database.Persist.Class.PersistEntity.EntityField Model.Samples
         = Model.R:EntityFieldSamplestyp
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   axiom D:R:EntityFieldSugarAnalisysResultstyp0::
       Database.Persist.Class.PersistEntity.EntityField
         Model.SugarAnalisysResults
@@ -12767,15 +12835,15 @@ dd2ead2326104bee5799e5b1dc7fc515
   axiom D:R:EntityFieldUsertyp0::
       Database.Persist.Class.PersistEntity.EntityField Model.User
         = Model.R:EntityFieldUsertyp
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   axiom D:R:KeySampleType0::
       Database.Persist.Class.PersistEntity.Key Model.SampleType
         = Model.R:KeySampleType
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   axiom D:R:KeySamples0::
       Database.Persist.Class.PersistEntity.Key Model.Samples
         = Model.R:KeySamples
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   axiom D:R:KeySugarAnalisysResults0::
       Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
         = Model.R:KeySugarAnalisysResults
@@ -12787,17 +12855,17 @@ dd2ead2326104bee5799e5b1dc7fc515
   axiom D:R:KeyUserType0::
       Database.Persist.Class.PersistEntity.Key Model.UserType
         = Model.R:KeyUserType
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   axiom D:R:PersistEntityBackendSampleType::
       Database.Persist.Class.PersistEntity.PersistEntityBackend
         Model.SampleType
         = Database.Persist.Sql.Types.Internal.SqlBackend
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   axiom D:R:PersistEntityBackendSamples::
       Database.Persist.Class.PersistEntity.PersistEntityBackend
         Model.Samples
         = Database.Persist.Sql.Types.Internal.SqlBackend
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   axiom D:R:PersistEntityBackendSugarAnalisysResults::
       Database.Persist.Class.PersistEntity.PersistEntityBackend
         Model.SugarAnalisysResults
@@ -12812,15 +12880,15 @@ dd2ead2326104bee5799e5b1dc7fc515
       Database.Persist.Class.PersistEntity.PersistEntityBackend
         Model.UserType
         = Database.Persist.Sql.Types.Internal.SqlBackend
-39a90f06dd520cbf57b5fd2473f4c1fe
+e89666c47e86846ef305ae50b3d0de09
   axiom D:R:UniqueSampleType0::
       Database.Persist.Class.PersistEntity.Unique Model.SampleType
         = Model.R:UniqueSampleType
-e48723ebf34f736dd765d99e274d8009
+ad1c49d1110f287133adba9faae443f0
   axiom D:R:UniqueSamples0::
       Database.Persist.Class.PersistEntity.Unique Model.Samples
         = Model.R:UniqueSamples
-2f8272f8d7f895a9d26d200dfd10cde0
+212fc88d9e451a1a024272193a1a41ef
   axiom D:R:UniqueSugarAnalisysResults0::
       Database.Persist.Class.PersistEntity.Unique
         Model.SugarAnalisysResults
@@ -12833,7 +12901,7 @@ d591fcf1477c98a5cff99663e7a13167
   axiom D:R:UniqueUserType0::
       Database.Persist.Class.PersistEntity.Unique Model.UserType
         = Model.R:UniqueUserType
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   data instance Database.Persist.Class.PersistEntity.EntityField
                   Model.SampleType typ where
     SampleTypeId :: typ
@@ -12846,7 +12914,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                              Database.Persist.Class.PersistEntity.EntityField
                                Model.SampleType typ
     RecFlag: Recursive
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   data instance Database.Persist.Class.PersistEntity.EntityField
                   Model.Samples typ where
     SamplesId :: typ
@@ -12861,7 +12929,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
     SamplesSampleType :: typ Data.Type.Equality.~ Model.SampleType =>
                          Database.Persist.Class.PersistEntity.EntityField Model.Samples typ
     RecFlag: Recursive
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   data instance Database.Persist.Class.PersistEntity.EntityField
                   Model.SugarAnalisysResults typ where
     SugarAnalisysResultsId :: typ
@@ -12917,19 +12985,19 @@ dd2ead2326104bee5799e5b1dc7fc515
     UserPassword :: typ Data.Type.Equality.~ Data.Text.Internal.Text =>
                     Database.Persist.Class.PersistEntity.EntityField Model.User typ
     RecFlag: Recursive
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   newtype instance Database.Persist.Class.PersistEntity.Key
                      Model.SampleType
     = SampleTypeKey {unSampleTypeKey :: Database.Persist.Class.PersistStore.BackendKey
                                           Database.Persist.Sql.Types.Internal.SqlBackend}
     RecFlag: Recursive
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   newtype instance Database.Persist.Class.PersistEntity.Key
                      Model.Samples
     = SamplesKey {unSamplesKey :: Database.Persist.Class.PersistStore.BackendKey
                                     Database.Persist.Sql.Types.Internal.SqlBackend}
     RecFlag: Recursive
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   newtype instance Database.Persist.Class.PersistEntity.Key
                      Model.SugarAnalisysResults
     = SugarAnalisysResultsKey {unSugarAnalisysResultsKey :: Database.Persist.Class.PersistStore.BackendKey
@@ -12947,15 +13015,15 @@ dd2ead2326104bee5799e5b1dc7fc515
     = UserTypeKey {unUserTypeKey :: Database.Persist.Class.PersistStore.BackendKey
                                       Database.Persist.Sql.Types.Internal.SqlBackend}
     RecFlag: Recursive
-39a90f06dd520cbf57b5fd2473f4c1fe
+e89666c47e86846ef305ae50b3d0de09
   data instance Database.Persist.Class.PersistEntity.Unique
                   Model.SampleType
     RecFlag: Recursive
-e48723ebf34f736dd765d99e274d8009
+ad1c49d1110f287133adba9faae443f0
   data instance Database.Persist.Class.PersistEntity.Unique
                   Model.Samples
     RecFlag: Recursive
-2f8272f8d7f895a9d26d200dfd10cde0
+212fc88d9e451a1a024272193a1a41ef
   data instance Database.Persist.Class.PersistEntity.Unique
                   Model.SugarAnalisysResults
     RecFlag: Recursive
@@ -12968,27 +13036,27 @@ d591fcf1477c98a5cff99663e7a13167
   data instance Database.Persist.Class.PersistEntity.Unique
                   Model.UserType
     RecFlag: Recursive
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   data SampleType
     = SampleType {sampleTypeDescription :: !Data.Text.Internal.Text}
-62a27c59ed99b509bc1ed1c42bbc223e
+27abcffb38ea4e3497e8ee0a052c894a
   type SampleTypeId =
     Database.Persist.Class.PersistEntity.Key Model.SampleType
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   data Samples
     = Samples {samplesAnalisysId :: {-# UNPACK #-}GHC.Types.Int,
                samplesResultTime :: !Data.Time.Clock.UTC.UTCTime,
                samplesSampleType :: {-# UNPACK #-}Model.SampleType}
-6a8b6037938264be9d53663668cf9321
+7b98a318fd56e2f0648327c5c38b7202
   type SamplesId =
     Database.Persist.Class.PersistEntity.Key Model.Samples
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   data SugarAnalisysResults
     = SugarAnalisysResults {sugarAnalisysResultsGravimetricInsolubleResidue :: {-# UNPACK #-}GHC.Types.Double,
                             sugarAnalisysResultsDateTime :: !Data.Time.Clock.UTC.UTCTime,
                             sugarAnalisysResultsSamplesId :: !Database.Persist.Class.PersistEntity.Key
                                                                 Model.Samples}
-35706242229492df466521ae5dad00fc
+2957af7c860854ce0a2469aaf1fda26c
   type SugarAnalisysResultsId =
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
 5188768cc1608d8445d7f04de5e5379d
@@ -13056,7 +13124,7 @@ a12948ec2524b1def1eb11ebae3ff9ae
                    (w1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  case w of ww { Database.Persist.Sql.Types.Internal.SqlBackend ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ->
                  Model.$wmigrateAll ww1 ww5 ww7 w1 }) -}
-d7ac70b107860511af0ca7cefdb96a56
+86831b82c3f1abab89933957627f863a
   sampleTypeDescription ::
     Model.SampleType -> Data.Text.Internal.Text
   RecSel Left Model.SampleType
@@ -13064,21 +13132,21 @@ d7ac70b107860511af0ca7cefdb96a56
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: Model.SampleType) ->
                  case ds of wild { Model.SampleType ds1 -> ds1 }) -}
-4d5f031871922c33805cec783b91c847
+3d666d603b524a9052b68b59a67f4a3d
   samplesAnalisysId :: Model.Samples -> GHC.Types.Int
   RecSel Left Model.Samples
   {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(U,A,A)>m,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: Model.Samples) ->
                  case ds of wild { Model.Samples dt ds1 dt1 -> GHC.Types.I# dt }) -}
-436ef3288ba8ef0764ecbe9e877fcc54
+dda2b52999fcaf4990a56c7115adeec5
   samplesResultTime :: Model.Samples -> Data.Time.Clock.UTC.UTCTime
   RecSel Left Model.Samples
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,U(U,U),A)>m,
      Unfolding: InlineRule (1, True, False)
                 (\ (ds :: Model.Samples) ->
                  case ds of wild { Model.Samples dt ds1 dt1 -> ds1 }) -}
-f7af9f406284913506df646f9017e15e
+4e2c14253add606af34828d8e8e37645
   samplesSampleType :: Model.Samples -> Model.SampleType
   RecSel Left Model.Samples
   {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,U)>m,
@@ -13086,7 +13154,7 @@ f7af9f406284913506df646f9017e15e
                 (\ (ds :: Model.Samples) ->
                  case ds of wild { Model.Samples dt ds1 dt1 ->
                  Model.SampleType dt1 }) -}
-cca61c77da4820d3df6ae51bf9aab9eb
+8263d0fd420116d889d92ee29c34181e
   sugarAnalisysResultsDateTime ::
     Model.SugarAnalisysResults -> Data.Time.Clock.UTC.UTCTime
   RecSel Left Model.SugarAnalisysResults
@@ -13095,7 +13163,7 @@ cca61c77da4820d3df6ae51bf9aab9eb
                 (\ (ds :: Model.SugarAnalisysResults) ->
                  case ds of wild { Model.SugarAnalisysResults dt ds1 ds2 ->
                  ds1 }) -}
-19f240658c19d432b54b90bc447eda31
+afedd6b6f4f8091e0358e766f824a6b6
   sugarAnalisysResultsGravimetricInsolubleResidue ::
     Model.SugarAnalisysResults -> GHC.Types.Double
   RecSel Left Model.SugarAnalisysResults
@@ -13104,7 +13172,7 @@ cca61c77da4820d3df6ae51bf9aab9eb
                 (\ (ds :: Model.SugarAnalisysResults) ->
                  case ds of wild { Model.SugarAnalisysResults dt ds1 ds2 ->
                  GHC.Types.D# dt }) -}
-2dea9901772cabcffa9d3d3500fa524c
+f37bcc7397771e5beee1f986336c0c03
   sugarAnalisysResultsSamplesId ::
     Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -13114,7 +13182,7 @@ cca61c77da4820d3df6ae51bf9aab9eb
                 (\ (ds :: Model.SugarAnalisysResults) ->
                  case ds of wild { Model.SugarAnalisysResults dt ds1 ds2 ->
                  ds2 }) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   unSampleTypeKey ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistStore.BackendKey
@@ -13127,7 +13195,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (<Database.Persist.Class.PersistEntity.Key Model.SampleType>_R
                  ->_R Trans
                           (Model.D:R:KeySampleType0[0]) (Model.N:R:KeySampleType[0])) -}
-d8c9a9ef93cfb5144f6e9c4c5052141e
+68b593e7dd054d474113b4771aaed50d
   unSampleTypeKey1 ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Database.Persist.Class.PersistEntity.Key Model.SampleType
@@ -13136,7 +13204,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (\ (ds :: Database.Persist.Class.PersistEntity.Key
                             Model.SampleType) ->
                  ds) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   unSamplesKey ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistStore.BackendKey
@@ -13148,7 +13216,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                   `cast`
                 (<Database.Persist.Class.PersistEntity.Key Model.Samples>_R
                  ->_R Trans (Model.D:R:KeySamples0[0]) (Model.N:R:KeySamples[0])) -}
-4837f11a521bad268c9139cf27762d6b
+c8ea4d27e03d9ab80bfc0e44c6d55892
   unSamplesKey1 ::
     Database.Persist.Class.PersistEntity.Key Model.Samples
     -> Database.Persist.Class.PersistEntity.Key Model.Samples
@@ -13157,7 +13225,7 @@ d8c9a9ef93cfb5144f6e9c4c5052141e
                 (\ (ds :: Database.Persist.Class.PersistEntity.Key
                             Model.Samples) ->
                  ds) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   unSugarAnalisysResultsKey ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistStore.BackendKey
@@ -13172,7 +13240,7 @@ b0f4b2ca3e0231845a3334ace325c01b
                  ->_R Trans
                           (Model.D:R:KeySugarAnalisysResults0[0])
                           (Model.N:R:KeySugarAnalisysResults[0])) -}
-b0f4b2ca3e0231845a3334ace325c01b
+8e8e08af8fdf6bf967ac78e76434c3dc
   unSugarAnalisysResultsKey1 ::
     Database.Persist.Class.PersistEntity.Key Model.SugarAnalisysResults
     -> Database.Persist.Class.PersistEntity.Key

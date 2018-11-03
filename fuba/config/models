@@ -5,7 +5,7 @@ SugarAnalisysResults json
    deriving Show
    
 SampleType json
-   description Text //deve armazenar se é parcial de duas mil, dez mil ou algum tipo de composta - escolher um nome melhor e mais significativo
+   description Text //deve armazenar se é parcial, geral, compostas ou talho - escolher um nome melhor e mais significativo
    deriving Show
 
 Samples json

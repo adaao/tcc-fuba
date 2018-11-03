@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-21 17:34:27.752879 UTC
+2018-10-25 16:45:30.973472 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import.NoFoundation 8002
-  interface hash: d59683d92c5f0322992e6e39cc170e66
+  interface hash: 5fe60bf37916c9f1bb74c50bc0fdbacb
   ABI hash: fb4288dd559caa50ce1ad5c99b22212a
   export-list hash: 0c50b3c7cbb6936141f71e5eadec287b
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -2294,30 +2294,30 @@ import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Sequence 47585f299e23ea17
 import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base 192db525847d66243089501d3ee84714
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 9c68cbd95caee85701a573292e4f13b7
 import  -/  dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList df34fc1f01d8ed1d84ac8ec6f5cefa47
-import  -/  Model 395c2a948895596dcf30cb9ace49313d
+import  -/  Model dd4013f537a896231161434636da12e9
   exports: ae406b99b8bcdf02763a4aa820b0a2a3
-  SampleType b7799a9e4823d0e66e33d91997f7f212
-  SampleType d8c9a9ef93cfb5144f6e9c4c5052141e
-  SampleTypeDescription 411e18ee0be5680833257f15c3774cdf
-  SampleTypeId 10a034ea8a644a1f9248076891d4de67
-  SampleTypeId 62a27c59ed99b509bc1ed1c42bbc223e
-  SampleTypeKey b26f692f0c60f9010f2b1267bf6c8bcc
-  Samples be403efbb39f197445dd2659eca336fb
-  Samples 4837f11a521bad268c9139cf27762d6b
-  SamplesAnalisysId 3889b7bf92b0fbd38b7fc43c7ec3d88a
-  SamplesId 2fe8744203e1b1b369d8027aed6492b4
-  SamplesId 6a8b6037938264be9d53663668cf9321
-  SamplesKey b21f8f1c7e0519a428151cbe0f028d2f
-  SamplesResultTime 9086b8e23c5071f6c468257561ebb250
-  SamplesSampleType 2ef7ab30c6f19c2524884469bc7c4ba2
-  SugarAnalisysResults 9b536134f5aa38ed3f2de36da62e5299
-  SugarAnalisysResults b0f4b2ca3e0231845a3334ace325c01b
-  SugarAnalisysResultsDateTime 70fe81ee2caa0e0da2adbb0f039c2352
-  SugarAnalisysResultsGravimetricInsolubleResidue 11553a274606676a04b93334bc849f33
-  SugarAnalisysResultsId 30f122385fb195020635ce421cf591f9
-  SugarAnalisysResultsId 35706242229492df466521ae5dad00fc
-  SugarAnalisysResultsKey 50c8dc6f1f9d108c688f828cb7c0eb3c
-  SugarAnalisysResultsSamplesId b126b26c5bf0f2c174361a2ed5fea150
+  SampleType 4d9028315959e305f39a33e8afacbea0
+  SampleType 68b593e7dd054d474113b4771aaed50d
+  SampleTypeDescription 3ee728488a10fffd257018b7014eadc9
+  SampleTypeId b630815c9ee02da99e19db2464be1f63
+  SampleTypeId 27abcffb38ea4e3497e8ee0a052c894a
+  SampleTypeKey 137d3070ead5d4c05a306828c1b0b915
+  Samples 423acc733a098ca087058ee28045991d
+  Samples c8ea4d27e03d9ab80bfc0e44c6d55892
+  SamplesAnalisysId d913ec716fa628c419997bd50a028670
+  SamplesId daae1ed08a0f46ce42b20d3ba89da259
+  SamplesId 7b98a318fd56e2f0648327c5c38b7202
+  SamplesKey 47cafd97202de944f78585243b29f777
+  SamplesResultTime 6b52f30a495b8102ee6365efd83eaa28
+  SamplesSampleType 20918e3e51bef55c6cdcff7fc0dc4854
+  SugarAnalisysResults 3b3ed9d925e05eaeac27e048aa8be169
+  SugarAnalisysResults 8e8e08af8fdf6bf967ac78e76434c3dc
+  SugarAnalisysResultsDateTime e716e81c4ba5e39dca83049de69d0274
+  SugarAnalisysResultsGravimetricInsolubleResidue c0ba9fb89f664058f9f6038bf7f16014
+  SugarAnalisysResultsId fbb01c555aa20359e8e0050f3e6dbd74
+  SugarAnalisysResultsId 2957af7c860854ce0a2469aaf1fda26c
+  SugarAnalisysResultsKey 3d344947720384990d12ac0330b41967
+  SugarAnalisysResultsSamplesId c87a28fb2cedb4af0e03349ce5f19d4b
   UniqueEmail 44460bfefd02fe7da93b9e63ca956cb2
   User dbab8488348cfc04cc956d79355b6463
   User 5188768cc1608d8445d7f04de5e5379d
@@ -2336,16 +2336,16 @@ import  -/  Model 395c2a948895596dcf30cb9ace49313d
   UserTypeUserTypeDescription f4cc0de816b63c0183bae55e10699c79
   UserUserType c6cf6cb16b5518b3972d8e99e4b90b94
   migrateAll 74d7f2a4eb3d9bc6fea280b9a90bb7f9
-  sampleTypeDescription d7ac70b107860511af0ca7cefdb96a56
-  samplesAnalisysId 4d5f031871922c33805cec783b91c847
-  samplesResultTime 436ef3288ba8ef0764ecbe9e877fcc54
-  samplesSampleType f7af9f406284913506df646f9017e15e
-  sugarAnalisysResultsDateTime cca61c77da4820d3df6ae51bf9aab9eb
-  sugarAnalisysResultsGravimetricInsolubleResidue 19f240658c19d432b54b90bc447eda31
-  sugarAnalisysResultsSamplesId 2dea9901772cabcffa9d3d3500fa524c
-  unSampleTypeKey d8c9a9ef93cfb5144f6e9c4c5052141e
-  unSamplesKey 4837f11a521bad268c9139cf27762d6b
-  unSugarAnalisysResultsKey b0f4b2ca3e0231845a3334ace325c01b
+  sampleTypeDescription 86831b82c3f1abab89933957627f863a
+  samplesAnalisysId 3d666d603b524a9052b68b59a67f4a3d
+  samplesResultTime dda2b52999fcaf4990a56c7115adeec5
+  samplesSampleType 4e2c14253add606af34828d8e8e37645
+  sugarAnalisysResultsDateTime 8263d0fd420116d889d92ee29c34181e
+  sugarAnalisysResultsGravimetricInsolubleResidue afedd6b6f4f8091e0358e766f824a6b6
+  sugarAnalisysResultsSamplesId f37bcc7397771e5beee1f986336c0c03
+  unSampleTypeKey 68b593e7dd054d474113b4771aaed50d
+  unSamplesKey c8ea4d27e03d9ab80bfc0e44c6d55892
+  unSugarAnalisysResultsKey 8e8e08af8fdf6bf967ac78e76434c3dc
   unUserKey 5188768cc1608d8445d7f04de5e5379d
   unUserTypeKey dd2ead2326104bee5799e5b1dc7fc515
   userEmail fe381620c8871b358137fbddcd1cf5e0

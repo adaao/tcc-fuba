@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-21 17:34:30.058702 UTC
+2018-10-25 16:45:33.184058 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import 8002
-  interface hash: 0abfb75c465ad7b510cc46c5290ffa27
+  interface hash: 29bacb7ddd113e0da72283790a125b38
   ABI hash: a6582e4bb371cca78b950c9e3a29e2dd
   export-list hash: a1482d0dd981d167d72b9c14a1cdd6c8
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -2309,57 +2309,57 @@ import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base 192db525847d6624
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 9c68cbd95caee85701a573292e4f13b7
 import  -/  dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList df34fc1f01d8ed1d84ac8ec6f5cefa47
 import  -/  exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U:Control.Monad.Catch b7c0706f1693a3a340b0c0acefd4e19d
-import  -/  Foundation e983d29bbe7cbed11192283c3c7edf9b
+import  -/  Foundation 7d2abcad59492baaeee3d665b3724597
   exports: 763a4a0e19a653959309896cc4b14665
-  App c216d7368d5cdc79fec885b9963fddd8
-  App 78bdd223f5fba63402aef5a74c837c62
-  FaviconR eff167205f8b38f73ce6b6ff46d4410a
-  Form de432e3f9b7002ab308cd359ac8fc5ea
-  Handler 19ce2e455cad78ccae5c9fd66c62ee05
-  HomeR d6dc5ad55a59c8a6f0549d800e52a0c6
-  InsertSampleTypeR 54f72a0049a0f833029e875ca9fb29f9
-  InsertUserR 12647a7c143277970a08fd3daf2a2e49
-  InsertUserTypeR 6642449d4c23b534575d152b083604fe
-  LoginnR 9d117286b3050ad1a6dcbbf878cbdc60
-  ReadSampleTypeR bbb435ff9fa56600ee0ac6ce6a85e5ec
-  ReadUserR 42495504394a70116f14a2d9cf058368
-  ReadUserTypeR 37607b0651829406c0f2142b98c56aca
-  RobotsR 5fd9e97da516b433ce5bcaafec91b63a
-  StaticR 896d9b929081b00224b5e6bf4262652d
-  UpdateUserR 698e2a752c0236fd8bb86dd87e1e84b6
-  UpdateUserTypeR 114856fe1c981ddf06a980a01252fe2f
-  Widget f2b0f9dc71678742b8171bda6e2ef9bf
-  appConnPool c3837850dea2c9f0bb0a2e9b48052fca
-  appHttpManager 78bdd223f5fba63402aef5a74c837c62
-  appLogger bf75c72701a768aee725ae609692fd7d
-  appSettings 793e4dee02658207695451a292ba55a2
-  appStatic 3a5ab074d05a28cda7f776b47df260a4
+  App af3803c44b49478ac05378a0c3841cf5
+  App 2a299f6d812c3857df5ab5bd1a5b847d
+  FaviconR e08b0cd866319b7f30edbaade16993f4
+  Form b2f2c61a4dd19a8bbfd88cd4cfd208d4
+  Handler f6af7464eebd738b47cb8cb591bdaf94
+  HomeR 40d88a99e3ef96b4d60358ee806f8d5a
+  InsertSampleTypeR f453669651c43a984e1b2f84ee27c4dc
+  InsertUserR ec8f9969649e5b1a4d006fb55162546a
+  InsertUserTypeR a62080d8528df988b7455d946ca18709
+  LoginnR 65b4d3006973c7849dadfc94564ceb79
+  ReadSampleTypeR a8ad7dd85622484b13acd4d0f673657c
+  ReadUserR f69a12c276464a4927148e7e4daff166
+  ReadUserTypeR 0a21d7c4930edaa367a1a810802245d4
+  RobotsR e792e4b0c5cfca3dfff05d608eedc36e
+  StaticR 3bd709cb4f66eb9948df834f1ceccad2
+  UpdateUserR 4a97bffd947d857775748a741c976562
+  UpdateUserTypeR 6ff955e824608ad0ec40f4ee02fe7b90
+  Widget 25afc6d4ed878ceeaf0864d9df804d9f
+  appConnPool 65119982cc357cf6c196d3b90a1defa7
+  appHttpManager 2a299f6d812c3857df5ab5bd1a5b847d
+  appLogger c2ead82786b821a5e716c85b321b1d62
+  appSettings a6ae351b6b7dc761d8419e7db3432a42
+  appStatic f60e29e3a3298c48956b56ed558945cd
   resourcesApp 788e81f5f513e5cc34e5022524d8efb5
 import  -/  Import.NoFoundation fb4288dd559caa50ce1ad5c99b22212a
   exports: 0c50b3c7cbb6936141f71e5eadec287b
-import  -/  Model 395c2a948895596dcf30cb9ace49313d
-  SampleType b7799a9e4823d0e66e33d91997f7f212
-  SampleType d8c9a9ef93cfb5144f6e9c4c5052141e
-  SampleTypeDescription 411e18ee0be5680833257f15c3774cdf
-  SampleTypeId 10a034ea8a644a1f9248076891d4de67
-  SampleTypeId 62a27c59ed99b509bc1ed1c42bbc223e
-  SampleTypeKey b26f692f0c60f9010f2b1267bf6c8bcc
-  Samples be403efbb39f197445dd2659eca336fb
-  Samples 4837f11a521bad268c9139cf27762d6b
-  SamplesAnalisysId 3889b7bf92b0fbd38b7fc43c7ec3d88a
-  SamplesId 2fe8744203e1b1b369d8027aed6492b4
-  SamplesId 6a8b6037938264be9d53663668cf9321
-  SamplesKey b21f8f1c7e0519a428151cbe0f028d2f
-  SamplesResultTime 9086b8e23c5071f6c468257561ebb250
-  SamplesSampleType 2ef7ab30c6f19c2524884469bc7c4ba2
-  SugarAnalisysResults 9b536134f5aa38ed3f2de36da62e5299
-  SugarAnalisysResults b0f4b2ca3e0231845a3334ace325c01b
-  SugarAnalisysResultsDateTime 70fe81ee2caa0e0da2adbb0f039c2352
-  SugarAnalisysResultsGravimetricInsolubleResidue 11553a274606676a04b93334bc849f33
-  SugarAnalisysResultsId 30f122385fb195020635ce421cf591f9
-  SugarAnalisysResultsId 35706242229492df466521ae5dad00fc
-  SugarAnalisysResultsKey 50c8dc6f1f9d108c688f828cb7c0eb3c
-  SugarAnalisysResultsSamplesId b126b26c5bf0f2c174361a2ed5fea150
+import  -/  Model dd4013f537a896231161434636da12e9
+  SampleType 4d9028315959e305f39a33e8afacbea0
+  SampleType 68b593e7dd054d474113b4771aaed50d
+  SampleTypeDescription 3ee728488a10fffd257018b7014eadc9
+  SampleTypeId b630815c9ee02da99e19db2464be1f63
+  SampleTypeId 27abcffb38ea4e3497e8ee0a052c894a
+  SampleTypeKey 137d3070ead5d4c05a306828c1b0b915
+  Samples 423acc733a098ca087058ee28045991d
+  Samples c8ea4d27e03d9ab80bfc0e44c6d55892
+  SamplesAnalisysId d913ec716fa628c419997bd50a028670
+  SamplesId daae1ed08a0f46ce42b20d3ba89da259
+  SamplesId 7b98a318fd56e2f0648327c5c38b7202
+  SamplesKey 47cafd97202de944f78585243b29f777
+  SamplesResultTime 6b52f30a495b8102ee6365efd83eaa28
+  SamplesSampleType 20918e3e51bef55c6cdcff7fc0dc4854
+  SugarAnalisysResults 3b3ed9d925e05eaeac27e048aa8be169
+  SugarAnalisysResults 8e8e08af8fdf6bf967ac78e76434c3dc
+  SugarAnalisysResultsDateTime e716e81c4ba5e39dca83049de69d0274
+  SugarAnalisysResultsGravimetricInsolubleResidue c0ba9fb89f664058f9f6038bf7f16014
+  SugarAnalisysResultsId fbb01c555aa20359e8e0050f3e6dbd74
+  SugarAnalisysResultsId 2957af7c860854ce0a2469aaf1fda26c
+  SugarAnalisysResultsKey 3d344947720384990d12ac0330b41967
+  SugarAnalisysResultsSamplesId c87a28fb2cedb4af0e03349ce5f19d4b
   UniqueEmail 44460bfefd02fe7da93b9e63ca956cb2
   User dbab8488348cfc04cc956d79355b6463
   User 5188768cc1608d8445d7f04de5e5379d
@@ -2378,16 +2378,16 @@ import  -/  Model 395c2a948895596dcf30cb9ace49313d
   UserTypeUserTypeDescription f4cc0de816b63c0183bae55e10699c79
   UserUserType c6cf6cb16b5518b3972d8e99e4b90b94
   migrateAll 74d7f2a4eb3d9bc6fea280b9a90bb7f9
-  sampleTypeDescription d7ac70b107860511af0ca7cefdb96a56
-  samplesAnalisysId 4d5f031871922c33805cec783b91c847
-  samplesResultTime 436ef3288ba8ef0764ecbe9e877fcc54
-  samplesSampleType f7af9f406284913506df646f9017e15e
-  sugarAnalisysResultsDateTime cca61c77da4820d3df6ae51bf9aab9eb
-  sugarAnalisysResultsGravimetricInsolubleResidue 19f240658c19d432b54b90bc447eda31
-  sugarAnalisysResultsSamplesId 2dea9901772cabcffa9d3d3500fa524c
-  unSampleTypeKey d8c9a9ef93cfb5144f6e9c4c5052141e
-  unSamplesKey 4837f11a521bad268c9139cf27762d6b
-  unSugarAnalisysResultsKey b0f4b2ca3e0231845a3334ace325c01b
+  sampleTypeDescription 86831b82c3f1abab89933957627f863a
+  samplesAnalisysId 3d666d603b524a9052b68b59a67f4a3d
+  samplesResultTime dda2b52999fcaf4990a56c7115adeec5
+  samplesSampleType 4e2c14253add606af34828d8e8e37645
+  sugarAnalisysResultsDateTime 8263d0fd420116d889d92ee29c34181e
+  sugarAnalisysResultsGravimetricInsolubleResidue afedd6b6f4f8091e0358e766f824a6b6
+  sugarAnalisysResultsSamplesId f37bcc7397771e5beee1f986336c0c03
+  unSampleTypeKey 68b593e7dd054d474113b4771aaed50d
+  unSamplesKey c8ea4d27e03d9ab80bfc0e44c6d55892
+  unSugarAnalisysResultsKey 8e8e08af8fdf6bf967ac78e76434c3dc
   unUserKey 5188768cc1608d8445d7f04de5e5379d
   unUserTypeKey dd2ead2326104bee5799e5b1dc7fc515
   userEmail fe381620c8871b358137fbddcd1cf5e0

@@ -1,4 +1,13 @@
-<h1>
-   teste com as modificações no Application
-   
-   
+$doctype 5
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fubá
+        
+        <link rel="stylesheet" type="text/css" href=@{StaticR css_bootstrap_css}>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        
+    <body>
+        <h1>
+            teste
