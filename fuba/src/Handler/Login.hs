@@ -43,11 +43,34 @@ postLoginnR :: Handler Html
 postLoginnR = do 
     ((result,_),_) <- runFormPost formLogin
     case result of
+        FormSuccess (email,password) -> do 
+            maybeUser <- autentica email password
+            case maybeUser of 
+                Nothing -> do 
+                    setMessage [shamlet|
+                        <div> 
+                            Usuario nao encontrado/Senha invalida!
+                    |]
+                    redirect LoginnR
+                Just (Entity _ usr) -> do 
+                    setSession "_NAME" (userName usr)
+                    redirect $ rightHome userUserTypeId usr
+            redirect 
+        _ -> redirect HomeR
+
+redirectToRightHome :: Entity a -> 
+
+-- backup of postLoginnR
+{-
+postLoginnR :: Handler Html
+postLoginnR = do 
+    ((result,_),_) <- runFormPost formLogin
+    case result of
         FormSuccess ("root@root.com","root") -> do 
             setSession "_NOME" "admin"
             redirect 
         FormSuccess (email,senha) -> do 
-            maybeUser <- autentica email senha
+            maybeUser <- autentica email password
             case maybeUser of 
                 Nothing -> do 
                     setMessage [shamlet|
@@ -60,6 +83,8 @@ postLoginnR = do
                     redirect HomeR
             redirect 
         _ -> redirect HomeR
+
+-}
 
 postLogoutR :: Handler Html
 postLogoutR = do 

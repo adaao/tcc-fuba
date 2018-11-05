@@ -7,6 +7,10 @@
 
 / HomeR GET
 
+/home/vli VliHomeR GET
+
+/home/saybolt SayboltHomeR GET
+
 /user/insert         InsertUserR  POST
 /user/#UserId/read   ReadUserR    GET
 /user/#UserId/update UpdateUserR  PUT
