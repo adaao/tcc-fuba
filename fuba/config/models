@@ -9,7 +9,6 @@ SampleType json
    deriving Show
 
 Samples json
-   analisysId Int
    resultTime UTCTime 
    sampleType SampleType //deve armazenar se é parcial de duas mil, dez mil ou algum tipo de composta - escolher um nome melhor e mais significativo
    deriving Show
@@ -19,11 +18,19 @@ UserType json
    userTypeAccessLevel Int
    deriving Show
 
-User json
+SayboltUser
+   
    email Text
    name Text
-   userType UserTypeId
    password Text
    UniqueEmail email
    deriving Show
+   
+VliUser
+   email Text
+   name Text
+   password Text
+   UniqueEmail email
+   deriving Show
+
  -- By default this file is used in Model.hs (which is imported by Foundation.hs)
