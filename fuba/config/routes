@@ -7,9 +7,9 @@
 
 / HomeR GET
 
-/home/vli VliHomeR GET
+/vliHome VliHomeR GET
 
-/home/saybolt SayboltHomeR GET
+/sayboltHome SayboltHomeR GET
 
 /user/insert         InsertUserR  POST
 /user/#UserId/read   ReadUserR    GET
