@@ -9,5 +9,26 @@ $doctype 5
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         
     <body>
-        <h1>
-            teste
+         <div class="row float-left">
+                <div class="col-lg-12">
+                    <div class="col-lg-5 float-left">
+                        <div class="card" style="margin-bottom: 2rem">
+                            <div class="card-header">Saybolt Login
+                            <div class="card-body">
+                                <form action=@{SayboltLoginR} method="post">
+                                    
+                                
+          <div class="row float-right">
+                <div class="col-lg-12">
+                    <div class="col-lg-5 float-left">
+                        <div class="card" style="margin-bottom: 2rem">
+                            <div class="card-header">Vli Login
+                            <div class="card-body">
+                                <form action=@{VliLoginR} method="post">
+                                    <!--div class="form-group">
+                                        <label for="username">Nome de Usuário
+                                        <input type="text" id="username" class="form-control" placeholder="Nome de Usuário">
+                                    <div class="form-group">
+                                        <label for="password">Senha
+                                        <input type="password" id="password" class="form-control" placeholder="Senha"-->
+                                    <button type="submit" class="btn btn-primary float-right">Logar   

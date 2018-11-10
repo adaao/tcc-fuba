@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-21 17:34:30.919326 UTC
+2018-11-10 15:50:04.315604 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.SampleType 8002
-  interface hash: e08ecd0e86db208f1ac07898d2428e57
-  ABI hash: d06c9ccdc650e4c1f967b2a321d574da
+  interface hash: df4aeb1a90f2b9ebf4d05d6d3f524895
+  ABI hash: d02382748bed6cf447286f51a8ab3199
   export-list hash: 4d68673c0de72bfab046431596f2c3ed
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 041eba49da12a8669f859283b7eaf026
@@ -347,14 +347,14 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal f040a64200abf1dfa06f5db9b9e027c1
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d8ae0f04da94d706b89336fd9d0bf43b
-import  -/  Foundation e983d29bbe7cbed11192283c3c7edf9b
-  Handler 19ce2e455cad78ccae5c9fd66c62ee05
-import  -/  Import a6582e4bb371cca78b950c9e3a29e2dd
-  exports: a1482d0dd981d167d72b9c14a1cdd6c8
-import  -/  Model 395c2a948895596dcf30cb9ace49313d
-  SampleType d8c9a9ef93cfb5144f6e9c4c5052141e
-  SampleTypeDescription 411e18ee0be5680833257f15c3774cdf
-  SampleTypeId 62a27c59ed99b509bc1ed1c42bbc223e
+import  -/  Foundation 2062258427b0bb0e272afcbde30fb2f1
+  Handler ae5481fd802aa9a73dba3ec915d9bfc8
+import  -/  Import 4b31efa953c68c12e313184bf2ba67ec
+  exports: 21235648af5b0c80e74a7e939de72d2e
+import  -/  Model 5df0e1a265cd745c3b252e089aa02f63
+  SampleType f355708de561efea067e4c6edeb434d7
+  SampleTypeDescription 4aee52e0ea9a1554b8c34c3eba366e70
+  SampleTypeId adf4a1a7c12b09539ee6d14a47254e1a
 import  -/  http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY:Network.HTTP.Types.Status 89141eb12608ef6ae13b4ca925571920
 import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistEntity cdf530da25c383734bcbcaf1dbc5f7ff
 import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistQuery 1cc5b82ce7102b2265e45dee0bdd83cb
@@ -379,7 +379,7 @@ c13c9d5a5fb6c483231b688750c5123b
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-b5940b24e68af6e5c60c3a05b0794fb5
+90b0f679ddd9ae3196e3af72b9273d0e
   getListSampleTypes ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -394,7 +394,7 @@ b5940b24e68af6e5c60c3a05b0794fb5
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-6b1d41bc87f0d19942504e6d67de785b
+b4b31a524462c547308e45c143eed34c
   getListSampleTypes1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -453,7 +453,7 @@ b5940b24e68af6e5c60c3a05b0794fb5
                                                     @ (Database.Persist.Class.PersistEntity.Entity
                                                          Model.SampleType)
                                                     @ Data.Aeson.Types.Internal.Value
-                                                    Model.$fToJSONEntity2_$ctoJSON
+                                                    Model.$fToJSONEntity_$ctoJSON
                                                     ipv1)
                                                  0#
                                                  0#
@@ -510,7 +510,7 @@ b5940b24e68af6e5c60c3a05b0794fb5
 f648a9e05fefc41ac6ae8d1cfc43511e
   getListSampleTypes2 :: Data.Text.Internal.Text
   {- Unfolding: (Data.Text.Show.unpackCString# "resp"#) -}
-fedf4144fac40b4a3780335126a5edd2
+7ec84fa5951bb8cef5aa3e4b5ef655d1
   getListSampleTypes3 ::
     Database.Persist.Sql.Types.Internal.SqlBackend
     -> Yesod.Core.Types.HandlerT
@@ -594,7 +594,7 @@ fedf4144fac40b4a3780335126a5edd2
                                 <GHC.Types.IO>_N
                                 <[Database.Persist.Class.PersistEntity.Entity
                                     Model.SampleType]>_N)))) -}
-1aef578eeb9c190c6a68e5a7db692017
+7849a5baa533a4e79f3660d42752927b
   getListSampleTypes4 ::
     [Database.Persist.Class.PersistEntity.SelectOpt Model.SampleType]
   {- HasNoCafRefs,
@@ -604,7 +604,7 @@ fedf4144fac40b4a3780335126a5edd2
                    (GHC.Types.[]
                       @ (Database.Persist.Class.PersistEntity.SelectOpt
                            Model.SampleType))) -}
-17c91f1905c94b4f0ee595390505489a
+7ec86b56885a5786dd28bd12b3e29635
   getListSampleTypes5 ::
     Database.Persist.Class.PersistEntity.SelectOpt Model.SampleType
   {- HasNoCafRefs,
@@ -614,7 +614,7 @@ fedf4144fac40b4a3780335126a5edd2
                    Handler.SampleType.getListSampleTypes6
                      `cast`
                    (Sym (Model.D:R:EntityFieldSampleTypetyp0[0]) <Data.Text.Internal.Text>_N)) -}
-874d6ceb6d36bb40d7420cfafb449195
+927c7f0cd9cc275f8242a4c34e6002f0
   getListSampleTypes6 ::
     Model.R:EntityFieldSampleTypetyp Data.Text.Internal.Text
   {- HasNoCafRefs,
@@ -634,7 +634,7 @@ b60ddf77c825563444736805cea1a7fd
                    @ Data.Text.Internal.Text
                    @ Data.Text.Internal.Text
                    @~ <Data.Text.Internal.Text>_N) -}
-1491ede79c0bc9e6786f810958656d49
+894026e4d1b572faac69c04e3b0d884e
   getListSampleTypes8 ::
     (Database.Persist.Class.PersistEntity.PersistEntity
        Model.SampleType,
@@ -681,7 +681,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                 Data.Aeson.Types.Internal.Value,
               GHC.Types.Int) #)
   {- Arity: 7, Strictness: <S,U><S,1*U><L,U><L,U><L,U><L,U><L,U> -}
-f46afbda6894a4c02e53e8d9136df6cb
+5376cb16db1cb7a6b225fc6c95ca7e8a
   getListSampleTypes_m1 ::
     Control.Monad.Trans.Reader.ReaderT
       Database.Persist.Sql.Types.Internal.SqlBackend
@@ -708,7 +708,7 @@ f46afbda6894a4c02e53e8d9136df6cb
                    (GHC.Types.[]
                       @ (Database.Persist.Class.PersistEntity.Filter Model.SampleType))
                    Handler.SampleType.getListSampleTypes4) -}
-6f346707ba2bd712bf686c9ce4f8168e
+1d3cf96271c2398716b6ac244ff4c8f1
   getReadSampleTypeR ::
     Model.SampleTypeId
     -> Foundation.Handler Data.Aeson.Types.Internal.Value
@@ -725,7 +725,7 @@ f46afbda6894a4c02e53e8d9136df6cb
                                     <Foundation.App>_N
                                     <GHC.Types.IO>_N
                                     <Data.Aeson.Types.Internal.Value>_N))) -}
-0094948ba2b9edb0d6dd59f400a6cf72
+63673c105e1813f5b4fcb44d8a7d830c
   getReadSampleTypeR1 ::
     Model.SampleTypeId
     -> Yesod.Core.Types.HandlerData
@@ -818,7 +818,7 @@ f46afbda6894a4c02e53e8d9136df6cb
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv }) -}
-b7eac64790cdd415511e6190b9329314
+a9e5524cd8c5248be6b49dabe0289967
   getReadSampleTypeR2 ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -838,7 +838,7 @@ b7eac64790cdd415511e6190b9329314
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendSampleType[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-2ef0798578bf644b4a7e5915b8d214ce
+c00542c923c7799f5fd0326b4f3b853a
   postInsertSampleTypeR ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -853,7 +853,7 @@ b7eac64790cdd415511e6190b9329314
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-9d8ca67b0d2b2cc6426e28d98e99aacb
+6329f5e1512949d1142f5c21fa111bf5
   postInsertSampleTypeR1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -921,7 +921,7 @@ b7eac64790cdd415511e6190b9329314
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv2 } }) -}
-baae7ffe997e53e41717c1ffeec48a82
+37198ccc9ae11c837d04627c5e70e59a
   postInsertSampleTypeR2 ::
     Model.SampleType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -941,7 +941,7 @@ baae7ffe997e53e41717c1ffeec48a82
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendSampleType[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-280fa07d0d04c2155b468f2e456cfb33
+607a02800639e75894d784d339c44cc3
   postInsertSampleTypeR3 ::
     Yesod.Core.Types.HandlerT
       Foundation.App GHC.Types.IO Model.SampleType

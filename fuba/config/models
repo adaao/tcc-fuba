@@ -15,7 +15,6 @@ VliUser
    email Text
    name Text
    password Text
-   UniqueEmail email
    deriving Show
 
 Samples json

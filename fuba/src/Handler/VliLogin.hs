@@ -5,7 +5,7 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
 -- | Common handler functions.
-module Handler.Login where
+module Handler.VliLogin where
 
 import Import
 import Database.Persist.Postgresql
@@ -14,33 +14,26 @@ formLogin :: Form (Text,Text)
 formLogin = renderDivs $ (,) 
     <$> areq emailField "Email: " Nothing
     <*> areq passwordField "Senha: " Nothing
-{-
-postLoginnR :: Handler Html
-postLoginnR = undefined
-
-getLoginnR :: Handler Html
-getLoginnR = undefined
--}
-   
-getLoginnR :: Handler Html
-getLoginnR = do 
+ 
+getVliLoginR :: Handler Html
+getVliLoginR = do 
     (widget,enctype) <- generateFormPost formLogin
     mensa <- getMessage
     defaultLayout $ do 
         [whamlet|
             $maybe msg <- mensa
                 ^{msg}
-            <form action=@{LoginnR} method=post>
+            <form action=@{VliLoginR} method=post>
                 ^{widget}
                 <input type="submit" value="Login">
         |]
 
-autentica :: Text -> Text -> HandlerT App IO (Maybe (Entity User))
-autentica email password = runDB $ selectFirst [UserEmail ==. email
-                                               ,UserPassword ==. password] []
-
-postLoginnR :: Handler Html
-postLoginnR = do 
+autentica :: Text -> Text -> HandlerT App IO (Maybe (Entity VliUser))
+autentica email password = runDB $ selectFirst [VliUserEmail ==. email
+                                               ,VliUserPassword ==. password] []
+                                               
+postVliLoginR :: Handler Html
+postVliLoginR = do 
     ((result,_),_) <- runFormPost formLogin
     case result of
         FormSuccess (email,password) -> do 
@@ -51,14 +44,12 @@ postLoginnR = do
                         <div> 
                             Usuario nao encontrado/Senha invalida!
                     |]
-                    redirect LoginnR
+                    redirect SayboltLoginR
                 Just (Entity _ usr) -> do 
-                    setSession "_NAME" (userName usr)
-                    redirect $ rightHome userUserTypeId usr
-            redirect 
+                    setSession (vliUserName usr)  "_NAME"
+                    redirect $ VliHomeR
         _ -> redirect HomeR
 
-redirectToRightHome :: Entity a -> 
 
 -- backup of postLoginnR
 {-
@@ -88,7 +79,7 @@ postLoginnR = do
 
 postLogoutR :: Handler Html
 postLogoutR = do 
-    deleteSession "_NOME"
+    deleteSession "_NAME"
     redirect HomeR
 
 -- getMessage :: Text

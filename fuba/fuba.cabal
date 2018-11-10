@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2338c4b737a674ad7ff266e3d9462c107550538d7bfe5d3b12b3f820fd974201
+-- hash: cfe9c79272488950aac57db5a934061ab663f2f2ab5622d004834540c58aff72
 
 name:           fuba
 version:        0.0.0
@@ -71,12 +71,13 @@ library
       Foundation
       Handler.Common
       Handler.Home
-      Handler.Login
       Handler.Samples
       Handler.SampleType
-      Handler.SugarAnalisysResults
-      Handler.User
+      Handler.Saybolt
+      Handler.SayboltLogin
       Handler.UserType
+      Handler.Vli
+      Handler.VliLogin
       Import
       Import.NoFoundation
       Model

@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-10-25 16:45:30.973472 UTC
+2018-11-10 15:47:33.119615 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import.NoFoundation 8002
-  interface hash: 5fe60bf37916c9f1bb74c50bc0fdbacb
-  ABI hash: fb4288dd559caa50ce1ad5c99b22212a
-  export-list hash: 0c50b3c7cbb6936141f71e5eadec287b
+  interface hash: bbb50eac4ac5d875d91b6bc4aa3fa406
+  ABI hash: 708afaa16619266f05a41e6e1a63a5a8
+  export-list hash: 47278f293e655fb50035edb472ed24b4
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 5e6e116e79fd7c2679f3688e577f5394
   sig of: Nothing
@@ -1617,14 +1617,14 @@ exports:
   Control.Monad.Catch.MonadThrow
   Model.SampleType{Model.SampleType sampleTypeDescription}
   Model.SampleTypeId
-  Model.Samples{Model.Samples samplesAnalisysId samplesResultTime samplesSampleType}
+  Model.Samples{Model.Samples samplesGravimetricIsolubleResidue samplesInsolubleResiduePresence samplesSampleTypeId samplesSayboltUserId samplesSource samplesTime samplesUmidity samplesVessel}
   Model.SamplesId
-  Model.SugarAnalisysResults{Model.SugarAnalisysResults sugarAnalisysResultsDateTime sugarAnalisysResultsGravimetricInsolubleResidue sugarAnalisysResultsSamplesId}
-  Model.SugarAnalisysResultsId
-  Model.User{Model.User userEmail userName userPassword userUserType}
-  Model.UserId
-  Model.UserType{Model.UserType userTypeUserTypeAccessLevel userTypeUserTypeDescription}
+  Model.SayboltUser{Model.SayboltUser sayboltUserEmail sayboltUserName sayboltUserPassword sayboltUserUserTypeId}
+  Model.SayboltUserId
+  Model.UserType{Model.UserType userTypeUserTypeDescription}
   Model.UserTypeId
+  Model.VliUser{Model.VliUser vliUserEmail vliUserName vliUserPassword vliUserUserTypeId}
+  Model.VliUserId
   Settings.AppSettings{Settings.AppSettings appAnalytics appAuthDummyLogin appCopyright appDatabaseConf appDetailedRequestLogging appHost appIpFromHeader appMutableStatic appPort appReloadTemplates appRoot appShouldLogAll appSkipCombining appStaticDir}
   GHC.Classes.Eq{GHC.Classes./= GHC.Classes.==}
   GHC.Classes.Ord{GHC.Classes.< GHC.Classes.<= GHC.Classes.> GHC.Classes.>= GHC.Classes.compare GHC.Classes.max GHC.Classes.min}
@@ -1731,9 +1731,9 @@ exports:
   Database.Persist.Class.PersistEntity.BackendSpecificFilter
   Database.Persist.Class.PersistEntity.BackendSpecificUpdate
   Database.Persist.Class.PersistEntity.Entity{Database.Persist.Class.PersistEntity.Entity entityKey entityVal}
-  Database.Persist.Class.PersistEntity.EntityField|{Model.SampleTypeDescription Model.SampleTypeId Model.SamplesAnalisysId Model.SamplesId Model.SamplesResultTime Model.SamplesSampleType Model.SugarAnalisysResultsDateTime Model.SugarAnalisysResultsGravimetricInsolubleResidue Model.SugarAnalisysResultsId Model.SugarAnalisysResultsSamplesId Model.UserEmail Model.UserId Model.UserName Model.UserPassword Model.UserTypeId Model.UserTypeUserTypeAccessLevel Model.UserTypeUserTypeDescription Model.UserUserType}
+  Database.Persist.Class.PersistEntity.EntityField|{Model.SampleTypeDescription Model.SampleTypeId Model.SamplesGravimetricIsolubleResidue Model.SamplesId Model.SamplesInsolubleResiduePresence Model.SamplesSampleTypeId Model.SamplesSayboltUserId Model.SamplesSource Model.SamplesTime Model.SamplesUmidity Model.SamplesVessel Model.SayboltUserEmail Model.SayboltUserId Model.SayboltUserName Model.SayboltUserPassword Model.SayboltUserUserTypeId Model.UserTypeId Model.UserTypeUserTypeDescription Model.VliUserEmail Model.VliUserId Model.VliUserName Model.VliUserPassword Model.VliUserUserTypeId}
   Database.Persist.Class.PersistEntity.Filter{Database.Persist.Class.PersistEntity.BackendFilter Database.Persist.Class.PersistEntity.Filter Database.Persist.Class.PersistEntity.FilterAnd Database.Persist.Class.PersistEntity.FilterOr filterField filterFilter filterValue}
-  Database.Persist.Class.PersistEntity.Key|{Model.SampleTypeKey Model.SamplesKey Model.SugarAnalisysResultsKey Model.UserKey Model.UserTypeKey unSampleTypeKey unSamplesKey unSugarAnalisysResultsKey unUserKey unUserTypeKey}
+  Database.Persist.Class.PersistEntity.Key|{Model.SampleTypeKey Model.SamplesKey Model.SayboltUserKey Model.UserTypeKey Model.VliUserKey unSampleTypeKey unSamplesKey unSayboltUserKey unUserTypeKey unVliUserKey}
   Database.Persist.Class.PersistEntity.PersistEntity{Database.Persist.Class.PersistEntity.EntityField Database.Persist.Class.PersistEntity.Key Database.Persist.Class.PersistEntity.PersistEntityBackend Database.Persist.Class.PersistEntity.Unique Database.Persist.Class.PersistEntity.entityDef Database.Persist.Class.PersistEntity.fieldLens Database.Persist.Class.PersistEntity.fromPersistValues Database.Persist.Class.PersistEntity.keyFromValues Database.Persist.Class.PersistEntity.keyToValues Database.Persist.Class.PersistEntity.persistFieldDef Database.Persist.Class.PersistEntity.persistIdField Database.Persist.Class.PersistEntity.persistUniqueKeys Database.Persist.Class.PersistEntity.persistUniqueToFieldNames Database.Persist.Class.PersistEntity.persistUniqueToValues Database.Persist.Class.PersistEntity.toPersistFields}
   Database.Persist.Class.PersistEntity.SelectOpt{Database.Persist.Class.PersistEntity.Asc Database.Persist.Class.PersistEntity.Desc Database.Persist.Class.PersistEntity.LimitTo Database.Persist.Class.PersistEntity.OffsetBy}
   Database.Persist.Class.PersistEntity.Unique|{Model.UniqueEmail}
@@ -2294,66 +2294,76 @@ import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Sequence 47585f299e23ea17
 import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base 192db525847d66243089501d3ee84714
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 9c68cbd95caee85701a573292e4f13b7
 import  -/  dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList df34fc1f01d8ed1d84ac8ec6f5cefa47
-import  -/  Model dd4013f537a896231161434636da12e9
-  exports: ae406b99b8bcdf02763a4aa820b0a2a3
-  SampleType 4d9028315959e305f39a33e8afacbea0
-  SampleType 68b593e7dd054d474113b4771aaed50d
-  SampleTypeDescription 3ee728488a10fffd257018b7014eadc9
-  SampleTypeId b630815c9ee02da99e19db2464be1f63
-  SampleTypeId 27abcffb38ea4e3497e8ee0a052c894a
-  SampleTypeKey 137d3070ead5d4c05a306828c1b0b915
-  Samples 423acc733a098ca087058ee28045991d
-  Samples c8ea4d27e03d9ab80bfc0e44c6d55892
-  SamplesAnalisysId d913ec716fa628c419997bd50a028670
-  SamplesId daae1ed08a0f46ce42b20d3ba89da259
-  SamplesId 7b98a318fd56e2f0648327c5c38b7202
-  SamplesKey 47cafd97202de944f78585243b29f777
-  SamplesResultTime 6b52f30a495b8102ee6365efd83eaa28
-  SamplesSampleType 20918e3e51bef55c6cdcff7fc0dc4854
-  SugarAnalisysResults 3b3ed9d925e05eaeac27e048aa8be169
-  SugarAnalisysResults 8e8e08af8fdf6bf967ac78e76434c3dc
-  SugarAnalisysResultsDateTime e716e81c4ba5e39dca83049de69d0274
-  SugarAnalisysResultsGravimetricInsolubleResidue c0ba9fb89f664058f9f6038bf7f16014
-  SugarAnalisysResultsId fbb01c555aa20359e8e0050f3e6dbd74
-  SugarAnalisysResultsId 2957af7c860854ce0a2469aaf1fda26c
-  SugarAnalisysResultsKey 3d344947720384990d12ac0330b41967
-  SugarAnalisysResultsSamplesId c87a28fb2cedb4af0e03349ce5f19d4b
-  UniqueEmail 44460bfefd02fe7da93b9e63ca956cb2
-  User dbab8488348cfc04cc956d79355b6463
-  User 5188768cc1608d8445d7f04de5e5379d
-  UserEmail 1165f9cb184e2f09eab339695b97bd28
-  UserId d03592cefe7cec9dd5de0b3dc5f212e3
-  UserId 2b7ac21f422eab3d8a14ea731851a3f8
-  UserKey a822e562ccf75784d62c297189657cf4
-  UserName b5ea46e93070f368a9ee09d6cac3be60
-  UserPassword 4cdc7a769e2ccec5ed39683eb41a6b0e
-  UserType 38626c92bfe5f2d427da3aac3926d268
-  UserType dd2ead2326104bee5799e5b1dc7fc515
-  UserTypeId dd353f0a01317123a095f22979c13a71
-  UserTypeId dfa85f5afff2992521193426c4ae171f
-  UserTypeKey 9619e9e38e49c3b10e972694d6d9e430
-  UserTypeUserTypeAccessLevel 615446194e7b73e075151912e8436929
-  UserTypeUserTypeDescription f4cc0de816b63c0183bae55e10699c79
-  UserUserType c6cf6cb16b5518b3972d8e99e4b90b94
+import  -/  Model 5df0e1a265cd745c3b252e089aa02f63
+  exports: 83c7292aa13564daa07c5e450ed3bdbf
+  SampleType ae69f9b834d0dccbc32dae3f8689d986
+  SampleType f355708de561efea067e4c6edeb434d7
+  SampleTypeDescription 4aee52e0ea9a1554b8c34c3eba366e70
+  SampleTypeId b22f4c79dc0c3b5abbeb8b227a646340
+  SampleTypeId adf4a1a7c12b09539ee6d14a47254e1a
+  SampleTypeKey d0a0ac838d032a5a8816708ca635d4ab
+  Samples 418fe658f133cf6ad4df56f76fbd4732
+  Samples 4f742b3d52a8b9461180c1ea11e45c22
+  SamplesGravimetricIsolubleResidue e2e96473ced145ca7a20b6ed063319d9
+  SamplesId 20757fdfbce33824ab8cfc6116b4d6e7
+  SamplesId e1e783d22b4addea67684ff61e6f7ab9
+  SamplesInsolubleResiduePresence a610cd2ce2254982ea05f95810c198d9
+  SamplesKey 8669c51330ee0bb6c9159ceffd47dbad
+  SamplesSampleTypeId a9fa703b72c3a1f692360f0e77f59ac7
+  SamplesSayboltUserId e35e4f96d38ccfd222c9fa78bd13554f
+  SamplesSource 7562b5d2bbca2d4fc0b17ea7bbd1abf9
+  SamplesTime fdfa6dfc2b11b0ce259b1f8116b772aa
+  SamplesUmidity 3810421f3216507e0f4c62d422ced041
+  SamplesVessel 8b415a6257f332d8a99a99507cdae68f
+  SayboltUser 78a76d366bec37aebfc2762f7e16efc8
+  SayboltUser 2d89b76acc00aea16b08b24977fe4a5d
+  SayboltUserEmail ded968cb0403aa4400601b336a367458
+  SayboltUserId cc0f8c52b384bbaeac0f413ff43daafc
+  SayboltUserId 4acbe9e39799a2fae97c7f735a980b2a
+  SayboltUserKey 0633e590471a16b1b08bbf0321b7824e
+  SayboltUserName 077474b266199244f2eb62e59029560a
+  SayboltUserPassword f2e82e9606e7b55ddf66736efc093546
+  SayboltUserUserTypeId 1684a5fb31718e10a0ccf30332456a53
+  UniqueEmail 99b605f2c3f72fa522f9015e3561d699
+  UserType 886054f34f388e89d31d57e6b93c9e27
+  UserType 794972567560c755c3d8fbb498c97784
+  UserTypeId 711aff78d4d218c1bf6147756fdfc3db
+  UserTypeId ad5590aeb8813fe60a8abeff9dad5ba0
+  UserTypeKey 05ad80dc763b789a3fb0fa9c50a5401c
+  UserTypeUserTypeDescription 8a540d5fbd0a19ba4ac0c5384d670966
+  VliUser 01035a2887b18d7f3bccc4fae0cfaeef
+  VliUser 2e49db5311d86d999a023996a22fb29f
+  VliUserEmail 9d5103c7cd13231ac5984c7453510cdf
+  VliUserId 928c0281c49341e99234c6e47491106e
+  VliUserId 131871edfcaab25b153876f5d0553baa
+  VliUserKey bfa41bb40d86b44f8b421c175ee964c3
+  VliUserName f2b1b834fae20c23c9c591503f0afbca
+  VliUserPassword 81e625b2dd5f69321dd83ad2e9adbccd
+  VliUserUserTypeId 5489c667f315eb1dc57287bf99e01abf
   migrateAll 74d7f2a4eb3d9bc6fea280b9a90bb7f9
-  sampleTypeDescription 86831b82c3f1abab89933957627f863a
-  samplesAnalisysId 3d666d603b524a9052b68b59a67f4a3d
-  samplesResultTime dda2b52999fcaf4990a56c7115adeec5
-  samplesSampleType 4e2c14253add606af34828d8e8e37645
-  sugarAnalisysResultsDateTime 8263d0fd420116d889d92ee29c34181e
-  sugarAnalisysResultsGravimetricInsolubleResidue afedd6b6f4f8091e0358e766f824a6b6
-  sugarAnalisysResultsSamplesId f37bcc7397771e5beee1f986336c0c03
-  unSampleTypeKey 68b593e7dd054d474113b4771aaed50d
-  unSamplesKey c8ea4d27e03d9ab80bfc0e44c6d55892
-  unSugarAnalisysResultsKey 8e8e08af8fdf6bf967ac78e76434c3dc
-  unUserKey 5188768cc1608d8445d7f04de5e5379d
-  unUserTypeKey dd2ead2326104bee5799e5b1dc7fc515
-  userEmail fe381620c8871b358137fbddcd1cf5e0
-  userName 79e78b5fa6c7921731789c964f651e1c
-  userPassword 62a6181c277eda300984dba72aea59a5
-  userTypeUserTypeAccessLevel 8d1dd1ca01e5c12078cc4f674482321d
-  userTypeUserTypeDescription f8cf0b6a7f89e638650ebdebad72835e
-  userUserType 59a586ecee2292ecee5f1c1d5fb896b5
+  sampleTypeDescription 91b45422e61b3c256c38c5fd8f7e6567
+  samplesGravimetricIsolubleResidue 34d09c6c26c1d7173505da7d95e38994
+  samplesInsolubleResiduePresence 655210fec8619f56b6126846386a9856
+  samplesSampleTypeId eb2fc35479dcb3e28be984e2181ec9d7
+  samplesSayboltUserId 23ff66d5c5035723c0d8ae41705b7078
+  samplesSource b61922628c6967a299ec686558c16f43
+  samplesTime 8e517dd0189d894f27f496d17282f250
+  samplesUmidity 5401a7811a57f1f9e40234941664935d
+  samplesVessel 9ecab8c11ffd2a0ae1b8bc8f9527ff5f
+  sayboltUserEmail fd61c76a92ae2303639d764ed96f9a10
+  sayboltUserName 557644914e1afe4a50cb08609308507f
+  sayboltUserPassword 35e9084868a9643226cee32f510bbba1
+  sayboltUserUserTypeId a8da973d687603c819b705d480cf55c0
+  unSampleTypeKey f355708de561efea067e4c6edeb434d7
+  unSamplesKey 4f742b3d52a8b9461180c1ea11e45c22
+  unSayboltUserKey 2d89b76acc00aea16b08b24977fe4a5d
+  unUserTypeKey 794972567560c755c3d8fbb498c97784
+  unVliUserKey 2e49db5311d86d999a023996a22fb29f
+  userTypeUserTypeDescription b11956b709ff364b6e2c0481150a07a2
+  vliUserEmail 349c1bf4d05a7bbfb1d42522611c7ebf
+  vliUserName 411009b80748767c74e6bd769d2e54c9
+  vliUserPassword 99b62a5724bf2c477b5d474590e0e6ab
+  vliUserUserTypeId c501510d579bb3bb6bfbe143863d4155
 import  -/  Settings d9b470713d0a04a88f484dae1b4d16ef
   exports: 4bbacc3b90ab847f5d137abd60ce2b79
   AppSettings 5793a91bac406ab41daa5f8eb461f7d1

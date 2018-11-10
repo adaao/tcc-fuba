@@ -40,11 +40,10 @@ import System.Log.FastLogger                (defaultBufSize, newStdoutLoggerSet,
 import Handler.Common
 import Handler.Home
 import Handler.SampleType
-import Handler.User
 import Handler.UserType
-import Handler.Login
+import Handler.SayboltLogin
+import Handler.VliLogin
 import Handler.Samples
-import Handler.SugarAnalisysResults
 import Handler.Saybolt
 import Handler.Vli
 
