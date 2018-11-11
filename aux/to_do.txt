@@ -1,0 +1,5 @@
+# S para feito, N para não feito...
+
+visitar http://yannesposito.com/Scratch/en/blog/Yesod-tutorial-for-newbies/
+
+visitar e ver como funciona -> https://www.fpcomplete.com/

@@ -19,13 +19,11 @@ getSayboltLoginR :: Handler Html
 getSayboltLoginR = do 
     (widget,enctype) <- generateFormPost formLogin
     mensa <- getMessage
-    defaultLayout 
+    defaultLayout $ do
         [whamlet|
             $maybe msg <- mensa
                 ^{msg}
-            <form action=@{SayboltLoginR} method=post>
-                ^{widget}
-                <input type="submit" value="Login">
+            ^{widget}
         |]
 
 autentica :: Text -> Text -> HandlerT App IO (Maybe (Entity SayboltUser))

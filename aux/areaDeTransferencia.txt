@@ -1,0 +1,7 @@
+
+SampleTypes json
+   description Text
+   deriving Show
+   
+   
+importar modulos no Application.hs
