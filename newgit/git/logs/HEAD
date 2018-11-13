@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 b4f8333949f823c56f792b34029a6aeb9d45f088 user <user@98435fffbea9.(none)> 1539113609 +0000	clone: from https://github.com/adaao/tcc-fuba.git
+b4f8333949f823c56f792b34029a6aeb9d45f088 984c961c40c6e1af2ff2e1ceae0cc971df3df133 adaao <armascarelli@gmail.com> 1539279276 +0000	commit: pequenas atualizações em andamento
+984c961c40c6e1af2ff2e1ceae0cc971df3df133 3ec2abeb8ff9957ba3a0c13f12c83d74c9114ba4 adaao <armascarelli@gmail.com> 1539282388 +0000	pull: Fast-forward
+3ec2abeb8ff9957ba3a0c13f12c83d74c9114ba4 3a4837c398d6f37913d76b3ab979412e54cd1071 adaao <armascarelli@gmail.com> 1539326600 +0000	commit: foo
+3a4837c398d6f37913d76b3ab979412e54cd1071 3a4837c398d6f37913d76b3ab979412e54cd1071 adaao <armascarelli@gmail.com> 1539326683 +0000	checkout: moving from master to embarque
+3a4837c398d6f37913d76b3ab979412e54cd1071 0a22bb05a377bbabdc75b38cce4b9d07042eb143 adaao <armascarelli@gmail.com> 1539327919 +0000	commit: reestruturacao do BD
+0a22bb05a377bbabdc75b38cce4b9d07042eb143 8517f90374024f91a8b14e55bd02b026f511dd1a adaao <armascarelli@gmail.com> 1539443358 +0000	commit: BD
+8517f90374024f91a8b14e55bd02b026f511dd1a 49a1bb50e82a1c505ba23fbcf9ee65847a7fb630 adaao <armascarelli@gmail.com> 1539667143 +0000	commit: narf
+49a1bb50e82a1c505ba23fbcf9ee65847a7fb630 82299342253cbad9701992befc742262ddf3fca5 adaao <armascarelli@gmail.com> 1539668185 +0000	commit: zort
+82299342253cbad9701992befc742262ddf3fca5 371718cb603305b09a882d599c003a443728b110 adaao <armascarelli@gmail.com> 1539730198 +0000	commit: point
+371718cb603305b09a882d599c003a443728b110 e238687a67d38ad651e135d8b10524092993e898 adaao <armascarelli@gmail.com> 1540135072 +0000	commit: fata o front end agora
+e238687a67d38ad651e135d8b10524092993e898 a6f9065c673673f0c8bebb3094f51939a4fdf56a adaao <armascarelli@gmail.com> 1540135582 +0000	commit: .ignore
+a6f9065c673673f0c8bebb3094f51939a4fdf56a 644b3de962f2b5db3d5ad439132aaca2f98f1805 adaao <armascarelli@gmail.com> 1540144978 +0000	commit: limpeza no Application.hs
+644b3de962f2b5db3d5ad439132aaca2f98f1805 a3da01e192497331a6ba4adf392c68709a3ebc05 adaao <armascarelli@gmail.com> 1540145332 +0000	commit: gitignore
+a3da01e192497331a6ba4adf392c68709a3ebc05 d68fd1bc6c0783b9f76d3a00f408be4f4485a31d adaao <armascarelli@gmail.com> 1541219375 +0000	commit: routing - narf
+d68fd1bc6c0783b9f76d3a00f408be4f4485a31d 29eb6d1257e4df564cd57fdd393e5f10d7932a32 adaao <armascarelli@gmail.com> 1541381362 +0000	commit: routing zort
+29eb6d1257e4df564cd57fdd393e5f10d7932a32 4580e002b8bf958f19f3cb7decfb143a9869e145 adaao <armascarelli@gmail.com> 1541804105 +0000	commit: modificando home
+4580e002b8bf958f19f3cb7decfb143a9869e145 786f72b2b2f99b0d2234c2bbea7f12c6cfdab231 adaao <armascarelli@gmail.com> 1541804312 +0000	pull: Fast-forward
+786f72b2b2f99b0d2234c2bbea7f12c6cfdab231 e2067fa379d8a332f82d6c03d15b9724bf025bfe adaao <armascarelli@gmail.com> 1541804435 +0000	commit: mer, realocacao
+e2067fa379d8a332f82d6c03d15b9724bf025bfe 934d96eda063a0b955cfc003d9b4186ccc6714c8 adaao <armascarelli@gmail.com> 1541810263 +0000	commit: mudaca no modelo relacional
+934d96eda063a0b955cfc003d9b4186ccc6714c8 09a67dabcfa0145375a6896908d980b87a1b91ce adaao <armascarelli@gmail.com> 1541810502 +0000	commit: mudaca no routes
+09a67dabcfa0145375a6896908d980b87a1b91ce a21af0c18e8fe2522a6ae58185cd59101de05fc5 adaao <armascarelli@gmail.com> 1541867939 +0000	commit: divisao dos logins
+a21af0c18e8fe2522a6ae58185cd59101de05fc5 b161e9e2a66db529b3193731261c31f6c063ba8e adaao <armascarelli@gmail.com> 1541966070 +0000	commit: aux
