@@ -12,7 +12,7 @@ import Database.Persist.Postgresql
 
 
 formLogin :: Form (Text,Text)
-formLogin = renderDivs $ (,)
+formLogin = renderBootstrap2 $ (,)
     <$> areq emailField "Email: " Nothing
     <*> areq passwordField "Senha: " Nothing
 

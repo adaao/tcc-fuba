@@ -10,42 +10,38 @@ module Handler.VliLogin where
 import Import
 import Database.Persist.Postgresql
 
-formLogin :: Form (Text,Text) 
-formLogin = renderDivs $ (,) 
+formLogin :: Form (Text,Text)
+formLogin = renderBootstrap2 $ (,)
     <$> areq emailField "Email: " Nothing
     <*> areq passwordField "Senha: " Nothing
- 
-getVliLoginR :: Handler Html
-getVliLoginR = do 
-    (widget,enctype) <- generateFormPost formLogin
-    mensa <- getMessage
-    defaultLayout $ do 
-        [whamlet|
-            $maybe msg <- mensa
-                ^{msg}
-            <form action=@{VliLoginR} method=post>
-                ^{widget}
-                <input type="submit" value="Login">
-        |]
 
+getVliLoginR :: Handler Html
+getVliLoginR = do
+  (formLog, enctype) <- generateFormPost formLogin
+  defaultLayout
+     [whamlet|
+        <form method="post" action=@{VliLoginR} enctype=#{enctype}>
+           ^{formLog}
+           <input type="submit" value="Logar">
+     |]
 autentica :: Text -> Text -> HandlerT App IO (Maybe (Entity VliUser))
 autentica email password = runDB $ selectFirst [VliUserEmail ==. email
                                                ,VliUserPassword ==. password] []
-                                               
+
 postVliLoginR :: Handler Html
-postVliLoginR = do 
+postVliLoginR = do
     ((result,_),_) <- runFormPost formLogin
     case result of
-        FormSuccess (email,password) -> do 
+        FormSuccess (email,password) -> do
             maybeUser <- autentica email password
-            case maybeUser of 
-                Nothing -> do 
+            case maybeUser of
+                Nothing -> do
                     setMessage [shamlet|
-                        <div> 
+                        <div>
                             Usuario nao encontrado/Senha invalida!
                     |]
-                    redirect SayboltLoginR
-                Just (Entity _ usr) -> do 
+                    redirect VliLoginR
+                Just (Entity _ usr) -> do
                     setSession (vliUserName usr)  "_NAME"
                     redirect $ VliHomeR
         _ -> redirect HomeR
@@ -54,31 +50,31 @@ postVliLoginR = do
 -- backup of postLoginnR
 {-
 postLoginnR :: Handler Html
-postLoginnR = do 
+postLoginnR = do
     ((result,_),_) <- runFormPost formLogin
     case result of
-        FormSuccess ("root@root.com","root") -> do 
+        FormSuccess ("root@root.com","root") -> do
             setSession "_NOME" "admin"
-            redirect 
-        FormSuccess (email,senha) -> do 
+            redirect
+        FormSuccess (email,senha) -> do
             maybeUser <- autentica email password
-            case maybeUser of 
-                Nothing -> do 
+            case maybeUser of
+                Nothing -> do
                     setMessage [shamlet|
-                        <div> 
+                        <div>
                             Usuario nao encontrado/Senha invalida!
                     |]
                     redirect LoginnR
-                Just (Entity _ usr) -> do 
+                Just (Entity _ usr) -> do
                     setSession "_NOME" (userName usr)
                     redirect HomeR
-            redirect 
+            redirect
         _ -> redirect HomeR
 
 -}
 
 postLogoutR :: Handler Html
-postLogoutR = do 
+postLogoutR = do
     deleteSession "_NAME"
     redirect HomeR
 

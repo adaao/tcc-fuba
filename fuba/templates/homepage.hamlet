@@ -9,4 +9,6 @@ $doctype 5
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
     <body>
-        
+        <li>
+          <a href=@{SayboltLoginR}>Saybolt
+          <a href=@{VliLoginR}>Vli
