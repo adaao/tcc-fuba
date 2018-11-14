@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-14 02:41:57.107164 UTC
+2018-11-14 04:01:45.726943 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import 8002
-  interface hash: 57af11b630db97a02629d4dd63e0ff89
-  ABI hash: 4b31efa953c68c12e313184bf2ba67ec
-  export-list hash: 21235648af5b0c80e74a7e939de72d2e
+  interface hash: 778581c7cdf3ef1e6040a7b5d1e31b2f
+  ABI hash: b87210a9eca10e4a476c827c9fe385ad
+  export-list hash: f55b98253d2ed7c9979a2d39b5ae8a01
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: ab396f11155bd696ab63895436e6f1df
   sig of: Nothing
@@ -1885,7 +1885,7 @@ exports:
   Yesod.Core.Widget.ToWidgetMedia{Yesod.Core.Widget.toWidgetMedia}
   Yesod.Routes.Class.ParseRoute{Yesod.Routes.Class.parseRoute}
   Yesod.Routes.Class.RenderRoute{Yesod.Routes.Class.Route Yesod.Routes.Class.renderRoute}
-  Yesod.Routes.Class.Route|{Foundation.FaviconR Foundation.HomeR Foundation.InsertSampleTypeR Foundation.ReadSampleTypeR Foundation.RobotsR Foundation.SayboltHomeR Foundation.SayboltLoginR Foundation.StaticR Foundation.VliHomeR Foundation.VliLoginR Yesod.Auth.Routes.CheckR Yesod.Auth.Routes.LoginR Yesod.Auth.Routes.LogoutR Yesod.Auth.Routes.PluginR Yesod.Core.Internal.LiteApp.LiteAppRoute Yesod.Core.Types.WaiSubsiteRoute Yesod.Core.Types.WaiSubsiteWithAuthRoute Yesod.Static.StaticRoute}
+  Yesod.Routes.Class.Route|{Foundation.FaviconR Foundation.HomeR Foundation.InsertSampleTypeR Foundation.LogautR Foundation.ReadSampleTypeR Foundation.RobotsR Foundation.SayboltHomeR Foundation.SayboltLoginR Foundation.StaticR Foundation.VliHomeR Foundation.VliLoginR Yesod.Auth.Routes.CheckR Yesod.Auth.Routes.LoginR Yesod.Auth.Routes.LogoutR Yesod.Auth.Routes.PluginR Yesod.Core.Internal.LiteApp.LiteAppRoute Yesod.Core.Types.WaiSubsiteRoute Yesod.Core.Types.WaiSubsiteWithAuthRoute Yesod.Static.StaticRoute}
   Yesod.Routes.Class.RouteAttrs{Yesod.Routes.Class.routeAttrs}
   Yesod.Form.Fields.AutoFocus
   Yesod.Form.Fields.Option{Yesod.Form.Fields.Option optionDisplay optionExternalValue optionInternalValue}
@@ -2309,29 +2309,30 @@ import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base 192db525847d6624
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 9c68cbd95caee85701a573292e4f13b7
 import  -/  dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList df34fc1f01d8ed1d84ac8ec6f5cefa47
 import  -/  exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U:Control.Monad.Catch b7c0706f1693a3a340b0c0acefd4e19d
-import  -/  Foundation 2062258427b0bb0e272afcbde30fb2f1
-  exports: 5f2ce4fae8d86c81a5726d817556c07a
-  App 1bc28c7a97ca3f6b040cd0c0c1a0251f
-  App 4e92e9d9b38fb57bb7159258985449e4
-  FaviconR 49e3e4907f197f230a33731c2737f805
-  Form ae3c5057839976df51bdb71089e43ea6
-  Handler ae5481fd802aa9a73dba3ec915d9bfc8
-  HomeR 8d929041d8d18420ab4d59dcf81bb6b0
-  InsertSampleTypeR 80325862e972513b29cf7deb573b7801
-  ReadSampleTypeR 5c6fa5098517b6bc3f5374d2fde9def7
-  RobotsR d1f18137d4bc055a541d1c2e0e3caf21
-  SayboltHomeR 640794b19e9e5f846b45c0cb9ca96397
-  SayboltLoginR b5d10ec0fa4743e0df6db45bb50dee95
-  StaticR ceb6daa5ebed75af977077390f6ea4b2
-  VliHomeR eee13ba4c7595b11dd18c1df5a086022
-  VliLoginR 9f673a63262320979beece26ba6170df
-  Widget 10951ae871bb44dfe53c44d058f51f93
-  appConnPool 17a18f241352c921981ef8222b08f053
-  appHttpManager 4e92e9d9b38fb57bb7159258985449e4
-  appLogger 06a91449783343dfc71ff7e93380fcc1
-  appSettings 6058661b22724df66023cdbb2cb33581
-  appStatic 4023e32934b722057a5245ee5514b7bb
-  resourcesApp 954aa2bbe27b69257fc558e97cdb5d0c
+import  -/  Foundation 2dd15aed4932c359de046f88d43b499c
+  exports: 642f0926009e06e51eaa8504c454f2dd
+  App 23e0702a11b2a658aa7cffdb18623d8c
+  App 6bd583498ebde31702dd5e85fb6d36ce
+  FaviconR 0ac38fa33ca6eea826a91830ef384a68
+  Form e51d78c9c33b7e13d71d7c60a06aaf55
+  Handler 5303af5159ba4bd7edba677367b727d8
+  HomeR f39a521bb31bc692932d58fd6a053f54
+  InsertSampleTypeR 19626920eebad8a8917c83c55a44e7a8
+  LogautR 6305ce1a55b0bfcad0fddfa506c3eaa3
+  ReadSampleTypeR ac4691717905f5181fad195ed5f48bdd
+  RobotsR 005666c1974d07f5a9dd77dd921870c2
+  SayboltHomeR 78a08dc927190d6c9af8d64cb028448d
+  SayboltLoginR 84ccf55d73501b87932423dd2f0c7f61
+  StaticR 33d190b866331a25759ec3a76da4f318
+  VliHomeR 5fd50251caa08152c211bc80c7d4e901
+  VliLoginR 228df0fb4d51874441901e12d48861be
+  Widget 394fb3fb632437a686a40b20deab386f
+  appConnPool a9048f95948ff9117b37ec6c6169d58a
+  appHttpManager 6bd583498ebde31702dd5e85fb6d36ce
+  appLogger c13d7bd20fbb68ace1f4557a81b1558f
+  appSettings 1993f9a6eb8fe382e039581b97140a33
+  appStatic 6ee5c39bf6052ead86d8610739d3904f
+  resourcesApp 154f564e764367ff60e63d50580cfbca
 import  -/  Import.NoFoundation 708afaa16619266f05a41e6e1a63a5a8
   exports: 47278f293e655fb50035edb472ed24b4
 import  -/  Model 5df0e1a265cd745c3b252e089aa02f63

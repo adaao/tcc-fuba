@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-13 21:26:51.983021 UTC
+2018-11-14 04:01:46.613397 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.Samples 8002
-  interface hash: 8e3e740e476f5a62f5b09f7f2735ad8b
+  interface hash: 98fb689f2b6e48a307ccd173f07f7c4e
   ABI hash: dcb79f794ada7ac858896ad59c0c6dc1
   export-list hash: 9a66446d7f3c9b47321fb60f3c1b6111
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -342,8 +342,8 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Types
                          yesod-static-1.5.3.1@yesod-static-1.5.3.1-2G6lCuWl1K7ErbmGT3O91D:Yesod.Static
                          zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
-import  -/  Import 4b31efa953c68c12e313184bf2ba67ec
-  exports: 21235648af5b0c80e74a7e939de72d2e
+import  -/  Import b87210a9eca10e4a476c827c9fe385ad
+  exports: f55b98253d2ed7c9979a2d39b5ae8a01
 import  -/  http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY:Network.HTTP.Types.Status 89141eb12608ef6ae13b4ca925571920
 import  -/  persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8:Database.Persist.Postgresql 7e6648ba2946ddc182502523c59c3a1a
 d60186cf100d48ae00c2389322c863c0

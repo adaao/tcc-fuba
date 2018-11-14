@@ -73,10 +73,5 @@ postLoginnR = do
 
 -}
 
-postLogoutR :: Handler Html
-postLogoutR = do
-    deleteSession "_NAME"
-    redirect HomeR
-
 -- getMessage :: Text
 -- getMessage = "Usuário não encontrado ou senha inválida!"

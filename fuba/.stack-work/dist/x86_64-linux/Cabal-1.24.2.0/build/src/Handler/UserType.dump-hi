@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-14 02:41:59.25505 UTC
+2018-11-14 04:01:47.314422 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.UserType 8002
-  interface hash: 1c01c2e45694d3636d961fc9566b7a8f
-  ABI hash: 0f8e591b3e10a81713dbbc0010cd8f0c
+  interface hash: eafb6f81a528e99da5c3204befbe4f17
+  ABI hash: 1286fc60b8cbadde3f0f394b3347c595
   export-list hash: 143e471d3e5a2738426ac3efda6f9ae8
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 041eba49da12a8669f859283b7eaf026
@@ -347,10 +347,10 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal f040a64200abf1dfa06f5db9b9e027c1
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d8ae0f04da94d706b89336fd9d0bf43b
-import  -/  Foundation 2062258427b0bb0e272afcbde30fb2f1
-  Handler ae5481fd802aa9a73dba3ec915d9bfc8
-import  -/  Import 4b31efa953c68c12e313184bf2ba67ec
-  exports: 21235648af5b0c80e74a7e939de72d2e
+import  -/  Foundation 2dd15aed4932c359de046f88d43b499c
+  Handler 5303af5159ba4bd7edba677367b727d8
+import  -/  Import b87210a9eca10e4a476c827c9fe385ad
+  exports: f55b98253d2ed7c9979a2d39b5ae8a01
 import  -/  Model 5df0e1a265cd745c3b252e089aa02f63
   UserType 794972567560c755c3d8fbb498c97784
   UserTypeId ad5590aeb8813fe60a8abeff9dad5ba0
@@ -376,7 +376,7 @@ f066dfba5f8fc3fed6ab88e1c2a8da2d
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-2ed3a1e5315a57d294d7dba4e8f312a0
+7b0c7ec8b143618b13f8fcf77916954d
   getReadUserTypeR ::
     Model.UserTypeId
     -> Foundation.Handler Data.Aeson.Types.Internal.Value
@@ -393,7 +393,7 @@ f066dfba5f8fc3fed6ab88e1c2a8da2d
                                     <Foundation.App>_N
                                     <GHC.Types.IO>_N
                                     <Data.Aeson.Types.Internal.Value>_N))) -}
-a3c35cf8ee81e3e8554701b2f68c82db
+354ec22239003c7ec3c5478750e1ecdb
   getReadUserTypeR1 ::
     Model.UserTypeId
     -> Yesod.Core.Types.HandlerData
@@ -489,7 +489,7 @@ a3c35cf8ee81e3e8554701b2f68c82db
 ee44f5fc53060678ccea2c088a8ccc78
   getReadUserTypeR2 :: Data.Text.Internal.Text
   {- Unfolding: (Data.Text.Show.unpackCString# "resp"#) -}
-c26c01a0cb49eea5bfe15ae8e9ea35f4
+00c6349ce62b4641afc6718f8e89b69e
   getReadUserTypeR3 ::
     Database.Persist.Class.PersistEntity.Key Model.UserType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -531,7 +531,7 @@ f2d8f41953ea181e32d87f7ab43b8e84
                    @ Database.Persist.Sql.Types.Internal.SqlBackend
                    @ Database.Persist.Sql.Types.Internal.SqlBackend
                    @~ <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
-bccac0acee1aa7cc3b690e0878c907d0
+67004b38269c3967292a355dba9a3354
   postInsertUserTypeR ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -546,7 +546,7 @@ bccac0acee1aa7cc3b690e0878c907d0
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-05f5030360922b49f4bfe5e53b48b6b0
+c02e07451d0c75a74550ab11fa36f678
   postInsertUserTypeR1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -614,7 +614,7 @@ bccac0acee1aa7cc3b690e0878c907d0
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv2 } }) -}
-ab2fb47b049c7c9370dc48b61d32a6ea
+8fc97328e6ff8c6d2eab0b43dc88c8ae
   postInsertUserTypeR2 ::
     Model.UserType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -634,7 +634,7 @@ ab2fb47b049c7c9370dc48b61d32a6ea
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendUserType[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-5c64e9a2c49e93343a9eaaf6ea3b3257
+76f287b796b960bfc3b6265b3e37b9a2
   postInsertUserTypeR3 ::
     Yesod.Core.Types.HandlerT
       Foundation.App GHC.Types.IO Model.UserType
@@ -644,7 +644,7 @@ ab2fb47b049c7c9370dc48b61d32a6ea
                    (Yesod.Auth.defaultMaybeAuthId_$s$fMonadHandlerHandlerT
                       @ Foundation.App)
                    Model.$fFromJSONUserType) -}
-97def676b7461c812c9191c95f406ad6
+dc939d5712bb4c84229f6adbe93b01d7
   putUpdateUserTypeR ::
     Model.UserTypeId
     -> Foundation.Handler Data.Aeson.Types.Internal.Value
@@ -661,7 +661,7 @@ ab2fb47b049c7c9370dc48b61d32a6ea
                                     <Foundation.App>_N
                                     <GHC.Types.IO>_N
                                     <Data.Aeson.Types.Internal.Value>_N))) -}
-eaa6ebf84f57469083eccb609334de9f
+b96d4801ce8cd1d7030d2ef8c1369e83
   putUpdateUserTypeR1 ::
     Model.UserTypeId
     -> Yesod.Core.Types.HandlerData

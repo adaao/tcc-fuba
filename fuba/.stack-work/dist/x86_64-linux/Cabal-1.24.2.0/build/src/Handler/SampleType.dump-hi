@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-14 02:41:58.233344 UTC
+2018-11-14 04:01:46.448273 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.SampleType 8002
-  interface hash: df4aeb1a90f2b9ebf4d05d6d3f524895
-  ABI hash: d02382748bed6cf447286f51a8ab3199
+  interface hash: 0a5934de58e8970b81f3a9b98575c887
+  ABI hash: 6aeeb8e1f7b077eadbfed1311f1e8e71
   export-list hash: 4d68673c0de72bfab046431596f2c3ed
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 041eba49da12a8669f859283b7eaf026
@@ -347,10 +347,10 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal f040a64200abf1dfa06f5db9b9e027c1
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d8ae0f04da94d706b89336fd9d0bf43b
-import  -/  Foundation 2062258427b0bb0e272afcbde30fb2f1
-  Handler ae5481fd802aa9a73dba3ec915d9bfc8
-import  -/  Import 4b31efa953c68c12e313184bf2ba67ec
-  exports: 21235648af5b0c80e74a7e939de72d2e
+import  -/  Foundation 2dd15aed4932c359de046f88d43b499c
+  Handler 5303af5159ba4bd7edba677367b727d8
+import  -/  Import b87210a9eca10e4a476c827c9fe385ad
+  exports: f55b98253d2ed7c9979a2d39b5ae8a01
 import  -/  Model 5df0e1a265cd745c3b252e089aa02f63
   SampleType f355708de561efea067e4c6edeb434d7
   SampleTypeDescription 4aee52e0ea9a1554b8c34c3eba366e70
@@ -379,7 +379,7 @@ c13c9d5a5fb6c483231b688750c5123b
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-90b0f679ddd9ae3196e3af72b9273d0e
+8c1c4825e46f15f69ad38d2b4add9de6
   getListSampleTypes ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -394,7 +394,7 @@ c13c9d5a5fb6c483231b688750c5123b
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-b4b31a524462c547308e45c143eed34c
+98c5d49cdf838337172a6f55eb13e531
   getListSampleTypes1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -510,7 +510,7 @@ b4b31a524462c547308e45c143eed34c
 f648a9e05fefc41ac6ae8d1cfc43511e
   getListSampleTypes2 :: Data.Text.Internal.Text
   {- Unfolding: (Data.Text.Show.unpackCString# "resp"#) -}
-7ec84fa5951bb8cef5aa3e4b5ef655d1
+dcde6925234fcf7ecef408291a2d3b03
   getListSampleTypes3 ::
     Database.Persist.Sql.Types.Internal.SqlBackend
     -> Yesod.Core.Types.HandlerT
@@ -681,7 +681,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                 Data.Aeson.Types.Internal.Value,
               GHC.Types.Int) #)
   {- Arity: 7, Strictness: <S,U><S,1*U><L,U><L,U><L,U><L,U><L,U> -}
-5376cb16db1cb7a6b225fc6c95ca7e8a
+38d62c6e70ec566a6ee9da34a7ff21d0
   getListSampleTypes_m1 ::
     Control.Monad.Trans.Reader.ReaderT
       Database.Persist.Sql.Types.Internal.SqlBackend
@@ -708,7 +708,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                    (GHC.Types.[]
                       @ (Database.Persist.Class.PersistEntity.Filter Model.SampleType))
                    Handler.SampleType.getListSampleTypes4) -}
-1d3cf96271c2398716b6ac244ff4c8f1
+8bcdb02fff2288c6559497b79a57c8f1
   getReadSampleTypeR ::
     Model.SampleTypeId
     -> Foundation.Handler Data.Aeson.Types.Internal.Value
@@ -725,7 +725,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                                     <Foundation.App>_N
                                     <GHC.Types.IO>_N
                                     <Data.Aeson.Types.Internal.Value>_N))) -}
-63673c105e1813f5b4fcb44d8a7d830c
+f73a3532cd7db8a1146b95ab648f2c93
   getReadSampleTypeR1 ::
     Model.SampleTypeId
     -> Yesod.Core.Types.HandlerData
@@ -818,7 +818,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv }) -}
-a9e5524cd8c5248be6b49dabe0289967
+8a0ea03102ff9f3d7422615fb82a8f03
   getReadSampleTypeR2 ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -838,7 +838,7 @@ a9e5524cd8c5248be6b49dabe0289967
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendSampleType[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-c00542c923c7799f5fd0326b4f3b853a
+23430e0bfd5760821c455854c0cb3f75
   postInsertSampleTypeR ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -853,7 +853,7 @@ c00542c923c7799f5fd0326b4f3b853a
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-6329f5e1512949d1142f5c21fa111bf5
+025edf1fd5d5bc86f9b6a97b0aee9ff4
   postInsertSampleTypeR1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -921,7 +921,7 @@ c00542c923c7799f5fd0326b4f3b853a
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv2 } }) -}
-37198ccc9ae11c837d04627c5e70e59a
+c77707c22b3cb4d513b567b876422219
   postInsertSampleTypeR2 ::
     Model.SampleType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -941,7 +941,7 @@ c00542c923c7799f5fd0326b4f3b853a
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendSampleType[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-607a02800639e75894d784d339c44cc3
+5818521c33ad24ecdaa57c26d00478b5
   postInsertSampleTypeR3 ::
     Yesod.Core.Types.HandlerT
       Foundation.App GHC.Types.IO Model.SampleType
