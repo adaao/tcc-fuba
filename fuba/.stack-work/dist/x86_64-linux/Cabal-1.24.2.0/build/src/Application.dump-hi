@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-14 02:44:45.057101 UTC
+2018-11-14 02:59:35.33966 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Application [orphan module] 8002
-  interface hash: 2dfdcd91da9984c525bb42134a2c385c
+  interface hash: ac31f67d388cacea2d294bad05067d4b
   ABI hash: 2b25cea4e878fbaea555fcb5bb808ee4
   export-list hash: 4059febc990c76cd61956f442cc7d29c
   orphan hash: cd843451aff35231e45dca44346d30c3
@@ -383,9 +383,9 @@ import  -/  Handler.Common b6a788effd5c6d3eb1496ec0563a9b17
   exports: f0b7a101d75ce1d630752e99f57442ee
   getFaviconR 0dab9bb81a8825bbfbde3c61050a4d13
   getRobotsR 8791fba136e3034fd28cc6485ce9aec6
-import  -/  Handler.Home 8ed517d2e80499ec44deaa0ecf4ec094
+import  -/  Handler.Home cf30675532cb7b9236d786fd92ec1e2c
   exports: f083329b5c53cf105189c5bde42b9bdc
-  getHomeR 829790751cb08c85f5c43deadce747d6
+  getHomeR e9cb34803c0543381964c8efc18ef4ff
 import  -/  Handler.SampleType d02382748bed6cf447286f51a8ab3199
   exports: 4d68673c0de72bfab046431596f2c3ed
   getReadSampleTypeR 1d3cf96271c2398716b6ac244ff4c8f1

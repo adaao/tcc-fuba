@@ -10,5 +10,7 @@ $doctype 5
 
     <body>
         <li>
-          <a href=@{SayboltLoginR}>Saybolt
-          <a href=@{VliLoginR}>Vli
+          <a href=@{SayboltLoginR}>
+            <button>Saybolt
+          <a href=@{VliLoginR}>
+            <button>Vli

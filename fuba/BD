@@ -1,11 +1,9 @@
-Host       ec2-54-235-247-224.compute-1.amazonaws.com
-Database   d9tn0op76kk2sr
-User       jwillyqrmbixrb
+Host       ec2-54-227-241-179.compute-1.amazonaws.com
+Database   dee7hdpq79hsjl
+User       trpzdaphggozid
 Port       5432
-Password   d76d665a878199870c662897cd3d4cf2ef65a0cd0f18c91a12fbbe3adcec8397
+Password   c98fc1553bb46988975d76a6f1b7430fb4eb17fefaa5d1aabc298ec2393789f4
 URI        postgres://jwillyqrmbixrb:d76d665a878199870c662897cd3d4cf2ef65a0cd0f18c91a12fbbe3adcec8397@ec2-54-235-247-224.compute-1.amazonaws.com:5432/d9tn0op76kk2sr
 Heroku CLI heroku pg:psql postgresql-aerodynamic-17735 --app sistema-fuba
 
-psql -h ec2-54-235-247-224.compute-1.amazonaws.com -U jwillyqrmbixrb -d d9tn0op76kk2sr
-
-
+psql -h ec2-54-227-241-179.compute-1.amazonaws.com -U trpzdaphggozid -d dee7hdpq79hsjl
