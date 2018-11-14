@@ -8,5 +8,5 @@ Preprocessing library yesod-1.4.5...
 [5 of 6] Compiling Yesod.Default.Main ( Yesod/Default/Main.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Yesod/Default/Main.o )
 [6 of 6] Compiling Yesod            ( Yesod.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Yesod.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/yesod-1.4.5-ICTnNF4vRdi2hKo96tAIWQ
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/yesod-1.4.5-ICTnNF4vRdi2hKo96tAIWQ
 Registering yesod-1.4.5...

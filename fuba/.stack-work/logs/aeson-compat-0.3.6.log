@@ -9,5 +9,5 @@ src/Data/Aeson/Compat.hs:117:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Data.Scientific’
     To import instances alone, use: import Data.Scientific()
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/aeson-compat-0.3.6-HFlClSgXxbU7TMoWqS5Yu4
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/aeson-compat-0.3.6-HFlClSgXxbU7TMoWqS5Yu4
 Registering aeson-compat-0.3.6...

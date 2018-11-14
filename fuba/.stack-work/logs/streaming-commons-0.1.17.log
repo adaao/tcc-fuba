@@ -20,5 +20,5 @@ Preprocessing library streaming-commons-0.1.17...
 [17 of 18] Compiling Data.Streaming.ByteString.Builder.Class ( Data/Streaming/ByteString/Builder/Class.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Streaming/ByteString/Builder/Class.o )
 [18 of 18] Compiling Data.Streaming.Blaze ( Data/Streaming/Blaze.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Streaming/Blaze.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/streaming-commons-0.1.17-6xuIA5RXrs65yyeq3HWIWP
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/streaming-commons-0.1.17-6xuIA5RXrs65yyeq3HWIWP
 Registering streaming-commons-0.1.17...

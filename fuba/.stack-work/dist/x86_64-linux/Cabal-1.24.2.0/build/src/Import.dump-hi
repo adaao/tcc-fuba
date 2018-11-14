@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-11 01:20:57.217428 UTC
+2018-11-14 01:29:22.395047 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import 8002
-  interface hash: 57af11b630db97a02629d4dd63e0ff89
+  interface hash: 30a1e9854368f9d9e251d01e0d683ebc
   ABI hash: 4b31efa953c68c12e313184bf2ba67ec
   export-list hash: 21235648af5b0c80e74a7e939de72d2e
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -2309,29 +2309,29 @@ import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base 192db525847d6624
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 9c68cbd95caee85701a573292e4f13b7
 import  -/  dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList df34fc1f01d8ed1d84ac8ec6f5cefa47
 import  -/  exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U:Control.Monad.Catch b7c0706f1693a3a340b0c0acefd4e19d
-import  -/  Foundation 2062258427b0bb0e272afcbde30fb2f1
+import  -/  Foundation c2028780c72bb18b43413a1075a90e7e
   exports: 5f2ce4fae8d86c81a5726d817556c07a
-  App 1bc28c7a97ca3f6b040cd0c0c1a0251f
-  App 4e92e9d9b38fb57bb7159258985449e4
-  FaviconR 49e3e4907f197f230a33731c2737f805
-  Form ae3c5057839976df51bdb71089e43ea6
-  Handler ae5481fd802aa9a73dba3ec915d9bfc8
-  HomeR 8d929041d8d18420ab4d59dcf81bb6b0
-  InsertSampleTypeR 80325862e972513b29cf7deb573b7801
-  ReadSampleTypeR 5c6fa5098517b6bc3f5374d2fde9def7
-  RobotsR d1f18137d4bc055a541d1c2e0e3caf21
-  SayboltHomeR 640794b19e9e5f846b45c0cb9ca96397
-  SayboltLoginR b5d10ec0fa4743e0df6db45bb50dee95
-  StaticR ceb6daa5ebed75af977077390f6ea4b2
-  VliHomeR eee13ba4c7595b11dd18c1df5a086022
-  VliLoginR 9f673a63262320979beece26ba6170df
-  Widget 10951ae871bb44dfe53c44d058f51f93
-  appConnPool 17a18f241352c921981ef8222b08f053
-  appHttpManager 4e92e9d9b38fb57bb7159258985449e4
-  appLogger 06a91449783343dfc71ff7e93380fcc1
-  appSettings 6058661b22724df66023cdbb2cb33581
-  appStatic 4023e32934b722057a5245ee5514b7bb
-  resourcesApp 954aa2bbe27b69257fc558e97cdb5d0c
+  App bcbd0e1b75ce2a8685690d706ac87718
+  App 0c6afae8b30deb0e6d106274597da9ab
+  FaviconR dd9119f5dcc96ce6bc89e12e54e85ea6
+  Form 8e470364a6ad6bf58f3253db2238388b
+  Handler defad28a3ce6c9118e36eaf487ec6b48
+  HomeR a32b0abfc67a60dbcdd675f5720e730e
+  InsertSampleTypeR 5f59a1b523c811ad03d493b147de4f55
+  ReadSampleTypeR 9985630898bec41151e56b4e14fd1009
+  RobotsR 4f8c8cc0eba5ec7a6297f8451da3b5c8
+  SayboltHomeR 29034405575e724cbc202aa320a77165
+  SayboltLoginR 3ff618663662d8a1ece2ebefba77346b
+  StaticR 5ed282beb17a0b3d6ee10ed754b69f19
+  VliHomeR 034932af2c6574fa7b9ad5b4ea2eb603
+  VliLoginR 068755252aae3dd4acf6436c55ab46b8
+  Widget 6de274653bd31d01b3a77e4d3305af35
+  appConnPool e722adbb237dc24fa15dece31249cb69
+  appHttpManager 0c6afae8b30deb0e6d106274597da9ab
+  appLogger 01a544ef37f8561410e6989b26c80917
+  appSettings 129a3652c8216176844255dd5623c5e3
+  appStatic aabbee8fcd6b05de4f9b7f74b86d605a
+  resourcesApp b46265602a017dc8b00c79312104bf7c
 import  -/  Import.NoFoundation 708afaa16619266f05a41e6e1a63a5a8
   exports: 47278f293e655fb50035edb472ed24b4
 import  -/  Model 5df0e1a265cd745c3b252e089aa02f63

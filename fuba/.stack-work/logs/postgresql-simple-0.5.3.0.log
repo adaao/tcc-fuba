@@ -72,5 +72,5 @@ src/Database/PostgreSQL/Simple/Copy.hs:41:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Control.Applicative’
     To import instances alone, use: import Control.Applicative()
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/postgresql-simple-0.5.3.0-7wqiM7f7ESv7wSvmAjfLqt
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/postgresql-simple-0.5.3.0-7wqiM7f7ESv7wSvmAjfLqt
 Registering postgresql-simple-0.5.3.0...

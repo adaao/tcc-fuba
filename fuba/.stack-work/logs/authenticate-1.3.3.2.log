@@ -31,5 +31,5 @@ Web/Authenticate/OpenId.hs:127:22: warning: [-Wdeprecations]
     (imported from Network.HTTP.Conduit, but defined in http-client-0.5.7.1:Network.HTTP.Client.Request):
     Deprecated: "Please use parseUrlThrow, parseRequest, or parseRequest_ instead"
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/authenticate-1.3.3.2-Hg8eTJ6FFYk2TYzjPX7zmZ
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/authenticate-1.3.3.2-Hg8eTJ6FFYk2TYzjPX7zmZ
 Registering authenticate-1.3.3.2...

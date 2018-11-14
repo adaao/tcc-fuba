@@ -23,5 +23,5 @@ src/Data/Profunctor/Composition.hs:49:1: warning: [-Wunused-imports]
 [15 of 16] Compiling Data.Profunctor.Ran ( src/Data/Profunctor/Ran.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Profunctor/Ran.o )
 [16 of 16] Compiling Data.Profunctor.Yoneda ( src/Data/Profunctor/Yoneda.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Profunctor/Yoneda.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
 Registering profunctors-5.2.1...

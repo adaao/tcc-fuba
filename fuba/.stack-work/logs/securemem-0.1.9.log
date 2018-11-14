@@ -13,5 +13,5 @@ Data/SecureMem.hs:35:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Control.Applicative’
     To import instances alone, use: import Control.Applicative()
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/securemem-0.1.9-BHE2rWhMPTNGPoCTf4d0Vf
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/securemem-0.1.9-BHE2rWhMPTNGPoCTf4d0Vf
 Registering securemem-0.1.9...

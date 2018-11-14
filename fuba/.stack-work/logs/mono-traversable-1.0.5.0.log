@@ -8,5 +8,5 @@ Preprocessing library mono-traversable-1.0.5.0...
 [5 of 6] Compiling Data.NonNull     ( src/Data/NonNull.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/NonNull.o )
 [6 of 6] Compiling Data.Containers  ( src/Data/Containers.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Containers.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/mono-traversable-1.0.5.0-L59HPBAJcZbGlMEI5TnTJE
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/mono-traversable-1.0.5.0-L59HPBAJcZbGlMEI5TnTJE
 Registering mono-traversable-1.0.5.0...

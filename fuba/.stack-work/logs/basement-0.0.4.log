@@ -81,5 +81,5 @@ Preprocessing library basement-0.0.4...
 [78 of 79] Compiling Basement.From    ( Basement/From.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Basement/From.o )
 [79 of 79] Compiling Basement.Terminal.ANSI ( Basement/Terminal/ANSI.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Basement/Terminal/ANSI.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ
 Registering basement-0.0.4...

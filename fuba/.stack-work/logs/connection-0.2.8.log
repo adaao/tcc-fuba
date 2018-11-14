@@ -16,5 +16,5 @@ Network/Connection.hs:206:39: warning: [-Wname-shadowing]
     This binding for ‘serv’ shadows the existing binding
       bound at Network/Connection.hs:205:17
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/connection-0.2.8-E7N9IU8NEct2Q9ykPMKz4v
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/connection-0.2.8-E7N9IU8NEct2Q9ykPMKz4v
 Registering connection-0.2.8...

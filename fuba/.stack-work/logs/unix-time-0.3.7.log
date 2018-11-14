@@ -1,6 +1,6 @@
-[1 of 2] Compiling Main             ( /tmp/stack14236/unix-time-0.3.7/Setup.hs, /tmp/stack14236/unix-time-0.3.7/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/Main.o )
-[2 of 2] Compiling StackSetupShim   ( /home/user/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack14236/unix-time-0.3.7/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/StackSetupShim.o )
-Linking /tmp/stack14236/unix-time-0.3.7/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/setup ...
+[1 of 2] Compiling Main             ( /tmp/stack8470/unix-time-0.3.7/Setup.hs, /tmp/stack8470/unix-time-0.3.7/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/adaao/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack8470/unix-time-0.3.7/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /tmp/stack8470/unix-time-0.3.7/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/setup ...
 Configuring unix-time-0.3.7...
 checking for gcc... /usr/bin/gcc
 checking whether the C compiler works... yes
@@ -24,9 +24,9 @@ checking for strings.h... yes
 checking for inttypes.h... yes
 checking for stdint.h... yes
 checking for unistd.h... yes
-checking xlocale.h usability... yes
-checking xlocale.h presence... yes
-checking for xlocale.h... yes
+checking xlocale.h usability... no
+checking xlocale.h presence... no
+checking for xlocale.h... no
 checking for strptime_l... yes
 checking for timegm... yes
 configure: creating ./config.status
@@ -43,6 +43,26 @@ Data/UnixTime/Conv.hs:11:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Control.Applicative’
     To import instances alone, use: import Control.Applicative()
 [5 of 5] Compiling Data.UnixTime    ( Data/UnixTime.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/UnixTime.o )
+
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33:0: error:
+    0,
+                     from /usr/include/string.h:26,
+                     from cbits/conv.c:15:
+
+/usr/include/features.h:184:3: error:
+     warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+     # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+       ^~~~~~~
+
+In file included from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33:0: error:
+    0,
+                     from /usr/include/string.h:26,
+                     from cbits/conv.c:15:
+
+/usr/include/features.h:184:3: error:
+     warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+     # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+       ^~~~~~~
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE
 Registering unix-time-0.3.7...

@@ -18,7 +18,7 @@ Preprocessing executable 'json2yaml' for yaml-0.8.25...
 [1 of 1] Compiling Main             ( exe/json2yaml.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/json2yaml/json2yaml-tmp/Main.o )
 Linking .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/json2yaml/json2yaml ...
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/yaml-0.8.25-GacYlXUBmBU3oj2vWEM2LR
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/yaml-0.8.25-GacYlXUBmBU3oj2vWEM2LR
 Installing executable(s) in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/bin
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/bin
 Registering yaml-0.8.25...

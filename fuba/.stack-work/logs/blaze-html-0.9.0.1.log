@@ -23,5 +23,5 @@ Preprocessing library blaze-html-0.9.0.1...
 [20 of 21] Compiling Text.Blaze.XHtml1.Transitional ( src/Text/Blaze/XHtml1/Transitional.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/Blaze/XHtml1/Transitional.o )
 [21 of 21] Compiling Text.Blaze.XHtml5 ( src/Text/Blaze/XHtml5.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/Blaze/XHtml5.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p
 Registering blaze-html-0.9.0.1...

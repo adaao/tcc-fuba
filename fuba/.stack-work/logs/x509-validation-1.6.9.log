@@ -12,5 +12,5 @@ Data/X509/Validation.hs:34:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Control.Applicative’
     To import instances alone, use: import Control.Applicative()
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/x509-validation-1.6.9-AzuiRCbZGue9t2EWLg6YeG
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/x509-validation-1.6.9-AzuiRCbZGue9t2EWLg6YeG
 Registering x509-validation-1.6.9...

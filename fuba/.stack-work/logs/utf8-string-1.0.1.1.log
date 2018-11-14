@@ -7,5 +7,5 @@ Preprocessing library utf8-string-1.0.1.1...
 [4 of 5] Compiling Data.ByteString.UTF8 ( Data/ByteString/UTF8.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/ByteString/UTF8.o )
 [5 of 5] Compiling Data.String.UTF8 ( Data/String/UTF8.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/String/UTF8.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
 Registering utf8-string-1.0.1.1...

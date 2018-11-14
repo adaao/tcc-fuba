@@ -29,12 +29,12 @@ version :: Version
 version = Version [0,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/bin"
-libdir     = "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"
-dynlibdir  = "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2"
-datadir    = "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/share/x86_64-linux-ghc-8.0.2/fuba-0.0.0"
-libexecdir = "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/libexec"
-sysconfdir = "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/etc"
+bindir     = "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/bin"
+libdir     = "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"
+dynlibdir  = "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2"
+datadir    = "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/share/x86_64-linux-ghc-8.0.2/fuba-0.0.0"
+libexecdir = "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/libexec"
+sysconfdir = "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/etc"
 
 getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "fuba_bindir") (\_ -> return bindir)

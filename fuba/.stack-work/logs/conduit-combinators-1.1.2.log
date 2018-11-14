@@ -17,5 +17,5 @@ src/Data/Conduit/Combinators/Unqualified.hs:621:1: warning: [-Wmissing-signature
                ConduitM (f a) o m (f a)
 [5 of 5] Compiling Conduit          ( src/Conduit.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Conduit.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/conduit-combinators-1.1.2-3EXRwtCALHD30IEtLYtLtq
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/conduit-combinators-1.1.2-3EXRwtCALHD30IEtLYtLtq
 Registering conduit-combinators-1.1.2...

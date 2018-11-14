@@ -82,5 +82,5 @@ Text/Hamlet.hs:563:43: warning: [-Wname-shadowing]
 [17 of 18] Compiling Text.Coffee      ( Text/Coffee.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/Coffee.o )
 [18 of 18] Compiling Text.Cassius     ( Text/Cassius.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/Cassius.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF
 Registering shakespeare-2.0.14.1...

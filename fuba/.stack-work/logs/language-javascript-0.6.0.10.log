@@ -29,5 +29,5 @@ templates/wrappers.hs:220:19: warning: [-Wname-shadowing]
 [11 of 12] Compiling Language.JavaScript.Process.Minify ( src/Language/JavaScript/Process/Minify.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Language/JavaScript/Process/Minify.o )
 [12 of 12] Compiling Language.JavaScript.Parser ( src/Language/JavaScript/Parser.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Language/JavaScript/Parser.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/language-javascript-0.6.0.10-Ezx2Fisyp5jD0cJzGS7dUU
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/language-javascript-0.6.0.10-Ezx2Fisyp5jD0cJzGS7dUU
 Registering language-javascript-0.6.0.10...

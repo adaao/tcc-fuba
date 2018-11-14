@@ -7,5 +7,5 @@ Preprocessing library cprng-aes-0.6.1...
 Crypto/Random/AESCtr.hs:31:1: warning: [-Wunused-imports]
     The import of ‘.&.’ from module ‘Data.Bits’ is redundant
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/cprng-aes-0.6.1-1UtN607VjNh5xMLVxy9Kve
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/cprng-aes-0.6.1-1UtN607VjNh5xMLVxy9Kve
 Registering cprng-aes-0.6.1...

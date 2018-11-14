@@ -9,5 +9,5 @@ Preprocessing library psqueues-0.2.4.0...
 [6 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/HashPSQ.o )
 [7 of 7] Compiling Data.IntPSQ      ( src/Data/IntPSQ.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/IntPSQ.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/psqueues-0.2.4.0-CvAhEbuBRGQCwl61vq8zYS
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/psqueues-0.2.4.0-CvAhEbuBRGQCwl61vq8zYS
 Registering psqueues-0.2.4.0...

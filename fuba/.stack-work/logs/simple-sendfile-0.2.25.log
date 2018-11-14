@@ -16,5 +16,5 @@ Network/Sendfile/Linux.hsc:17:1: warning: [-Wunused-imports]
 [3 of 4] Compiling System.Linux.Sendfile ( System/Linux/Sendfile.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/System/Linux/Sendfile.o )
 [4 of 4] Compiling Network.Sendfile ( Network/Sendfile.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Network/Sendfile.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/simple-sendfile-0.2.25-4uYtK5a0djFILo2ePfLs47
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/simple-sendfile-0.2.25-4uYtK5a0djFILo2ePfLs47
 Registering simple-sendfile-0.2.25...

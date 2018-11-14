@@ -12,5 +12,5 @@ Web/Cookie.hs:249:21: warning: [-Wdeprecations]
     (imported from Data.Time, but defined in time-1.6.0.1:Data.Time.Format.Parse):
     Deprecated: "use "parseTimeM True" instead"
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/cookie-0.4.3-LVlxdgOdUJj73o1VFenWKF
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/cookie-0.4.3-LVlxdgOdUJj73o1VFenWKF
 Registering cookie-0.4.3...

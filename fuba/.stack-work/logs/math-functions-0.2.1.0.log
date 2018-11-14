@@ -20,5 +20,5 @@ Numeric/SpecFunctions/Internal.hs:24:1: warning: [-Wunused-imports]
 [ 9 of 10] Compiling Numeric.SpecFunctions ( Numeric/SpecFunctions.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Numeric/SpecFunctions.o )
 [10 of 10] Compiling Numeric.SpecFunctions.Extra ( Numeric/SpecFunctions/Extra.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Numeric/SpecFunctions/Extra.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/math-functions-0.2.1.0-KPr6PZcLbtiGnQNnW2g0oV
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/math-functions-0.2.1.0-KPr6PZcLbtiGnQNnW2g0oV
 Registering math-functions-0.2.1.0...

@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-11 01:20:44.575803 UTC
+2018-11-13 21:26:32.648974 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Settings 8002
-  interface hash: 9d2fb15b2ea8e239402333d9fcb8ea1c
+  interface hash: 24586b9102380594f185de7c699ad4c2
   ABI hash: d9b470713d0a04a88f484dae1b4d16ef
   export-list hash: 4bbacc3b90ab847f5d137abd60ce2b79
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -372,7 +372,7 @@ import  -/  yesod-1.4.5@yesod-1.4.5-ICTnNF4vRdi2hKo96tAIWQ:Yesod.Default.Config2
 import  -/  yesod-1.4.5@yesod-1.4.5-ICTnNF4vRdi2hKo96tAIWQ:Yesod.Default.Util c0226afb6f98eae3f18fffb694b765e0
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Routes.Class fc13bd739641aa8e978d7faf04060a5b
 import  -/  yesod-static-1.5.3.1@yesod-static-1.5.3.1-2G6lCuWl1K7ErbmGT3O91D:Yesod.Static 84c83bc706b901083f1837be308e26b6
-addDependentFile "/home/user/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h"
+addDependentFile "/home/adaao/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h"
 addDependentFile ".stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/autogen/cabal_macros.h"
 addDependentFile "/usr/include/stdc-predef.h"
 addDependentFile "config/settings.yml"

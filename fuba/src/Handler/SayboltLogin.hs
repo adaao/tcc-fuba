@@ -10,40 +10,40 @@ module Handler.SayboltLogin where
 import Import
 import Database.Persist.Postgresql
 
-formLogin :: Form (Text,Text) 
-formLogin = renderDivs $ (,) 
+
+formLogin :: Form (Text,Text)
+formLogin = renderDivs $ (,)
     <$> areq emailField "Email: " Nothing
     <*> areq passwordField "Senha: " Nothing
- 
+
 getSayboltLoginR :: Handler Html
-getSayboltLoginR = do 
-    (widget,enctype) <- generateFormPost formLogin
-    mensa <- getMessage
-    defaultLayout $ do
-        [whamlet|
-            $maybe msg <- mensa
-                ^{msg}
-            ^{widget}
-        |]
+getSayboltLoginR = do
+   (formLog, enctype) <- generateFormPost formLogin
+   defaultLayout
+      [whamlet|
+         <form method="post" action=@{SayboltLoginR} enctype=#{enctype}>
+            ^{formLog}
+            <input type="submit" value="Logar">
+      |]
 
 autentica :: Text -> Text -> HandlerT App IO (Maybe (Entity SayboltUser))
 autentica email password = runDB $ selectFirst [SayboltUserEmail ==. email
                                                ,SayboltUserPassword ==. password] []
-                                               
+
 postSayboltLoginR :: Handler Html
-postSayboltLoginR = do 
+postSayboltLoginR = do
     ((result,_),_) <- runFormPost formLogin
     case result of
-        FormSuccess (email,password) -> do 
+        FormSuccess (email,password) -> do
             maybeUser <- autentica email password
-            case maybeUser of 
-                Nothing -> do 
+            case maybeUser of
+                Nothing -> do
                     setMessage [shamlet|
-                        <div> 
+                        <div>
                             Usuario nao encontrado/Senha invalida!
                     |]
                     redirect SayboltLoginR
-                Just (Entity _ usr) -> do 
+                Just (Entity _ usr) -> do
                     setSession (sayboltUserName usr) "_NAME"
                     redirect $ SayboltHomeR
         _ -> redirect HomeR
@@ -52,31 +52,31 @@ postSayboltLoginR = do
 -- backup of postLoginnR
 {-
 postLoginnR :: Handler Html
-postLoginnR = do 
+postLoginnR = do
     ((result,_),_) <- runFormPost formLogin
     case result of
-        FormSuccess ("root@root.com","root") -> do 
+        FormSuccess ("root@root.com","root") -> do
             setSession "_NOME" "admin"
-            redirect 
-        FormSuccess (email,senha) -> do 
+            redirect
+        FormSuccess (email,senha) -> do
             maybeUser <- autentica email password
-            case maybeUser of 
-                Nothing -> do 
+            case maybeUser of
+                Nothing -> do
                     setMessage [shamlet|
-                        <div> 
+                        <div>
                             Usuario nao encontrado/Senha invalida!
                     |]
                     redirect LoginnR
-                Just (Entity _ usr) -> do 
+                Just (Entity _ usr) -> do
                     setSession "_NOME" (userName usr)
                     redirect HomeR
-            redirect 
+            redirect
         _ -> redirect HomeR
 
 -}
 
 postLogoutR :: Handler Html
-postLogoutR = do 
+postLogoutR = do
     deleteSession "_NAME"
     redirect HomeR
 

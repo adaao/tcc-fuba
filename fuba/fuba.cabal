@@ -1,13 +1,14 @@
--- This file has been generated from package.yaml by hpack version 0.28.2.
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.0.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: cfe9c79272488950aac57db5a934061ab663f2f2ab5622d004834540c58aff72
+-- hash: e42457f6612f7a32939e750f1a555eaf602039e74e1f9b36c56943681ff42654
 
 name:           fuba
 version:        0.0.0
 build-type:     Simple
-cabal-version:  >= 1.10
 
 flag dev
   description: Turn on development settings, like auto-reload templates.

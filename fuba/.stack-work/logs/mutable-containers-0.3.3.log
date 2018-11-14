@@ -10,5 +10,5 @@ Preprocessing library mutable-containers-0.3.3...
 [7 of 8] Compiling Data.Mutable.BRef ( Data/Mutable/BRef.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Mutable/BRef.o )
 [8 of 8] Compiling Data.Mutable     ( Data/Mutable.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Mutable.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/mutable-containers-0.3.3-JTWtTpDryL0AjYrLdBOMPb
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/mutable-containers-0.3.3-JTWtTpDryL0AjYrLdBOMPb
 Registering mutable-containers-0.3.3...

@@ -48,5 +48,5 @@ src/Control/Monad/Morph.hs:235:30: warning: [-Wdeprecations]
     Deprecated: "Use Control.Monad.Trans.Except instead"
 [2 of 2] Compiling Control.Monad.Trans.Compose ( src/Control/Monad/Trans/Compose.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Control/Monad/Trans/Compose.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
 Registering mmorph-1.0.9...

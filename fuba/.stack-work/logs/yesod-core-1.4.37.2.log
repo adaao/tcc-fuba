@@ -33,5 +33,5 @@ Preprocessing library yesod-core-1.4.37.2...
 [30 of 31] Compiling Yesod.Core.Dispatch ( Yesod/Core/Dispatch.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Yesod/Core/Dispatch.o )
 [31 of 31] Compiling Yesod.Core       ( Yesod/Core.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Yesod/Core.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ
 Registering yesod-core-1.4.37.2...

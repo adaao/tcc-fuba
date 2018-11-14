@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-11 01:20:46.869042 UTC
+2018-11-13 21:26:36.282574 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Paths_fuba 8002
-  interface hash: c48d8ccc5041f413b321a5273fc00f49
-  ABI hash: 9bd7a6a14277c55e934219b0c5d5d3bd
+  interface hash: 6bbe64d8dd760b824d3224af20e30250
+  ABI hash: 8d324158e952bb5c295827f2b1992391
   export-list hash: f2aa82b88f78a869bcecbf9d1df80ef3
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 7d6ecbbe7807ae1be68dd159996443be
@@ -38,7 +38,7 @@ import  -/  base-4.9.1.0:GHC.IO.Exception 5064be4c355632a1d1c4f2322f56ac52
 import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
 import  -/  base-4.9.1.0:System.Environment 08cb808e8e6a7821e6f8cfa76a977431
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
-addDependentFile "/home/user/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h"
+addDependentFile "/home/adaao/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/include/ghcversion.h"
 addDependentFile ".stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/autogen/cabal_macros.h"
 addDependentFile "/usr/include/stdc-predef.h"
 4f4d8bd3ee493748d70fa25eebe7bd5e
@@ -56,26 +56,26 @@ cdb9d2b9ced2c6f9d1aaaee310a85596
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-28adb5b5a920038cc45695c2bd41198d
+44baf09ceec52d434d840ff583e0bb0f
   bindir :: GHC.IO.FilePath
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/bin"#) -}
-6f261586d234c60e31ee6593fcaad75b
+                   "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/bin"#) -}
+a113f5c0d1387f1b0e46959f105c1cf0
   datadir :: GHC.IO.FilePath
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/share/x86_64-linux-ghc-8.0.2/fuba-0.0.0"#) -}
-b29d9509eb803adc7b46d667d9068cee
+                   "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/share/x86_64-linux-ghc-8.0.2/fuba-0.0.0"#) -}
+964ecfe6fda2e8bf787cce0a2ba0aacc
   dynlibdir :: GHC.IO.FilePath
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2"#) -}
-8496075313fcf4723aec2ce4494d95c1
+                   "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2"#) -}
+0d5f1068031455f5bc991d2613aca824
   getBinDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_fuba.getBinDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-5a1d8ddf248776adf81b7befbaf4d9f8
+827e2fea9f84a37c967a8a53138924ad
   getBinDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -90,7 +90,7 @@ b29d9509eb803adc7b46d667d9068cee
                    (GHC.Types.N:IO[0] <GHC.Base.String>_R)
                    Paths_fuba.getBinDir2
                    eta) -}
-8d9b4cc99d05e13836587911501b9c09
+88b8a0b8370d40d1ca2de8a4371db964
   getBinDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -142,14 +142,14 @@ cca994609e12f9f16af2935324b0c35f
 3eeeae74197ba5eadf3880332985f1a3
   getBinDir5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fuba_bindir"#) -}
-ef5e25fae624cc2fd054cc0497d66359
+95a02b085812d54199c973be1cffdab0
   getDataDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_fuba.getDataDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-468d0ab5819afc0ed27f26f602db4136
+e27da17cf263cf189e66475f6af727d8
   getDataDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -164,7 +164,7 @@ ef5e25fae624cc2fd054cc0497d66359
                    (GHC.Types.N:IO[0] <GHC.Base.String>_R)
                    Paths_fuba.getDataDir2
                    eta) -}
-6667fd9d43d00819f9f76fd0b25c3770
+f916b0029e7ce3903852f0a7517d80c2
   getDataDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -216,7 +216,7 @@ aade7b6c2550f5fa03b9db10676f074b
 6f35e2426671dfc46f97aae5a23fa1ab
   getDataDir5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fuba_datadir"#) -}
-9c8e6f2fafe0e976c39b38a38a4440b3
+29278d81c221b99fa98a36e89c027a54
   getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
   {- Arity: 2, Strictness: <L,U><S,U>,
      Unfolding: InlineRule (0, True, True)
@@ -224,7 +224,7 @@ aade7b6c2550f5fa03b9db10676f074b
                   `cast`
                 (<GHC.IO.FilePath>_R
                  ->_R Sym (GHC.Types.N:IO[0] <GHC.IO.FilePath>_R)) -}
-b69df7ad1d740415bebe451402cfbfb9
+7479feb2b7c74d26e4fdd90f653ad0fc
   getDataFileName1 ::
     GHC.IO.FilePath
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -245,14 +245,14 @@ b69df7ad1d740415bebe451402cfbfb9
                       @ GHC.Types.Char
                       ipv1
                       (GHC.CString.unpackAppendCString# "/"# name) #) }) -}
-da9e27719f547a1ecbfa70bd12f25d69
+04db6be018ea888fba69e4fad3c0c14b
   getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_fuba.getDynLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-48e4ed47f919ddca77e62a647d8dce14
+7dd75011f5c20300e5eddcc065d73dab
   getDynLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -267,7 +267,7 @@ da9e27719f547a1ecbfa70bd12f25d69
                    (GHC.Types.N:IO[0] <GHC.Base.String>_R)
                    Paths_fuba.getDynLibDir2
                    eta) -}
-57d91b026c472b991f29f144b48f1655
+32a6c8bcef81af127371b00c8afc9973
   getDynLibDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -319,14 +319,14 @@ da9e27719f547a1ecbfa70bd12f25d69
 687fedb5a08ad22d546e9773aa28579d
   getDynLibDir5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fuba_dynlibdir"#) -}
-d1fcece77a1a35883f476e561f12356f
+257e468883a11010bc4c84574f222692
   getLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_fuba.getLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-582add0cd18ef265add8a269d3368d56
+9deeaf1e3d905724d3b174e441e87568
   getLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -341,7 +341,7 @@ d1fcece77a1a35883f476e561f12356f
                    (GHC.Types.N:IO[0] <GHC.Base.String>_R)
                    Paths_fuba.getLibDir2
                    eta) -}
-a90b63b15a0e65b6b9eff5a1a8e36e4a
+d8cff57adc379306924a01bd7f7d37fd
   getLibDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -393,14 +393,14 @@ a90b63b15a0e65b6b9eff5a1a8e36e4a
 5080c4e2ca30c2dd6d0edf87f8d23533
   getLibDir5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fuba_libdir"#) -}
-583e6fb4f8282b7d12c0e7b8b47706ad
+38931208db4a4e57c4fde5c7dbdab5b1
   getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_fuba.getLibexecDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-c2a55b0b81dc8b5df0147ea240b326ac
+97d567c7455345dd73406b04f2e5b720
   getLibexecDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -415,7 +415,7 @@ c2a55b0b81dc8b5df0147ea240b326ac
                    (GHC.Types.N:IO[0] <GHC.Base.String>_R)
                    Paths_fuba.getLibexecDir2
                    eta) -}
-cb1cc9c7c7cf092e922b3f0ce307ac16
+1cd6bd7852e8ceb12991ac7c420cacb1
   getLibexecDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -468,14 +468,14 @@ a9735f4ad58fbe7d814cd3ae36bf1e43
 755f050a7382d008a46ccf65be7f2b77
   getLibexecDir5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fuba_libexecdir"#) -}
-acfd36d78b7a1a31fa5d0b016270588f
+7d16a9c9d1e951bd6ae7e2e46e289b77
   getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_fuba.getSysconfDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-8b42a957ad7f8fc5843e899f57f32248
+6d632698afdde464765e8238f5de1eb5
   getSysconfDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -490,7 +490,7 @@ acfd36d78b7a1a31fa5d0b016270588f
                    (GHC.Types.N:IO[0] <GHC.Base.String>_R)
                    Paths_fuba.getSysconfDir2
                    eta) -}
-05b6164a4cdc44502ea9fee2ee66cf90
+c7ad83e99ddec2881ad245988a6550db
   getSysconfDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -543,18 +543,18 @@ a3cedafab5a6749ae1319dfbf1cdbbb3
 0bd98b08968cec155c64f0eadd5683b2
   getSysconfDir5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "fuba_sysconfdir"#) -}
-7170b081e11c2ebf3a585df33a96d435
+9be14cdf8206f39921289a81529699f8
   libdir :: GHC.IO.FilePath
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-3f3a1fe1fc143948c9275f1d793def0e
+                   "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
+b88edfd9b340f22531f851fd946609cb
   libexecdir :: GHC.IO.FilePath
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/libexec"#) -}
-ec9c5791cce0ebefa284c422286e7cb2
+                   "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/libexec"#) -}
+8b5d171f1064aae8472253c675153aaa
   sysconfdir :: GHC.IO.FilePath
   {- Unfolding: (GHC.CString.unpackCString#
-                   "/projects/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/etc"#) -}
+                   "/home/adaao/dev/tcc_new/tcc-fuba/fuba/.stack-work/install/x86_64-linux/lts-9.18/8.0.2/etc"#) -}
 ab441a5a50d7c5b604deac73ff1928ad
   version :: Data.Version.Version
   {- HasNoCafRefs, Strictness: m,

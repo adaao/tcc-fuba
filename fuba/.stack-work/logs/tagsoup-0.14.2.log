@@ -15,5 +15,5 @@ Preprocessing library tagsoup-0.14.2...
 [12 of 13] Compiling Text.HTML.TagSoup ( src/Text/HTML/TagSoup.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/HTML/TagSoup.o )
 [13 of 13] Compiling Text.HTML.TagSoup.Tree ( src/Text/HTML/TagSoup/Tree.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/HTML/TagSoup/Tree.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/tagsoup-0.14.2-4BEl66ZgFIa7gvi9mniici
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/tagsoup-0.14.2-4BEl66ZgFIa7gvi9mniici
 Registering tagsoup-0.14.2...

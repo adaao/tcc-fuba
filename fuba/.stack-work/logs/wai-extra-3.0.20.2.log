@@ -41,5 +41,5 @@ Network/Wai/Middleware/RequestLogger.hs:25:1: warning: [-Wunused-imports]
 [30 of 31] Compiling Network.Wai.EventSource.EventStream ( Network/Wai/EventSource/EventStream.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Network/Wai/EventSource/EventStream.o )
 [31 of 31] Compiling Network.Wai.EventSource ( Network/Wai/EventSource.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Network/Wai/EventSource.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/wai-extra-3.0.20.2-FZIfwBninleKHm4gfrfwwi
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/wai-extra-3.0.20.2-FZIfwBninleKHm4gfrfwwi
 Registering wai-extra-3.0.20.2...

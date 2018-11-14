@@ -280,12 +280,12 @@
   (major1) == 3 && (major2) <  2 || \
   (major1) == 3 && (major2) == 2 && (minor) <= 3)
 
-/* tool gcc-5.4.0 */
-#define TOOL_VERSION_gcc "5.4.0"
+/* tool gcc-7 */
+#define TOOL_VERSION_gcc "7"
 #define MIN_TOOL_VERSION_gcc(major1,major2,minor) (\
-  (major1) <  5 || \
-  (major1) == 5 && (major2) <  4 || \
-  (major1) == 5 && (major2) == 4 && (minor) <= 0)
+  (major1) <  7 || \
+  (major1) == 7 && (major2) <  0 || \
+  (major1) == 7 && (major2) == 0 && (minor) <= 0)
 
 /* tool ghc-8.0.2 */
 #define TOOL_VERSION_ghc "8.0.2"
@@ -329,12 +329,26 @@
   (major1) == 0 && (major2) <  68 || \
   (major1) == 0 && (major2) == 68 && (minor) <= 1)
 
-/* tool strip-2.26 */
-#define TOOL_VERSION_strip "2.26"
+/* tool hscolour-1.24 */
+#define TOOL_VERSION_hscolour "1.24"
+#define MIN_TOOL_VERSION_hscolour(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  24 || \
+  (major1) == 1 && (major2) == 24 && (minor) <= 0)
+
+/* tool pkg-config-0.29.1 */
+#define TOOL_VERSION_pkg_config "0.29.1"
+#define MIN_TOOL_VERSION_pkg_config(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  29 || \
+  (major1) == 0 && (major2) == 29 && (minor) <= 1)
+
+/* tool strip-2.30 */
+#define TOOL_VERSION_strip "2.30"
 #define MIN_TOOL_VERSION_strip(major1,major2,minor) (\
   (major1) <  2 || \
-  (major1) == 2 && (major2) <  26 || \
-  (major1) == 2 && (major2) == 26 && (minor) <= 0)
+  (major1) == 2 && (major2) <  30 || \
+  (major1) == 2 && (major2) == 30 && (minor) <= 0)
 
 #define CURRENT_COMPONENT_ID "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"
 

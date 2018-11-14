@@ -26,5 +26,5 @@ Preprocessing library persistent-2.7.1...
 [23 of 24] Compiling Database.Persist.Sql.Orphan.PersistUnique ( Database/Persist/Sql/Orphan/PersistUnique.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/Persist/Sql/Orphan/PersistUnique.o )
 [24 of 24] Compiling Database.Persist.Sql ( Database/Persist/Sql.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/Persist/Sql.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q
 Registering persistent-2.7.1...

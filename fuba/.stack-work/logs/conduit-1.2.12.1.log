@@ -112,5 +112,5 @@ Data/Conduit/Lift.hs:227:32: warning: [-Wdeprecations]
     Deprecated: "Use Control.Monad.Trans.Except instead"
 [8 of 8] Compiling Data.Conduit.List ( Data/Conduit/List.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Conduit/List.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i
 Registering conduit-1.2.12.1...

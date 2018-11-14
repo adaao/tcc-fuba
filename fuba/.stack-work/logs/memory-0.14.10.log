@@ -40,5 +40,5 @@ Data/ByteArray/Pack/Internal.hs:20:1: warning: [-Wunused-imports]
 [27 of 28] Compiling Data.ByteArray   ( Data/ByteArray.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/ByteArray.o )
 [28 of 28] Compiling Data.ByteArray.Pack ( Data/ByteArray/Pack.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/ByteArray/Pack.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/memory-0.14.10-2eNZrHuuunT3mqsprgiAdr
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/memory-0.14.10-2eNZrHuuunT3mqsprgiAdr
 Registering memory-0.14.10...

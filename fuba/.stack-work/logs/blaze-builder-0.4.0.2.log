@@ -12,5 +12,5 @@ Preprocessing library blaze-builder-0.4.0.2...
 [ 9 of 10] Compiling Blaze.ByteString.Builder.HTTP ( Blaze/ByteString/Builder/HTTP.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Blaze/ByteString/Builder/HTTP.o )
 [10 of 10] Compiling Blaze.ByteString.Builder ( Blaze/ByteString/Builder.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Blaze/ByteString/Builder.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/blaze-builder-0.4.0.2-LxClHUTiKUUAxWtvJ5Oeoy
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/blaze-builder-0.4.0.2-LxClHUTiKUUAxWtvJ5Oeoy
 Registering blaze-builder-0.4.0.2...

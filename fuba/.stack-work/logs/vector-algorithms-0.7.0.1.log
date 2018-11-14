@@ -12,5 +12,5 @@ Preprocessing library vector-algorithms-0.7.0.1...
 [ 9 of 10] Compiling Data.Vector.Algorithms.Tim ( src/Data/Vector/Algorithms/Tim.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Vector/Algorithms/Tim.o )
 [10 of 10] Compiling Data.Vector.Algorithms.AmericanFlag ( src/Data/Vector/Algorithms/AmericanFlag.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Data/Vector/Algorithms/AmericanFlag.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/vector-algorithms-0.7.0.1-1qlx0Hst1Fo5WZd0lT7Iw1
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/vector-algorithms-0.7.0.1-1qlx0Hst1Fo5WZd0lT7Iw1
 Registering vector-algorithms-0.7.0.1...

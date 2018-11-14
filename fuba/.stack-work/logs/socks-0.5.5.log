@@ -32,5 +32,5 @@ Network/Socks5.hs:117:50: warning: [-Wdeprecations]
     In the use of ‘sClose’ (imported from Network.Socket):
     Deprecated: "use 'close'"
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/socks-0.5.5-JArtPcFTnbCItWBjXwWAhO
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/socks-0.5.5-JArtPcFTnbCItWBjXwWAhO
 Registering socks-0.5.5...

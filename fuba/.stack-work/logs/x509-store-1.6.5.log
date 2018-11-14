@@ -28,5 +28,5 @@ Data/X509/CertificateStore.hs:13:1: warning: [-Wunused-imports]
       except perhaps to import instances from ‘Data.Monoid’
     To import instances alone, use: import Data.Monoid()
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/x509-store-1.6.5-8YNUk4HyXmMHwm6BNvHcfZ
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/x509-store-1.6.5-8YNUk4HyXmMHwm6BNvHcfZ
 Registering x509-store-1.6.5...

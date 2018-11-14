@@ -6,5 +6,5 @@ Preprocessing library classy-prelude-1.2.0.1...
 ClassyPrelude.hs:142:7: warning: [-Wduplicate-exports]
     ‘assert’ is exported by ‘module Control.Exception.Safe’ and ‘assert’
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/classy-prelude-1.2.0.1-D9DWb2tGI0E3tIVMl6MF2W
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/classy-prelude-1.2.0.1-D9DWb2tGI0E3tIVMl6MF2W
 Registering classy-prelude-1.2.0.1...

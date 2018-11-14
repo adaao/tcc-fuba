@@ -5,5 +5,5 @@ Preprocessing library http-conduit-2.2.4...
 [2 of 3] Compiling Network.HTTP.Conduit ( Network/HTTP/Conduit.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Network/HTTP/Conduit.o )
 [3 of 3] Compiling Network.HTTP.Simple ( Network/HTTP/Simple.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Network/HTTP/Simple.o )
 Installing library in
-/home/user/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/http-conduit-2.2.4-ARDcXcliQ6NC5SlBc0TOXI
+/home/adaao/.stack/snapshots/x86_64-linux/lts-9.18/8.0.2/lib/x86_64-linux-ghc-8.0.2/http-conduit-2.2.4-ARDcXcliQ6NC5SlBc0TOXI
 Registering http-conduit-2.2.4...
