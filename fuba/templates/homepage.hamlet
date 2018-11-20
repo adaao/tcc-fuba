@@ -11,6 +11,6 @@ $doctype 5
     <body>
         <li>
           <a href=@{SayboltLoginR}>
-            <button>Saybolt
+            <button>Surveyor
           <a href=@{VliLoginR}>
-            <button>Vli
+            <button>Terminal

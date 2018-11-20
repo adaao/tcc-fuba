@@ -7,3 +7,7 @@ URI        postgres://jwillyqrmbixrb:d76d665a878199870c662897cd3d4cf2ef65a0cd0f1
 Heroku CLI heroku pg:psql postgresql-aerodynamic-17735 --app sistema-fuba
 
 psql -h ec2-54-227-241-179.compute-1.amazonaws.com -U trpzdaphggozid -d dee7hdpq79hsjl
+
+formato para a entrada de data => 'aaaa-dd-mm hh:mm' => precisa da aspa simples
+
+para deletar tudo: drop schema public cascade => prefiro deletar a partir do heroku :)

@@ -1,9 +1,9 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-13 21:26:48.212377 UTC
+2018-11-19 18:23:56.088691 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import.NoFoundation 8002
-  interface hash: 651bc46ccb7229f2a06eb243ade26bc1
+  interface hash: 9f3f1853a4615af676b93a5b56fcb1cd
   ABI hash: 708afaa16619266f05a41e6e1a63a5a8
   export-list hash: 47278f293e655fb50035edb472ed24b4
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
@@ -2272,7 +2272,6 @@ import  -/  base-4.9.1.0:GHC.Float 33e2b9ffe427edd6a5c2fd6a3b26703c
 import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
 import  -/  base-4.9.1.0:GHC.IO eb504c57b397cf133849f8586f15dafb
 import  -/  base-4.9.1.0:GHC.IO.Exception 5064be4c355632a1d1c4f2322f56ac52
-import  -/  base-4.9.1.0:GHC.IO.Handle.Types 17aa0e2ab137800e3a31992d780c071f
 import  -/  base-4.9.1.0:GHC.IORef 306bd532f2f3b000347cbe6316adc20e
 import  -/  base-4.9.1.0:GHC.Int e6f85fcab22769385fba2b5fce0acb40
 import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439

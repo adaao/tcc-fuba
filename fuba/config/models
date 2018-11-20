@@ -3,13 +3,13 @@ UserType json
    deriving Show
 
 SayboltUser
-   userTypeId UserTypeId   
+   userTypeId UserTypeId
    email Text
    name Text
    password Text
    UniqueEmail email
    deriving Show
-   
+
 VliUser
    userTypeId UserTypeId
    email Text
@@ -20,12 +20,13 @@ VliUser
 Samples json
    vessel Text
    sampleTypeId SampleTypeId
+   quantity Int
    source Text
    time UTCTime
    sayboltUserId SayboltUserId
    insolubleResiduePresence Bool
    umidity Double
-   gravimetricIsolubleResidue Double   
+   gravimetricIsolubleResidue Double
    deriving Show
 
 SampleType json

@@ -16,4 +16,3 @@
 
 /sampleType/insert   InsertSampleTypeR POST
 /sampleType/#SampleTypeId/read   ReadSampleTypeR GET
---/sampleType/#SampleTypeId/update   UpdateSampleTypeR PUT
