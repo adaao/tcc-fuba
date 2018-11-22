@@ -1,5 +1,5 @@
 <h1>
     bem vindo, saybolt!!!
 
-<a href=@{LogautR}>
+<a href=@{LoggoutR}>
    <button>Sair

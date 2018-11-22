@@ -11,8 +11,12 @@
 /sayboltLogin SayboltLoginR GET POST
 /sayboltHome SayboltHomeR GET
 
-/logaut LogautR POST
+/Loggout LoggoutR POST
 -- a escrita esta errada propositalmente
+
+/samples/createSample   CreateSampleR POST
+/samples/readSamples/#Text   ReadSampleR GET
+/samples/update/#Text   UpdateSampleR PUT
 
 /sampleType/insert   InsertSampleTypeR POST
 /sampleType/#SampleTypeId/read   ReadSampleTypeR GET

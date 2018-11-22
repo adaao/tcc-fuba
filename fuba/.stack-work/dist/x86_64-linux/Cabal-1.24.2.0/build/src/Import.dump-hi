@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-19 18:24:00.697966 UTC
+2018-11-22 03:05:58.2039 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Import 8002
-  interface hash: 5625daafd5f1b9b9b2a68b232b75cad5
-  ABI hash: b87210a9eca10e4a476c827c9fe385ad
-  export-list hash: f55b98253d2ed7c9979a2d39b5ae8a01
+  interface hash: 041006881523fc20854182209234a111
+  ABI hash: baf254d3ea2dc4e888ab16fda1c64885
+  export-list hash: b918c1a9b421c1219c3ed3435f5ff1bb
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: ab396f11155bd696ab63895436e6f1df
   sig of: Nothing
@@ -1622,7 +1622,7 @@ exports:
   Foundation.Widget
   Model.SampleType{Model.SampleType sampleTypeDescription}
   Model.SampleTypeId
-  Model.Samples{Model.Samples samplesGravimetricIsolubleResidue samplesInsolubleResiduePresence samplesSampleTypeId samplesSayboltUserId samplesSource samplesTime samplesUmidity samplesVessel}
+  Model.Samples{Model.Samples samplesGravimetricIsolubleResidue samplesInsolubleResiduePresence samplesQuantity samplesSampleTypeId samplesSayboltUserId samplesSource samplesTime samplesUmidity samplesVessel}
   Model.SamplesId
   Model.SayboltUser{Model.SayboltUser sayboltUserEmail sayboltUserName sayboltUserPassword sayboltUserUserTypeId}
   Model.SayboltUserId
@@ -1736,7 +1736,7 @@ exports:
   Database.Persist.Class.PersistEntity.BackendSpecificFilter
   Database.Persist.Class.PersistEntity.BackendSpecificUpdate
   Database.Persist.Class.PersistEntity.Entity{Database.Persist.Class.PersistEntity.Entity entityKey entityVal}
-  Database.Persist.Class.PersistEntity.EntityField|{Model.SampleTypeDescription Model.SampleTypeId Model.SamplesGravimetricIsolubleResidue Model.SamplesId Model.SamplesInsolubleResiduePresence Model.SamplesSampleTypeId Model.SamplesSayboltUserId Model.SamplesSource Model.SamplesTime Model.SamplesUmidity Model.SamplesVessel Model.SayboltUserEmail Model.SayboltUserId Model.SayboltUserName Model.SayboltUserPassword Model.SayboltUserUserTypeId Model.UserTypeId Model.UserTypeUserTypeDescription Model.VliUserEmail Model.VliUserId Model.VliUserName Model.VliUserPassword Model.VliUserUserTypeId}
+  Database.Persist.Class.PersistEntity.EntityField|{Model.SampleTypeDescription Model.SampleTypeId Model.SamplesGravimetricIsolubleResidue Model.SamplesId Model.SamplesInsolubleResiduePresence Model.SamplesQuantity Model.SamplesSampleTypeId Model.SamplesSayboltUserId Model.SamplesSource Model.SamplesTime Model.SamplesUmidity Model.SamplesVessel Model.SayboltUserEmail Model.SayboltUserId Model.SayboltUserName Model.SayboltUserPassword Model.SayboltUserUserTypeId Model.UserTypeId Model.UserTypeUserTypeDescription Model.VliUserEmail Model.VliUserId Model.VliUserName Model.VliUserPassword Model.VliUserUserTypeId}
   Database.Persist.Class.PersistEntity.Filter{Database.Persist.Class.PersistEntity.BackendFilter Database.Persist.Class.PersistEntity.Filter Database.Persist.Class.PersistEntity.FilterAnd Database.Persist.Class.PersistEntity.FilterOr filterField filterFilter filterValue}
   Database.Persist.Class.PersistEntity.Key|{Model.SampleTypeKey Model.SamplesKey Model.SayboltUserKey Model.UserTypeKey Model.VliUserKey unSampleTypeKey unSamplesKey unSayboltUserKey unUserTypeKey unVliUserKey}
   Database.Persist.Class.PersistEntity.PersistEntity{Database.Persist.Class.PersistEntity.EntityField Database.Persist.Class.PersistEntity.Key Database.Persist.Class.PersistEntity.PersistEntityBackend Database.Persist.Class.PersistEntity.Unique Database.Persist.Class.PersistEntity.entityDef Database.Persist.Class.PersistEntity.fieldLens Database.Persist.Class.PersistEntity.fromPersistValues Database.Persist.Class.PersistEntity.keyFromValues Database.Persist.Class.PersistEntity.keyToValues Database.Persist.Class.PersistEntity.persistFieldDef Database.Persist.Class.PersistEntity.persistIdField Database.Persist.Class.PersistEntity.persistUniqueKeys Database.Persist.Class.PersistEntity.persistUniqueToFieldNames Database.Persist.Class.PersistEntity.persistUniqueToValues Database.Persist.Class.PersistEntity.toPersistFields}
@@ -1885,7 +1885,7 @@ exports:
   Yesod.Core.Widget.ToWidgetMedia{Yesod.Core.Widget.toWidgetMedia}
   Yesod.Routes.Class.ParseRoute{Yesod.Routes.Class.parseRoute}
   Yesod.Routes.Class.RenderRoute{Yesod.Routes.Class.Route Yesod.Routes.Class.renderRoute}
-  Yesod.Routes.Class.Route|{Foundation.FaviconR Foundation.HomeR Foundation.InsertSampleTypeR Foundation.LogautR Foundation.ReadSampleTypeR Foundation.RobotsR Foundation.SayboltHomeR Foundation.SayboltLoginR Foundation.StaticR Foundation.VliHomeR Foundation.VliLoginR Yesod.Auth.Routes.CheckR Yesod.Auth.Routes.LoginR Yesod.Auth.Routes.LogoutR Yesod.Auth.Routes.PluginR Yesod.Core.Internal.LiteApp.LiteAppRoute Yesod.Core.Types.WaiSubsiteRoute Yesod.Core.Types.WaiSubsiteWithAuthRoute Yesod.Static.StaticRoute}
+  Yesod.Routes.Class.Route|{Foundation.CreateSampleR Foundation.FaviconR Foundation.HomeR Foundation.InsertSampleTypeR Foundation.LoggoutR Foundation.ReadSampleR Foundation.ReadSampleTypeR Foundation.RobotsR Foundation.SayboltHomeR Foundation.SayboltLoginR Foundation.StaticR Foundation.UpdateSampleR Foundation.VliHomeR Foundation.VliLoginR Yesod.Auth.Routes.CheckR Yesod.Auth.Routes.LoginR Yesod.Auth.Routes.LogoutR Yesod.Auth.Routes.PluginR Yesod.Core.Internal.LiteApp.LiteAppRoute Yesod.Core.Types.WaiSubsiteRoute Yesod.Core.Types.WaiSubsiteWithAuthRoute Yesod.Static.StaticRoute}
   Yesod.Routes.Class.RouteAttrs{Yesod.Routes.Class.routeAttrs}
   Yesod.Form.Fields.AutoFocus
   Yesod.Form.Fields.Option{Yesod.Form.Fields.Option optionDisplay optionExternalValue optionInternalValue}
@@ -2308,101 +2308,106 @@ import  -/  containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base 192db525847d6624
 import  -/  data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD:Data.Default.Class 9c68cbd95caee85701a573292e4f13b7
 import  -/  dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList df34fc1f01d8ed1d84ac8ec6f5cefa47
 import  -/  exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U:Control.Monad.Catch b7c0706f1693a3a340b0c0acefd4e19d
-import  -/  Foundation 2dd15aed4932c359de046f88d43b499c
-  exports: 642f0926009e06e51eaa8504c454f2dd
-  App 23e0702a11b2a658aa7cffdb18623d8c
-  App 6bd583498ebde31702dd5e85fb6d36ce
-  FaviconR 0ac38fa33ca6eea826a91830ef384a68
-  Form e51d78c9c33b7e13d71d7c60a06aaf55
-  Handler 5303af5159ba4bd7edba677367b727d8
-  HomeR f39a521bb31bc692932d58fd6a053f54
-  InsertSampleTypeR 19626920eebad8a8917c83c55a44e7a8
-  LogautR 6305ce1a55b0bfcad0fddfa506c3eaa3
-  ReadSampleTypeR ac4691717905f5181fad195ed5f48bdd
-  RobotsR 005666c1974d07f5a9dd77dd921870c2
-  SayboltHomeR 78a08dc927190d6c9af8d64cb028448d
-  SayboltLoginR 84ccf55d73501b87932423dd2f0c7f61
-  StaticR 33d190b866331a25759ec3a76da4f318
-  VliHomeR 5fd50251caa08152c211bc80c7d4e901
-  VliLoginR 228df0fb4d51874441901e12d48861be
-  Widget 394fb3fb632437a686a40b20deab386f
-  appConnPool a9048f95948ff9117b37ec6c6169d58a
-  appHttpManager 6bd583498ebde31702dd5e85fb6d36ce
-  appLogger c13d7bd20fbb68ace1f4557a81b1558f
-  appSettings 1993f9a6eb8fe382e039581b97140a33
-  appStatic 6ee5c39bf6052ead86d8610739d3904f
-  resourcesApp 154f564e764367ff60e63d50580cfbca
-import  -/  Import.NoFoundation 708afaa16619266f05a41e6e1a63a5a8
-  exports: 47278f293e655fb50035edb472ed24b4
-import  -/  Model 5df0e1a265cd745c3b252e089aa02f63
+import  -/  Foundation 2edbe38e28fd4e3734970b83c6a8b467
+  exports: 132576d0b064c483750656f32462df37
+  App 71517b070a0a0600bbc66369baaa469d
+  App 0ae672d97a2cf85f1542f33823a0eb84
+  CreateSampleR e95569e563b19ce38f78994828bbf46a
+  FaviconR 900a9f71d9486ede883b5eb65ce924e3
+  Form 06f08d48dc8809342fa23feabc0d321c
+  Handler e4403047841950ae0f50150539ef3540
+  HomeR 4772593907bc601cff2972b4470d5af2
+  InsertSampleTypeR 8b7608c3591a6bef5e8fb930a05e4b34
+  LoggoutR 466452ff39ea8ec6567e3a969d50ca3b
+  ReadSampleR 87e2bf43d9017d72169e788fb69c7fed
+  ReadSampleTypeR 99713c2ec06b5e3f9482fa8d90941921
+  RobotsR 65684c26713971674ba91fc8481940e9
+  SayboltHomeR e491d64d76b6e60881cfaa4e45c1760f
+  SayboltLoginR 935d67fcb3674db371f0e9485368339f
+  StaticR 6d00484038fa9d6298cd601587d783ba
+  UpdateSampleR 8b93c5989ca9bba563b0cead668dac8e
+  VliHomeR bc5b56500b8eaa3e32480c6bb0edb036
+  VliLoginR 3bdd87d0d4f37ed55478c3e0b95fa293
+  Widget d8adf7298a37aa92b2658710551b7434
+  appConnPool f947aaf13d3e8425b6e243976ee96ba9
+  appHttpManager 0ae672d97a2cf85f1542f33823a0eb84
+  appLogger 399d993e1eabf09161f745ef9efb8b6f
+  appSettings d222b762a04564c479ebf0ad18b885d2
+  appStatic 3d2dbbb8ccc7df71b92b0f5304522e60
+  resourcesApp cc297dd0a3f2f002e872e18bba7700a7
+import  -/  Import.NoFoundation 3cb754147aea972629858df04422ce35
+  exports: 9030e98a7b181fc641f930920f98358d
+import  -/  Model 028f9d893ba4f877f9972f19b37fea78
   SampleType ae69f9b834d0dccbc32dae3f8689d986
   SampleType f355708de561efea067e4c6edeb434d7
   SampleTypeDescription 4aee52e0ea9a1554b8c34c3eba366e70
   SampleTypeId b22f4c79dc0c3b5abbeb8b227a646340
   SampleTypeId adf4a1a7c12b09539ee6d14a47254e1a
   SampleTypeKey d0a0ac838d032a5a8816708ca635d4ab
-  Samples 418fe658f133cf6ad4df56f76fbd4732
-  Samples 4f742b3d52a8b9461180c1ea11e45c22
-  SamplesGravimetricIsolubleResidue e2e96473ced145ca7a20b6ed063319d9
-  SamplesId 20757fdfbce33824ab8cfc6116b4d6e7
-  SamplesId e1e783d22b4addea67684ff61e6f7ab9
-  SamplesInsolubleResiduePresence a610cd2ce2254982ea05f95810c198d9
-  SamplesKey 8669c51330ee0bb6c9159ceffd47dbad
-  SamplesSampleTypeId a9fa703b72c3a1f692360f0e77f59ac7
-  SamplesSayboltUserId e35e4f96d38ccfd222c9fa78bd13554f
-  SamplesSource 7562b5d2bbca2d4fc0b17ea7bbd1abf9
-  SamplesTime fdfa6dfc2b11b0ce259b1f8116b772aa
-  SamplesUmidity 3810421f3216507e0f4c62d422ced041
-  SamplesVessel 8b415a6257f332d8a99a99507cdae68f
-  SayboltUser 78a76d366bec37aebfc2762f7e16efc8
-  SayboltUser 2d89b76acc00aea16b08b24977fe4a5d
-  SayboltUserEmail ded968cb0403aa4400601b336a367458
-  SayboltUserId cc0f8c52b384bbaeac0f413ff43daafc
-  SayboltUserId 4acbe9e39799a2fae97c7f735a980b2a
-  SayboltUserKey 0633e590471a16b1b08bbf0321b7824e
-  SayboltUserName 077474b266199244f2eb62e59029560a
-  SayboltUserPassword f2e82e9606e7b55ddf66736efc093546
-  SayboltUserUserTypeId 1684a5fb31718e10a0ccf30332456a53
-  UniqueEmail 99b605f2c3f72fa522f9015e3561d699
-  UserType 886054f34f388e89d31d57e6b93c9e27
-  UserType 794972567560c755c3d8fbb498c97784
-  UserTypeId 711aff78d4d218c1bf6147756fdfc3db
-  UserTypeId ad5590aeb8813fe60a8abeff9dad5ba0
-  UserTypeKey 05ad80dc763b789a3fb0fa9c50a5401c
-  UserTypeUserTypeDescription 8a540d5fbd0a19ba4ac0c5384d670966
-  VliUser 01035a2887b18d7f3bccc4fae0cfaeef
-  VliUser 2e49db5311d86d999a023996a22fb29f
-  VliUserEmail 9d5103c7cd13231ac5984c7453510cdf
-  VliUserId 928c0281c49341e99234c6e47491106e
-  VliUserId 131871edfcaab25b153876f5d0553baa
-  VliUserKey bfa41bb40d86b44f8b421c175ee964c3
-  VliUserName f2b1b834fae20c23c9c591503f0afbca
-  VliUserPassword 81e625b2dd5f69321dd83ad2e9adbccd
-  VliUserUserTypeId 5489c667f315eb1dc57287bf99e01abf
+  Samples e85981eaed279930ab740643adb2ab33
+  Samples 9aeeeee6b373db6ebd89157dfc7aac8a
+  SamplesGravimetricIsolubleResidue f4bf936210006888619b47a6f7f74b5b
+  SamplesId 35ff5643781684ac87b71d5b7b7d7003
+  SamplesId 4321283319844da5c3d5661ab0db84ac
+  SamplesInsolubleResiduePresence f8796869c672936a4d0ff2de11d14da0
+  SamplesKey 81a0bb612fb6df05ec091681d43fece6
+  SamplesQuantity 7571b0fd2e061ab2aef34b00925efded
+  SamplesSampleTypeId 349b6f718ec450875cdb683ea77c24ad
+  SamplesSayboltUserId d4dd7361e1bd2b0ed1a9948f654ca803
+  SamplesSource 1f0b68b052346ed868673d6d2b671455
+  SamplesTime 25f5d2b6f35502320684c64a1bd3d51c
+  SamplesUmidity 83b2d3c573f1c1131fd899999f129673
+  SamplesVessel 9acdbbcce498b64d3c70f58dde8b470b
+  SayboltUser 03fbdb1cdbf98afdff7d684eaac76cae
+  SayboltUser d3545f83993ea558fac1e9e579866fa6
+  SayboltUserEmail 72bbaa81cd3b2a5e6755c5c83109cc9e
+  SayboltUserId 62ed38d48663eca0ed327a77bd96ed05
+  SayboltUserId 84635e372c37cec0f7c24d475d0fbcee
+  SayboltUserKey 8152c769ce6038663cce3f431a9ff9ac
+  SayboltUserName 3e90dea5e0620d87fee67deea6756b61
+  SayboltUserPassword 76ea8c795f523fe4779ef2c5a4a4e90d
+  SayboltUserUserTypeId 46d0bcef492954a3d36a39e1c0d804d5
+  UniqueEmail c70ad504d6d442219d25ed466050646e
+  UserType 2f2a7ec98e3f55cd1f182269d2f163e1
+  UserType 6563440f84aacbc39cb79846acae2205
+  UserTypeId 54d4e057673a791d7e07e7b3172f3a6b
+  UserTypeId 5426fd90d2536b5b7e0e20670397ec58
+  UserTypeKey 2d4bd117bb667161501b284de9f7cd30
+  UserTypeUserTypeDescription 96659bab3cea8c5b490a3a3030ec5375
+  VliUser b921e6c645c8ccb9f33be3ecc5c1c64f
+  VliUser d48e3bdea24b63dc62399774221cc7f1
+  VliUserEmail 1a384436627f3441a818f9d098a338fd
+  VliUserId 396566a11f7d0bdcf8e3613b94b572e6
+  VliUserId b175d08262133a8951e1d5d2fad3088f
+  VliUserKey a83b383421e40d94158fdd02c1661ec0
+  VliUserName 22ccc5590c2bc0b55efcd7ffa2e896f9
+  VliUserPassword 94c490577152f2dd68469c549a671187
+  VliUserUserTypeId 095ddae91476d3b39b227499caee8d55
   migrateAll 74d7f2a4eb3d9bc6fea280b9a90bb7f9
   sampleTypeDescription 91b45422e61b3c256c38c5fd8f7e6567
-  samplesGravimetricIsolubleResidue 34d09c6c26c1d7173505da7d95e38994
-  samplesInsolubleResiduePresence 655210fec8619f56b6126846386a9856
-  samplesSampleTypeId eb2fc35479dcb3e28be984e2181ec9d7
-  samplesSayboltUserId 23ff66d5c5035723c0d8ae41705b7078
-  samplesSource b61922628c6967a299ec686558c16f43
-  samplesTime 8e517dd0189d894f27f496d17282f250
-  samplesUmidity 5401a7811a57f1f9e40234941664935d
-  samplesVessel 9ecab8c11ffd2a0ae1b8bc8f9527ff5f
-  sayboltUserEmail fd61c76a92ae2303639d764ed96f9a10
-  sayboltUserName 557644914e1afe4a50cb08609308507f
-  sayboltUserPassword 35e9084868a9643226cee32f510bbba1
-  sayboltUserUserTypeId a8da973d687603c819b705d480cf55c0
+  samplesGravimetricIsolubleResidue b82e45a9351932ab64750bc25f5fe8cb
+  samplesInsolubleResiduePresence e765f56a2233459ab09817fed0c4f00a
+  samplesQuantity a19bddbb37c101e8d95bd984cecf0dbe
+  samplesSampleTypeId 3b806f21f9aa4e2474cf4bc39be6942f
+  samplesSayboltUserId 28ca4554c02f76df8151cab2bfed119d
+  samplesSource b9120367f9b5d27958a0275ad5e5135b
+  samplesTime fc8bc47b1f80b60f6c43d77c563833e3
+  samplesUmidity dd7f9801d2df587e8ab6e7ea99e2e5e6
+  samplesVessel 2002606ec560481ec68598e114bbf9e0
+  sayboltUserEmail 662f70302616c2b2c5255fb8fba77b5a
+  sayboltUserName a8859d7f7b9ecedf04cc5cf8354f3f7e
+  sayboltUserPassword 6e4a907ab98c304bf905fbd6b23d0d9c
+  sayboltUserUserTypeId 5d0e4fb8e50e4ecea0caa2d6555e61f8
   unSampleTypeKey f355708de561efea067e4c6edeb434d7
-  unSamplesKey 4f742b3d52a8b9461180c1ea11e45c22
-  unSayboltUserKey 2d89b76acc00aea16b08b24977fe4a5d
-  unUserTypeKey 794972567560c755c3d8fbb498c97784
-  unVliUserKey 2e49db5311d86d999a023996a22fb29f
-  userTypeUserTypeDescription b11956b709ff364b6e2c0481150a07a2
-  vliUserEmail 349c1bf4d05a7bbfb1d42522611c7ebf
-  vliUserName 411009b80748767c74e6bd769d2e54c9
-  vliUserPassword 99b62a5724bf2c477b5d474590e0e6ab
-  vliUserUserTypeId c501510d579bb3bb6bfbe143863d4155
+  unSamplesKey 9aeeeee6b373db6ebd89157dfc7aac8a
+  unSayboltUserKey d3545f83993ea558fac1e9e579866fa6
+  unUserTypeKey 6563440f84aacbc39cb79846acae2205
+  unVliUserKey d48e3bdea24b63dc62399774221cc7f1
+  userTypeUserTypeDescription 90b36836006c86bf8c7d634a91613a23
+  vliUserEmail 6b850d5a242ea02b8d50c6edbb0b7744
+  vliUserName 67208e9b320664c28804b9284bc94782
+  vliUserPassword 6fe81258d9d405816eba64f36bc53f16
+  vliUserUserTypeId 8118de636967a29e00070d6b1e0ddc43
 import  -/  Settings d9b470713d0a04a88f484dae1b4d16ef
   AppSettings 5793a91bac406ab41daa5f8eb461f7d1
   AppSettings 7d22d0e16f6d04bb8a48f1f03fda55b2
@@ -2474,11 +2479,9 @@ import  -/  primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Prim
 import  -/  resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource 1a34c2d04b52da93500830be6c6e12bc
 import  -/  resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource.Internal 50c93ad6ec81754501e8820a059dce55
 import  -/  resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Data.Acquire.Internal 03aadd6eb41ed38f345bda80017b4879
-import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Cassius 593355065707daaadb588974801506b6
 import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Hamlet b54f8e8ba6616588e422adb94b1a3919
 import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Internal.Css 4ed10a2d128e3527172fd6aa23d3a177
 import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Julius 2f02a954f5d2f7ddbf843c50c57f3cd2
-import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Lucius 45f3d025466fbe8340f39196e64587f5
 import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Shakespeare.I18N 1337085de4d231b7b794cc2c4c679cb7
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Days 0625fb086700e00eeabe68d7be3fc9e6
@@ -2486,7 +2489,6 @@ import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian 04a8b2fb0c663
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.POSIX d107248af877060d00321d9c66f5a2b1
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Clock.UTC a11128e40404d4167f29d45f57b1b0af
 import  -/  time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse ca4fefe1846c5cb51836ffb85274a6e6
-import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Class 45530f1305724ee3931a9be21b40ca7e
 import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Reader 1b607a084a390ae0e50e8f8dcbf2541a
 import  -/  transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH:Control.Monad.Base c777b6d7149a80c7377aa4816dcba41a
 import  -/  unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base 214d0e8bbe09552a4e9173f83388cb27

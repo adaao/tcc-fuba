@@ -13,7 +13,7 @@ import Text.Julius (RawJS (..))
 getHomeR :: Handler Html
 getHomeR = defaultLayout $(whamletFile "templates/homepage.hamlet")
 
-postLogautR :: Handler Html
-postLogautR = do
+postLoggoutR :: Handler Html
+postLoggoutR = do
     deleteSession "_NAME"
     redirect HomeR
