@@ -23,7 +23,6 @@ Samples json
    quantity Int
    source Text
    time UTCTime
-   sayboltUserId SayboltUserId
    insolubleResiduePresence Bool
    umidity Double
    gravimetricIsolubleResidue Double

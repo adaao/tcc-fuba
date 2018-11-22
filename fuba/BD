@@ -10,4 +10,6 @@ psql -h ec2-54-227-241-179.compute-1.amazonaws.com -U trpzdaphggozid -d dee7hdpq
 
 formato para a entrada de data => 'aaaa-dd-mm hh:mm' => precisa da aspa simples
 
-para deletar tudo: drop schema public cascade => prefiro deletar a partir do heroku :)
+para deletar tudo: drop schema public cascade => prefiro deletar a partir do heroku
+
+ALTER TABLE "samples" DROP COLUMN "saybolt_user_id";

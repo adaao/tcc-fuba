@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-22 03:06:00.084662 UTC
+2018-11-22 17:44:12.130028 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.Vli 8002
-  interface hash: 13a492284e70541044bef7d0bb7ae255
-  ABI hash: 23b2cd0dfdd201555e24e231b6fcd767
+  interface hash: 57f3304d03db5be0fe750a635020d1fa
+  ABI hash: a63b1a332eaf2f620592ede9ae9872ec
   export-list hash: f8628e7076d2b1ed70c189c075ed2b08
   orphan hash: f16c25c6429fc47d8b12082b0c1f6c86
   flag hash: 6d73493edc0c8da032de4b3f8604d846
@@ -346,11 +346,11 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
 import  -/  blaze-html-0.9.0.1@blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p:Text.Blaze.Html 835f81951872bd48727588c57b8222c5
 import  -/  blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob:Text.Blaze.Internal c1d6ebf18cc7de440fbc2d1a2a795843
-import  -/  Foundation 2edbe38e28fd4e3734970b83c6a8b467
-  Handler e4403047841950ae0f50150539ef3540
-  LoggoutR 466452ff39ea8ec6567e3a969d50ca3b
-import  -/  Import baf254d3ea2dc4e888ab16fda1c64885
-  exports: b918c1a9b421c1219c3ed3435f5ff1bb
+import  -/  Foundation 551247d877232017e08d39f9e2f6babe
+  Handler 8c72a023a91ae70aed4b0f1399c6acab
+  LoggoutR 583c9e738187b35a2378e61adc866bc1
+import  -/  Import f320560fefad9b2e18d0c0d5e0bfbbd4
+  exports: 86da3b99e456c5e320460f320383ad80
 import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Julius 2f02a954f5d2f7ddbf843c50c57f3cd2
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text e8aa34be3dde178f567ae461e65c988b
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Class.Yesod f524d4cbbe2ea403d5127ad16281dbb2
@@ -396,14 +396,14 @@ ade33cf97d2f728333b8c3f2167199c4
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-cf3317b4e57061058d4263ef1a882a2f
+222cde6e5f73363441df3073d93c2166
   getVliHomeR :: Foundation.Handler Text.Blaze.Html.Html
   {- Unfolding: (Foundation.$fYesodApp_$cdefaultLayout
                    Handler.Vli.getVliHomeR1
                      `cast`
                    (Sym (Yesod.Core.Types.N:WidgetT[0]
                              <Foundation.App>_N <GHC.Types.IO>_N <()>_N))) -}
-f0f3f84d6bf8315d49e04d22a9d04958
+48ea476b037fd74e276d64988e390ec6
   getVliHomeR1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -440,7 +440,7 @@ f0f3f84d6bf8315d49e04d22a9d04958
                     ->_R Sym (Yesod.Core.Types.N:WidgetT[0]
                                   <Foundation.App>_N <GHC.Types.IO>_N <()>_N))
                    eta) -}
-e4300fff0c873d9d6886d92d15a5aaf3
+46d53f1863e95c696d6c2c990bdf6f9e
   getVliHomeR10 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -467,7 +467,7 @@ e4300fff0c873d9d6886d92d15a5aaf3
                        ->_N <[(Data.Text.Internal.Text, Data.Text.Internal.Text)]
                              -> Data.Text.Internal.Text>_N))_R
                    Handler.Vli.getVliHomeR11) -}
-6ff15a43e49565c67ea643a1c2666241
+516456c167007530e3547d50a9efe641
   getVliHomeR11 ::
     (Yesod.Routes.Class.Route Foundation.App
      -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
@@ -577,7 +577,7 @@ e4300fff0c873d9d6886d92d15a5aaf3
                                                         <Foundation.App>_N)))_R)_R)_R))
                       (Sym (Yesod.Core.Types.N:WidgetT[0]
                                 <Foundation.App>_N <GHC.Types.IO>_N <()>_N)))) -}
-d401d5f8b889e87c2e7d20211a9e0b71
+6694861151fa2e4e9a6f7f81fcf2aae7
   getVliHomeR12 ::
     Yesod.Core.Types.WidgetT
       Foundation.App
@@ -590,7 +590,7 @@ d401d5f8b889e87c2e7d20211a9e0b71
   {- Unfolding: (Yesod.Core.Handler.getUrlRenderParams
                    @ (Yesod.Core.Types.WidgetT Foundation.App GHC.Types.IO)
                    (Handler.Vli.$s$fMonadHandlerWidgetT @ Foundation.App)) -}
-0ff4c222e001cf4d759c524e91535987
+68c8b6527ed8e53c4c15a29790ad85d8
   getVliHomeR13 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -607,7 +607,7 @@ d401d5f8b889e87c2e7d20211a9e0b71
                               Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
                    (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  Handler.Vli.getVliHomeR14 eta) -}
-f82e2c83c193c233034ac720cbcea58a
+f36406318f6625a3b3c8738b999664e6
   getVliHomeR14 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -619,7 +619,7 @@ f82e2c83c193c233034ac720cbcea58a
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  (# s, Handler.Vli.getVliHomeR15 #)) -}
-fa0a12b1e383e309226c4c618351a727
+33deffe4a579e970892e02dc5d498dc8
   getVliHomeR15 ::
     ((),
      Yesod.Core.Types.GWData
@@ -633,7 +633,7 @@ fa0a12b1e383e309226c4c618351a727
                      (Yesod.Routes.Class.Route
                         (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteWidgetT[0]
                                   <GHC.Types.IO>_N <Foundation.App>_N)))_R)_R)) -}
-5fae6bbe797a6dcca8feb34c77cebf08
+d9802172ca178095d2e1c708f88828d3
   getVliHomeR16 ::
     Yesod.Core.Types.GWData (Yesod.Routes.Class.Route Foundation.App)
   {- Unfolding: (Yesod.Core.Types.GWData
@@ -675,7 +675,7 @@ fa0a12b1e383e309226c4c618351a727
                      `cast`
                    (Sym (Yesod.Core.Types.N:Head[0]
                              <Yesod.Routes.Class.Route Foundation.App>_R))) -}
-f4786e9cae12c550e85bc74f4cf49622
+f8b63b6a8e1e63570e2f43ad1b77e8f6
   getVliHomeR17 ::
     (Yesod.Routes.Class.Route Foundation.App
      -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
@@ -694,7 +694,7 @@ f4786e9cae12c550e85bc74f4cf49622
   getVliHomeR19 :: Text.Blaze.Internal.ChoiceString
   {- Unfolding: (Text.Blaze.Internal.Text
                    Handler.Vli.getVliHomeR20) -}
-d2f3a6b723fe6aca7b9ae9483b4533ac
+6dc7c93ee299169cdfae80590bd57fe6
   getVliHomeR2 ::
     ()
     -> Yesod.Core.Types.HandlerData
@@ -739,7 +739,7 @@ d4ebe60d7e7cc9c23cef9cb263c7abf9
   {- Unfolding: (Data.Text.Show.unpackCString#
                    "<h1>bem vindo, VL!.</h1>\n\
                    \<a href=\""#) -}
-45522b146ff963194cb257440da8c000
+c5749f14cc6727ace51b929af887df8e
   getVliHomeR3 ::
     ()
     -> Yesod.Core.Types.HandlerData
@@ -757,7 +757,7 @@ d4ebe60d7e7cc9c23cef9cb263c7abf9
                              Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))[OneShot]
                    (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  (# eta1, Handler.Vli.getVliHomeR4 #)) -}
-6289cb28909fc9ebe66702c88a6370ff
+f7d208989e5509faadafc9981ca89213
   getVliHomeR4 ::
     ((),
      Yesod.Core.Types.GWData
@@ -771,7 +771,7 @@ d4ebe60d7e7cc9c23cef9cb263c7abf9
                      (Yesod.Routes.Class.Route
                         (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteWidgetT[0]
                                   <GHC.Types.IO>_N <Foundation.App>_N)))_R)_R)) -}
-d9d4ea1c5387d5e85a9922ed5b94f4b1
+b4acf73c9eaf9dc524f2252afce4e0e9
   getVliHomeR5 ::
     Yesod.Core.Types.GWData (Yesod.Routes.Class.Route Foundation.App)
   {- Unfolding: (Yesod.Core.Types.GWData
@@ -813,7 +813,7 @@ d9d4ea1c5387d5e85a9922ed5b94f4b1
                      `cast`
                    (Sym (Yesod.Core.Types.N:Head[0]
                              <Yesod.Routes.Class.Route Foundation.App>_R))) -}
-ce84ef0e0ecacc049f27122126e5c560
+7811396ee592c70d341e3621071731b2
   getVliHomeR6 ::
     (Yesod.Routes.Class.Route Foundation.App
      -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]

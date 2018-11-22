@@ -1,18 +1,19 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-22 03:22:30.624026 UTC
+2018-11-22 17:55:14.398491 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.Samples 8002
-  interface hash: 723d25782e562c175e85995b0281c9cc
-  ABI hash: bed955715e4237ea3bc3f97de0ab4868
-  export-list hash: a56d94f82182ad933e4788ce390e08cd
+  interface hash: cd685ee3dd2ec4c973af21ef7f6ece0e
+  ABI hash: 908dd97b47632be441757ab1a0fc1ace
+  export-list hash: 6fa1993600aeefb993d2da5c388391c4
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 6d73493edc0c8da032de4b3f8604d846
   sig of: Nothing
-  used TH splices: False
+  used TH splices: True
   where
 exports:
-  Handler.Samples.getReadSampleR
+  Handler.Samples.getReadSamplesR
+  Handler.Samples.getSamplesR
   Handler.Samples.postCreateSampleR
   Handler.Samples.putUpdateSampleR
 module dependencies: Foundation Import Import.NoFoundation Model
@@ -347,21 +348,55 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal f040a64200abf1dfa06f5db9b9e027c1
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d8ae0f04da94d706b89336fd9d0bf43b
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  blaze-html-0.9.0.1@blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p:Text.Blaze.Html 835f81951872bd48727588c57b8222c5
+import  -/  blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob:Text.Blaze.Internal c1d6ebf18cc7de440fbc2d1a2a795843
 import  -/  classy-prelude-1.2.0.1@classy-prelude-1.2.0.1-D9DWb2tGI0E3tIVMl6MF2W:ClassyPrelude 47eb36b433972aa1a22b893b23ab2ef0
-import  -/  Foundation 2edbe38e28fd4e3734970b83c6a8b467
-  Handler e4403047841950ae0f50150539ef3540
-import  -/  Import baf254d3ea2dc4e888ab16fda1c64885
-  exports: b918c1a9b421c1219c3ed3435f5ff1bb
-import  -/  Model 028f9d893ba4f877f9972f19b37fea78
-  Samples 9aeeeee6b373db6ebd89157dfc7aac8a
+import  -/  Foundation 551247d877232017e08d39f9e2f6babe
+  Handler 8c72a023a91ae70aed4b0f1399c6acab
+import  -/  Import f320560fefad9b2e18d0c0d5e0bfbbd4
+  exports: 86da3b99e456c5e320460f320383ad80
+import  -/  Model a6f2f903652092a10e64b7ee0361fcd6
+  Samples 64ed59d9e7aed5a94c8516e713eb3a1f
+  SamplesQuantity 3cf6ca8a14260b92209def5bee4bb7ae
+  SamplesVessel 85727f3e40808452336f7f817d64dd15
+import  -/  Settings d9b470713d0a04a88f484dae1b4d16ef
+  widgetFile 42141e2b1176d79723b36a9a0b96fa1e
 import  -/  http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY:Network.HTTP.Types.Status 89141eb12608ef6ae13b4ca925571920
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist b85fb5d19b37c677efb8ea455553e174
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistEntity cdf530da25c383734bcbcaf1dbc5f7ff
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistQuery 1cc5b82ce7102b2265e45dee0bdd83cb
 import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistStore c71265185bed1dbcbd850b19b52c50dc
 import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore c52db91c24c2d7d600be0b91f416e92c
 import  -/  persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8:Database.Persist.Postgresql 7e6648ba2946ddc182502523c59c3a1a
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text e8aa34be3dde178f567ae461e65c988b
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Internal 9bfcbbbe07ecef48f631025a838df7da
+import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Class.Yesod f524d4cbbe2ea403d5127ad16281dbb2
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Handler b89902ca244a318959516752db93df1e
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Json 0d7d638f9f50bdd697d1315d99de0919
+import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Widget cdad171ddeebf1a4ede8cc08021b65ea
 import  -/  yesod-persistent-1.4.3@yesod-persistent-1.4.3-GwYXgn9hRNx7S3iIDk8G60:Yesod.Persist.Core 4db1e5de9b2bec761e0f4b255073121f
+addDependentFile "templates/samples.hamlet"
+addDependentFile "templates/samples.hamlet"
+ac02fa0c1dee2bb48169a92d5ee30b9d
+  $s$WSamplesQuantity2 :: GHC.Types.Int GHC.Types.~~ GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ GHC.Types.Int
+                   @ GHC.Types.Int
+                   @~ <GHC.Types.Int>_N) -}
+9f2560b181981b490f7822d4ad1df50b
+  $s$WSamplesVessel2 ::
+    Data.Text.Internal.Text GHC.Types.~~ Data.Text.Internal.Text
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ Data.Text.Internal.Text
+                   @ Data.Text.Internal.Text
+                   @~ <Data.Text.Internal.Text>_N) -}
 d60186cf100d48ae00c2389322c863c0
   $trModule :: GHC.Types.Module
   {- HasNoCafRefs, Strictness: m,
@@ -377,12 +412,662 @@ e9c5453453cfd37944fd2c494ce3ac67
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-6e7476621e2aeba45f90a53ec59daf5a
-  getReadSampleR ::
+b715b1f3c8751d2a12770e40391661b7
+  getReadSamplesR ::
     Data.Text.Internal.Text
     -> Foundation.Handler Data.Aeson.Types.Internal.Value
-  {- Strictness: x -}
-23206a79393990682b970970567630be
+  {- Arity: 3, Strictness: <L,U><L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.Samples.getReadSamplesR1
+                  `cast`
+                (<Data.Text.Internal.Text>_R
+                 ->_R Trans
+                          (<Yesod.Core.Types.HandlerData
+                              Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                           ->_R Sym (GHC.Types.N:IO[0] <Data.Aeson.Types.Internal.Value>_R))
+                          (Sym (Yesod.Core.Types.N:HandlerT[0]
+                                    <Foundation.App>_N
+                                    <GHC.Types.IO>_N
+                                    <Data.Aeson.Types.Internal.Value>_N))) -}
+a050e2789a775db055b8182cafa40d56
+  getReadSamplesR1 ::
+    Data.Text.Internal.Text
+    -> Yesod.Core.Types.HandlerData
+         Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Aeson.Types.Internal.Value #)
+  {- Arity: 3, Strictness: <L,U><L,U><S,U>,
+     Unfolding: (\ (vessel :: Data.Text.Internal.Text)
+                   (eta :: Yesod.Core.Types.HandlerData
+                             Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 let {
+                   m1 :: Control.Monad.Trans.Reader.ReaderT
+                           Database.Persist.Sql.Types.Internal.SqlBackend
+                           (Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO)
+                           (Data.Acquire.Internal.Acquire
+                              (Data.Conduit.Internal.Conduit.Source
+                                 GHC.Types.IO
+                                 (Database.Persist.Class.PersistEntity.Entity Model.Samples)))
+                   = Database.Persist.Sql.Orphan.PersistQuery.$fPersistQueryReadSqlBackend_$cselectSourceRes
+                       @ Model.Samples
+                       @ (Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO)
+                       @ GHC.Types.IO
+                       Handler.Samples.getReadSamplesR7
+                         `cast`
+                       (GHC.Classes.(%,%)
+                          <Database.Persist.Class.PersistEntity.PersistEntity
+                             Model.Samples>_N
+                          ((Data.Type.Equality.~)
+                             <*>_N
+                             (Sym (Model.D:R:PersistEntityBackendSamples[0]))
+                             (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R
+                       (Yesod.Auth.$dmgetAuthEntity_$s$fMonadIOHandlerT @ Foundation.App)
+                       Control.Monad.IO.Class.$fMonadIOIO
+                       (GHC.Types.:
+                          @ (Database.Persist.Class.PersistEntity.Filter Model.Samples)
+                          (Database.Persist.Class.PersistEntity.Filter
+                             @ Model.Samples
+                             @ Data.Text.Internal.Text
+                             Database.Persist.Class.PersistField.$fPersistFieldText0
+                             Handler.Samples.getReadSamplesR6
+                               `cast`
+                             (Sym (Model.D:R:EntityFieldSamplestyp0[0]) <Data.Text.Internal.Text>_N)
+                             (Data.Either.Left
+                                @ Data.Text.Internal.Text
+                                @ [Data.Text.Internal.Text]
+                                vessel)
+                             Database.Persist.Types.Base.Eq)
+                          (GHC.Types.[]
+                             @ (Database.Persist.Class.PersistEntity.Filter Model.Samples)))
+                       Handler.Samples.getReadSamplesR3
+                 } in
+                 case Foundation.$fYesodPersistApp1
+                        @ [Database.Persist.Class.PersistEntity.Entity Model.Samples]
+                        (\ (r1 :: Database.Persist.Sql.Types.Internal.SqlBackend) ->
+                         let {
+                           ds :: Yesod.Core.Types.HandlerT
+                                   Foundation.App
+                                   GHC.Types.IO
+                                   (Data.Acquire.Internal.Acquire
+                                      (Data.Conduit.Internal.Conduit.Source
+                                         GHC.Types.IO
+                                         (Database.Persist.Class.PersistEntity.Entity
+                                            Model.Samples)))
+                           = m1
+                               `cast`
+                             (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  <Database.Persist.Sql.Types.Internal.SqlBackend>_R
+                                  <Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO>_R
+                                  <Data.Acquire.Internal.Acquire
+                                     (Data.Conduit.Internal.Conduit.Source
+                                        GHC.Types.IO
+                                        (Database.Persist.Class.PersistEntity.Entity
+                                           Model.Samples))>_N)
+                               r1
+                         } in
+                         (\ (r :: Yesod.Core.Types.HandlerData
+                                    Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
+                            (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                          case (ds
+                                  `cast`
+                                (Yesod.Core.Types.N:HandlerT[0]
+                                     <Foundation.App>_N
+                                     <GHC.Types.IO>_N
+                                     <Data.Acquire.Internal.Acquire
+                                        (Data.Conduit.Internal.Conduit.Source
+                                           GHC.Types.IO
+                                           (Database.Persist.Class.PersistEntity.Entity
+                                              Model.Samples))>_N)
+                                  r)
+                                 `cast`
+                               (GHC.Types.N:IO[0]
+                                    <Data.Acquire.Internal.Acquire
+                                       (Data.Conduit.Internal.Conduit.Source
+                                          GHC.Types.IO
+                                          (Database.Persist.Class.PersistEntity.Entity
+                                             Model.Samples))>_R)
+                                 s of ds1 { (#,#) ipv ipv1 ->
+                          (Data.Acquire.Internal.with
+                             @ GHC.Types.IO
+                             @ (Data.Conduit.Internal.Conduit.Source
+                                  GHC.Types.IO
+                                  (Database.Persist.Class.PersistEntity.Entity Model.Samples))
+                             @ [Database.Persist.Class.PersistEntity.Entity Model.Samples]
+                             Control.Monad.Trans.Control.$fMonadBaseControlIOIO
+                             ipv1
+                             (Database.Persist.Class.PersistQuery.selectList1 @ Model.Samples)
+                               `cast`
+                             (<Data.Conduit.Internal.Conduit.Source
+                                 GHC.Types.IO
+                                 (Database.Persist.Class.PersistEntity.Entity Model.Samples)>_R
+                              ->_R Sym (GHC.Types.N:IO[0]
+                                            <[Database.Persist.Class.PersistEntity.Entity
+                                                Model.Samples]>_R)))
+                            `cast`
+                          (GHC.Types.N:IO[0]
+                               <[Database.Persist.Class.PersistEntity.Entity Model.Samples]>_R)
+                            ipv })
+                           `cast`
+                         (Trans
+                              (<Yesod.Core.Types.HandlerData
+                                  Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                               ->_R Sym (GHC.Types.N:IO[0]
+                                             <[Database.Persist.Class.PersistEntity.Entity
+                                                 Model.Samples]>_R))
+                              (Sym (Yesod.Core.Types.N:HandlerT[0]
+                                        <Foundation.App>_N
+                                        <GHC.Types.IO>_N
+                                        <[Database.Persist.Class.PersistEntity.Entity
+                                            Model.Samples]>_N))))
+                          `cast`
+                        (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  (Sub (Foundation.D:R:YesodPersistBackendApp[0]))
+                                  <Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO>_R
+                                  <[Database.Persist.Class.PersistEntity.Entity Model.Samples]>_N))
+                        eta
+                        eta1 of ds1 { (#,#) ipv ipv1 ->
+                 GHC.Prim.raiseIO#
+                   @ GHC.Exception.SomeException
+                   @ Data.Aeson.Types.Internal.Value
+                   (Yesod.Core.Types.$fExceptionHandlerContents_$ctoException
+                      (case Yesod.Core.Content.typeJson of dt { Data.ByteString.Internal.PS ipv2 ipv3 ipv4 ipv5 ->
+                       case Data.Aeson.Types.Internal.$sfromList1
+                              @ Data.Aeson.Types.Internal.Value
+                              (GHC.Types.:
+                                 @ Data.Aeson.Types.Internal.Pair
+                                 (Handler.Samples.getReadSamplesR2,
+                                  case GHC.Magic.runRW#
+                                         @ 'GHC.Types.PtrRepLifted
+                                         @ (Data.Vector.Vector Data.Aeson.Types.Internal.Value)
+                                         (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                          case GHC.Prim.newArray#
+                                                 @ Data.Aeson.Types.Internal.Value
+                                                 @ (Control.Monad.Primitive.PrimState
+                                                      (GHC.ST.ST GHC.Prim.RealWorld))
+                                                 0#
+                                                 (Data.Vector.Mutable.uninitialised
+                                                    @ Data.Aeson.Types.Internal.Value)
+                                                 s1
+                                                   `cast`
+                                                 (GHC.Prim.State#
+                                                    (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                              <GHC.Prim.RealWorld>_N)))_R of ds2 { (#,#) ipv6 ipv7 ->
+                                          case Handler.Samples.getReadSamplesR_$sfoldlM_loop
+                                                 ipv6
+                                                   `cast`
+                                                 (GHC.Prim.State#
+                                                    (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                         <GHC.Prim.RealWorld>_N))_R
+                                                 (GHC.Base.map
+                                                    @ (Database.Persist.Class.PersistEntity.Entity
+                                                         Model.Samples)
+                                                    @ Data.Aeson.Types.Internal.Value
+                                                    Model.$fToJSONEntity0_$ctoJSON
+                                                    ipv1)
+                                                 0#
+                                                 0#
+                                                 ipv7
+                                                 @~ (Sub (Sym (Data.Vector.D:R:MutableVector[0])) <Control.Monad.Primitive.PrimState
+                                                                                                     (GHC.ST.ST
+                                                                                                        GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N)
+                                                 0# of ds3 { (#,#) ipv8 ipv9 ->
+                                          case ipv9 of wild5 { (,) v' n ->
+                                          case v'
+                                                 `cast`
+                                               (Sub (Data.Vector.D:R:MutableVector[0]) <Control.Monad.Primitive.PrimState
+                                                                                          (GHC.ST.ST
+                                                                                             GHC.Prim.RealWorld)>_N <Data.Aeson.Types.Internal.Value>_N) of wild { Data.Vector.Mutable.MVector dt1 dt2 dt3 ->
+                                          case n of dt5 { GHC.Types.I# dt6 ->
+                                          case GHC.Prim.unsafeFreezeArray#
+                                                 @ (Control.Monad.Primitive.PrimState
+                                                      (GHC.ST.ST GHC.Prim.RealWorld))
+                                                 @ Data.Aeson.Types.Internal.Value
+                                                 dt3
+                                                 ipv8
+                                                   `cast`
+                                                 (GHC.Prim.State#
+                                                    (Sym (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                              <GHC.Prim.RealWorld>_N)))_R of ds { (#,#) ipv10 ipv11 ->
+                                          (# ipv10
+                                               `cast`
+                                             (GHC.Prim.State#
+                                                (Control.Monad.Primitive.D:R:PrimStateST[0]
+                                                     <GHC.Prim.RealWorld>_N))_R,
+                                             Data.Vector.Vector
+                                               @ Data.Aeson.Types.Internal.Value
+                                               dt1
+                                               dt6
+                                               ipv11 #) } } } } } }) of ds2 { (#,#) ipv6 ipv7 ->
+                                  case ipv7 of dt1 { Data.Vector.Vector ipv8 ipv9 ipv10 ->
+                                  Data.Aeson.Types.Internal.Array dt1 } })
+                                 (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair))
+                              (Data.HashMap.Base.Empty
+                                 @ Data.Text.Internal.Text
+                                 @ Data.Aeson.Types.Internal.Value) of dt1 { DEFAULT ->
+                       case (Data.Aeson.Encoding.Builder.encodeToBuilder
+                               (Data.Aeson.Types.Internal.Object dt1))
+                              `cast`
+                            (Data.ByteString.Builder.Internal.N:Builder[0]) of nt { DEFAULT ->
+                       Yesod.Core.Types.HCContent
+                         Network.HTTP.Types.Status.status200
+                         (Yesod.Core.Types.TypedContent
+                            dt
+                            (Yesod.Core.Types.ContentBuilder
+                               nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
+                               (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
+                   ipv }) -}
+e2607ead0b3eb2d537c8f7235bd491c9
+  getReadSamplesR2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "resp"#) -}
+a69d93409dd5c17f5fa9b2e9b55e3acc
+  getReadSamplesR3 ::
+    [Database.Persist.Class.PersistEntity.SelectOpt Model.Samples]
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ (Database.Persist.Class.PersistEntity.SelectOpt Model.Samples)
+                   Handler.Samples.getReadSamplesR4
+                   (GHC.Types.[]
+                      @ (Database.Persist.Class.PersistEntity.SelectOpt
+                           Model.Samples))) -}
+20627c34ec2cb7970e087428b491a0d2
+  getReadSamplesR4 ::
+    Database.Persist.Class.PersistEntity.SelectOpt Model.Samples
+  {- HasNoCafRefs,
+     Unfolding: (Database.Persist.Class.PersistEntity.Desc
+                   @ Model.Samples
+                   @ GHC.Types.Int
+                   Handler.Samples.getReadSamplesR5
+                     `cast`
+                   (Sym (Model.D:R:EntityFieldSamplestyp0[0]) <GHC.Types.Int>_N)) -}
+510d4ec82c11d0bc3839ae08d4849fc5
+  getReadSamplesR5 :: Model.R:EntityFieldSamplestyp GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m4,
+     Unfolding: (Model.SamplesQuantity
+                   @ GHC.Types.Int
+                   Handler.Samples.$s$WSamplesQuantity2
+                     `cast`
+                   (Sym (Data.Type.Equality.N:~[0]
+                             <*>_N) <GHC.Types.Int>_N <GHC.Types.Int>_N)) -}
+82151a1a86b2d4795e5ae583c812e27a
+  getReadSamplesR6 ::
+    Model.R:EntityFieldSamplestyp Data.Text.Internal.Text
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Model.SamplesVessel
+                   @ Data.Text.Internal.Text
+                   Handler.Samples.$s$WSamplesVessel2
+                     `cast`
+                   (Sym (Data.Type.Equality.N:~[0]
+                             <*>_N) <Data.Text.Internal.Text>_N <Data.Text.Internal.Text>_N)) -}
+1eb146fb46bd85d36a2c4ec79b2744e0
+  getReadSamplesR7 ::
+    (Database.Persist.Class.PersistEntity.PersistEntity Model.Samples,
+     Database.Persist.Sql.Types.Internal.SqlBackend
+     Data.Type.Equality.~ Database.Persist.Sql.Types.Internal.SqlBackend)
+  {- Strictness: m,
+     Unfolding: ((Model.$fPersistEntitySamples,
+                  Handler.Samples.getReadSamplesR8
+                    `cast`
+                  (Sym (Data.Type.Equality.N:~[0]
+                            <*>_N) <Database.Persist.Sql.Types.Internal.SqlBackend>_N <Database.Persist.Sql.Types.Internal.SqlBackend>_N))) -}
+1a12338b445c79d1cb0e08afce51720c
+  getReadSamplesR8 ::
+    Database.Persist.Sql.Types.Internal.SqlBackend
+    GHC.Types.~~ Database.Persist.Sql.Types.Internal.SqlBackend
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ Database.Persist.Sql.Types.Internal.SqlBackend
+                   @ Database.Persist.Sql.Types.Internal.SqlBackend
+                   @~ <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
+4f31bb1f9f807c77c2a9e3a0ca69c5ad
+  getReadSamplesR_$sfoldlM_loop ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> [Data.Aeson.Types.Internal.Value]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.MutableArray#
+         (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+         Data.Aeson.Types.Internal.Value
+    -> Data.Vector.Mutable.MVector
+         (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+         Data.Aeson.Types.Internal.Value
+       ~R# Data.Vector.Generic.Base.Mutable
+             Data.Vector.Vector
+             (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+             Data.Aeson.Types.Internal.Value =>
+       GHC.Prim.Int#
+       -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+             (Data.Vector.Generic.Base.Mutable
+                Data.Vector.Vector
+                (Control.Monad.Primitive.PrimState (GHC.ST.ST GHC.Prim.RealWorld))
+                Data.Aeson.Types.Internal.Value,
+              GHC.Types.Int) #)
+  {- Arity: 7, Strictness: <S,U><S,1*U><L,U><L,U><L,U><L,U><L,U> -}
+02d92fa286bd0764797e7e54eb57ae28
+  getSamplesR :: Foundation.Handler Text.Blaze.Html.Html
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Handler.Samples.getSamplesR1
+                  `cast`
+                (Trans
+                     (<Yesod.Core.Types.HandlerData
+                         Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                      ->_R Sym (GHC.Types.N:IO[0] <Text.Blaze.Html.Html>_R))
+                     (Sym (Yesod.Core.Types.N:HandlerT[0]
+                               <Foundation.App>_N <GHC.Types.IO>_N <Text.Blaze.Html.Html>_N))) -}
+2e832e3e77aae1b906be3f5bc33e2256
+  getSamplesR1 ::
+    Yesod.Core.Types.HandlerData
+      Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, Text.Blaze.Html.Html #)
+  {- Arity: 2, Strictness: <L,U><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Yesod.Core.Types.HandlerData
+                             Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (Handler.Samples.getSamplesR7
+                         `cast`
+                       (Yesod.Core.Types.N:HandlerT[0]
+                            <Foundation.App>_N <GHC.Types.IO>_N <Text.Blaze.Html.Html>_N)
+                         eta)
+                        `cast`
+                      (GHC.Types.N:IO[0] <Text.Blaze.Html.Html>_R)
+                        eta1 of ds1 { (#,#) ipv ipv1 ->
+                 case Foundation.$fYesodPersistApp1
+                        @ [Database.Persist.Class.PersistEntity.Entity Model.Samples]
+                        Handler.Samples.getSamplesR2
+                          `cast`
+                        (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  (Sub (Foundation.D:R:YesodPersistBackendApp[0]))
+                                  <Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO>_R
+                                  <[Database.Persist.Class.PersistEntity.Entity Model.Samples]>_N))
+                        eta
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 (Handler.Samples.getSamplesR7
+                    `cast`
+                  (Yesod.Core.Types.N:HandlerT[0]
+                       <Foundation.App>_N <GHC.Types.IO>_N <Text.Blaze.Html.Html>_N)
+                    eta)
+                   `cast`
+                 (GHC.Types.N:IO[0] <Text.Blaze.Html.Html>_R)
+                   ipv2 } }) -}
+086e1b8da0e3a4ba464ff40477c114ee
+  getSamplesR10 ::
+    Yesod.Core.Types.GWData (Yesod.Routes.Class.Route Foundation.App)
+  {- Unfolding: (Yesod.Core.Types.GWData
+                   @ (Yesod.Routes.Class.Route Foundation.App)
+                   Handler.Samples.getSamplesR11
+                     `cast`
+                   (Sym (Yesod.Core.Types.N:Body[0]
+                             <Yesod.Routes.Class.Route Foundation.App>_R))
+                   (GHC.Base.Nothing @ Yesod.Core.Types.Title)
+                     `cast`
+                   (Sym (Data.Monoid.N:Last[0]) <Yesod.Core.Types.Title>_N)
+                   (GHC.Base.id
+                      @ [Yesod.Core.Types.Script
+                           (Yesod.Routes.Class.Route Foundation.App)])
+                     `cast`
+                   (Sym (Yesod.Core.Types.N:UniqueList[0]
+                             <Yesod.Core.Types.Script
+                                (Yesod.Routes.Class.Route Foundation.App)>_R))
+                   (GHC.Base.id
+                      @ [Yesod.Core.Types.Stylesheet
+                           (Yesod.Routes.Class.Route Foundation.App)])
+                     `cast`
+                   (Sym (Yesod.Core.Types.N:UniqueList[0]
+                             <Yesod.Core.Types.Stylesheet
+                                (Yesod.Routes.Class.Route Foundation.App)>_R))
+                   (Data.Map.Base.Tip
+                      @ (GHC.Base.Maybe Data.Text.Internal.Text)
+                      @ ((Yesod.Routes.Class.Route Foundation.App
+                          -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+                          -> Data.Text.Internal.Text)
+                         -> Data.Text.Internal.Builder.Builder))
+                   (GHC.Base.Nothing
+                      @ ((Yesod.Routes.Class.Route Foundation.App
+                          -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+                          -> Data.Text.Internal.Text)
+                         -> Text.Julius.Javascript))
+                   (Yesod.Core.Types.$fApplicativeWidgetT2
+                      @ (Yesod.Routes.Class.Route Foundation.App))
+                     `cast`
+                   (Sym (Yesod.Core.Types.N:Head[0]
+                             <Yesod.Routes.Class.Route Foundation.App>_R))) -}
+fdef0a90f95df5828b21907ab3c8b4a7
+  getSamplesR11 ::
+    (Yesod.Routes.Class.Route Foundation.App
+     -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+     -> Data.Text.Internal.Text)
+    -> Text.Blaze.Html.Html
+  {- Arity: 1,
+     Unfolding: (\ (ds :: Yesod.Routes.Class.Route Foundation.App
+                          -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
+                          -> Data.Text.Internal.Text) ->
+                 Handler.Samples.getSamplesR_eta) -}
+fc3e14cb0c26d751a48d9e8c28c32c78
+  getSamplesR12 :: Text.Blaze.Internal.ChoiceString
+  {- Unfolding: (Text.Blaze.Internal.PreEscaped
+                   Handler.Samples.getSamplesR13) -}
+283548b5a10b07a6445e8bd622f01287
+  getSamplesR13 :: Text.Blaze.Internal.ChoiceString
+  {- Unfolding: (Text.Blaze.Internal.Text
+                   Handler.Samples.getSamplesR14) -}
+4b1d29eca7ae5981ff674f5e9341c943
+  getSamplesR14 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString#
+                   "<h1>amostras</h1>\n"#) -}
+e1c23afcd5c9c2950d8f253094a1dcbb
+  getSamplesR2 ::
+    Database.Persist.Sql.Types.Internal.SqlBackend
+    -> Yesod.Core.Types.HandlerT
+         Foundation.App
+         GHC.Types.IO
+         [Database.Persist.Class.PersistEntity.Entity Model.Samples]
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ (r1 :: Database.Persist.Sql.Types.Internal.SqlBackend) ->
+                 let {
+                   ds :: Yesod.Core.Types.HandlerT
+                           Foundation.App
+                           GHC.Types.IO
+                           (Data.Acquire.Internal.Acquire
+                              (Data.Conduit.Internal.Conduit.Source
+                                 GHC.Types.IO
+                                 (Database.Persist.Class.PersistEntity.Entity Model.Samples)))
+                   = Handler.Samples.getSamplesR_m1
+                       `cast`
+                     (Control.Monad.Trans.Reader.N:ReaderT[0]
+                          <*>_N
+                          <Database.Persist.Sql.Types.Internal.SqlBackend>_R
+                          <Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO>_R
+                          <Data.Acquire.Internal.Acquire
+                             (Data.Conduit.Internal.Conduit.Source
+                                GHC.Types.IO
+                                (Database.Persist.Class.PersistEntity.Entity Model.Samples))>_N)
+                       r1
+                 } in
+                 (\ (r :: Yesod.Core.Types.HandlerData
+                            Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
+                    (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                  case (ds
+                          `cast`
+                        (Yesod.Core.Types.N:HandlerT[0]
+                             <Foundation.App>_N
+                             <GHC.Types.IO>_N
+                             <Data.Acquire.Internal.Acquire
+                                (Data.Conduit.Internal.Conduit.Source
+                                   GHC.Types.IO
+                                   (Database.Persist.Class.PersistEntity.Entity Model.Samples))>_N)
+                          r)
+                         `cast`
+                       (GHC.Types.N:IO[0]
+                            <Data.Acquire.Internal.Acquire
+                               (Data.Conduit.Internal.Conduit.Source
+                                  GHC.Types.IO
+                                  (Database.Persist.Class.PersistEntity.Entity Model.Samples))>_R)
+                         s of ds1 { (#,#) ipv ipv1 ->
+                  (Data.Acquire.Internal.with
+                     @ GHC.Types.IO
+                     @ (Data.Conduit.Internal.Conduit.Source
+                          GHC.Types.IO
+                          (Database.Persist.Class.PersistEntity.Entity Model.Samples))
+                     @ [Database.Persist.Class.PersistEntity.Entity Model.Samples]
+                     Control.Monad.Trans.Control.$fMonadBaseControlIOIO
+                     ipv1
+                     (Database.Persist.Class.PersistQuery.selectList1 @ Model.Samples)
+                       `cast`
+                     (<Data.Conduit.Internal.Conduit.Source
+                         GHC.Types.IO
+                         (Database.Persist.Class.PersistEntity.Entity Model.Samples)>_R
+                      ->_R Sym (GHC.Types.N:IO[0]
+                                    <[Database.Persist.Class.PersistEntity.Entity
+                                        Model.Samples]>_R)))
+                    `cast`
+                  (GHC.Types.N:IO[0]
+                       <[Database.Persist.Class.PersistEntity.Entity Model.Samples]>_R)
+                    ipv })
+                   `cast`
+                 (Trans
+                      (<Yesod.Core.Types.HandlerData
+                          Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     <[Database.Persist.Class.PersistEntity.Entity
+                                         Model.Samples]>_R))
+                      (Sym (Yesod.Core.Types.N:HandlerT[0]
+                                <Foundation.App>_N
+                                <GHC.Types.IO>_N
+                                <[Database.Persist.Class.PersistEntity.Entity
+                                    Model.Samples]>_N)))) -}
+00dba2ed3d1262c924de613e961e13f1
+  getSamplesR3 ::
+    [Database.Persist.Class.PersistEntity.SelectOpt Model.Samples]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ (Database.Persist.Class.PersistEntity.SelectOpt Model.Samples)
+                   Handler.Samples.getSamplesR4
+                   (GHC.Types.[]
+                      @ (Database.Persist.Class.PersistEntity.SelectOpt
+                           Model.Samples))) -}
+175438f6cd02f0d6d8eb355698ba1c8c
+  getSamplesR4 ::
+    Database.Persist.Class.PersistEntity.SelectOpt Model.Samples
+  {- HasNoCafRefs,
+     Unfolding: (Database.Persist.Class.PersistEntity.Asc
+                   @ Model.Samples
+                   @ Data.Text.Internal.Text
+                   Handler.Samples.getSamplesR5
+                     `cast`
+                   (Sym (Model.D:R:EntityFieldSamplestyp0[0]) <Data.Text.Internal.Text>_N)) -}
+fce9f24acea205928d79e3b2d55617bf
+  getSamplesR5 ::
+    Model.R:EntityFieldSamplestyp Data.Text.Internal.Text
+  {- HasNoCafRefs,
+     Unfolding: (Model.SamplesVessel
+                   @ Data.Text.Internal.Text
+                   Handler.Samples.getSamplesR6
+                     `cast`
+                   (Sym (Data.Type.Equality.N:~[0]
+                             <*>_N) <Data.Text.Internal.Text>_N <Data.Text.Internal.Text>_N)) -}
+fd7dc09c80986c6b67e6b4a5ffc1d608
+  getSamplesR6 ::
+    Data.Text.Internal.Text GHC.Types.~~ Data.Text.Internal.Text
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ Data.Text.Internal.Text
+                   @ Data.Text.Internal.Text
+                   @~ <Data.Text.Internal.Text>_N) -}
+6af6ced6b0fce377e2a6ed331b633bfb
+  getSamplesR7 ::
+    Yesod.Core.Types.HandlerT
+      Foundation.App GHC.Types.IO Text.Blaze.Html.Html
+  {- Unfolding: (Foundation.$fYesodApp_$cdefaultLayout
+                   Handler.Samples.getSamplesR8
+                     `cast`
+                   (Trans
+                        (<Yesod.Core.Types.HandlerData
+                            Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       ((,)
+                                          <()>_R
+                                          (Yesod.Core.Types.GWData
+                                             (Yesod.Routes.Class.Route
+                                                (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteWidgetT[0]
+                                                          <GHC.Types.IO>_N
+                                                          <Foundation.App>_N)))_R)_R)_R))
+                        (Sym (Yesod.Core.Types.N:WidgetT[0]
+                                  <Foundation.App>_N <GHC.Types.IO>_N <()>_N)))) -}
+bc6ae640a844ee5122a725e2662981d5
+  getSamplesR8 ::
+    Yesod.Core.Types.HandlerData
+      Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((),
+           Yesod.Core.Types.GWData
+             (Yesod.Routes.Class.Route
+                (Yesod.Core.Class.Handler.HandlerSite
+                   (Yesod.Core.Types.WidgetT Foundation.App GHC.Types.IO)))) #)
+  {- Arity: 2,
+     Unfolding: (\ (eta1 :: Yesod.Core.Types.HandlerData
+                              Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 (# eta, Handler.Samples.getSamplesR9 #)) -}
+baa79ffdbdb3adf14a9a37857dee9d9d
+  getSamplesR9 ::
+    ((),
+     Yesod.Core.Types.GWData
+       (Yesod.Routes.Class.Route
+          (Yesod.Core.Class.Handler.HandlerSite
+             (Yesod.Core.Types.WidgetT Foundation.App GHC.Types.IO))))
+  {- Unfolding: ((GHC.Tuple.(),
+                  Handler.Samples.getSamplesR10
+                    `cast`
+                  (Yesod.Core.Types.GWData
+                     (Yesod.Routes.Class.Route
+                        (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteWidgetT[0]
+                                  <GHC.Types.IO>_N <Foundation.App>_N)))_R)_R)) -}
+622c331fc9dcd38a3ec523d314dd712a
+  getSamplesR_eta :: Text.Blaze.Html.Html
+  {- Unfolding: (Text.Blaze.Internal.Content
+                   @ ()
+                   Handler.Samples.getSamplesR12
+                   GHC.Tuple.()) -}
+1ba58240f11f5600ab56bf47d0557dc5
+  getSamplesR_m1 ::
+    Control.Monad.Trans.Reader.ReaderT
+      Database.Persist.Sql.Types.Internal.SqlBackend
+      (Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO)
+      (Data.Acquire.Internal.Acquire
+         (Data.Conduit.Internal.Conduit.Source
+            GHC.Types.IO
+            (Database.Persist.Class.PersistEntity.Entity Model.Samples)))
+  {- Unfolding: (Database.Persist.Sql.Orphan.PersistQuery.$fPersistQueryReadSqlBackend_$cselectSourceRes
+                   @ Model.Samples
+                   @ (Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO)
+                   @ GHC.Types.IO
+                   Handler.Samples.getReadSamplesR7
+                     `cast`
+                   (GHC.Classes.(%,%)
+                      <Database.Persist.Class.PersistEntity.PersistEntity
+                         Model.Samples>_N
+                      ((Data.Type.Equality.~)
+                         <*>_N
+                         (Sym (Model.D:R:PersistEntityBackendSamples[0]))
+                         (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R
+                   (Yesod.Auth.$dmgetAuthEntity_$s$fMonadIOHandlerT @ Foundation.App)
+                   Control.Monad.IO.Class.$fMonadIOIO
+                   (GHC.Types.[]
+                      @ (Database.Persist.Class.PersistEntity.Filter Model.Samples))
+                   Handler.Samples.getSamplesR3) -}
+3116dc0cd73844ca804d29a5012faea2
   postCreateSampleR ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -397,7 +1082,7 @@ e9c5453453cfd37944fd2c494ce3ac67
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-022d83b12f1decc8edbb7b079dece68e
+2a34c3ffbd2d182655543307d2c1ea8b
   postCreateSampleR1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -408,7 +1093,7 @@ e9c5453453cfd37944fd2c494ce3ac67
      Unfolding: (\ (r :: Yesod.Core.Types.HandlerData
                            Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
                    (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
-                 case (Handler.Samples.postCreateSampleR6
+                 case (Handler.Samples.postCreateSampleR3
                          `cast`
                        (Yesod.Core.Types.N:HandlerT[0]
                             <Foundation.App>_N <GHC.Types.IO>_N <Model.Samples>_N)
@@ -418,7 +1103,7 @@ e9c5453453cfd37944fd2c494ce3ac67
                         s of ds1 { (#,#) ipv ipv1 ->
                  case Foundation.$fYesodPersistApp1
                         @ (Database.Persist.Class.PersistEntity.Key Model.Samples)
-                        (Handler.Samples.postCreateSampleR3 ipv1)
+                        (Handler.Samples.postCreateSampleR2 ipv1)
                           `cast`
                         (Control.Monad.Trans.Reader.ReaderT
                            <*>_N
@@ -436,7 +1121,7 @@ e9c5453453cfd37944fd2c494ce3ac67
                               @ Data.Aeson.Types.Internal.Value
                               (GHC.Types.:
                                  @ Data.Aeson.Types.Internal.Pair
-                                 (Handler.Samples.postCreateSampleR2,
+                                 (Handler.Samples.getReadSamplesR2,
                                   case ipv3
                                          `cast`
                                        (Trans
@@ -465,11 +1150,8 @@ e9c5453453cfd37944fd2c494ce3ac67
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv2 } }) -}
-c49ecfdbae79bd2e8b11c625467160e9
-  postCreateSampleR2 :: Data.Text.Internal.Text
-  {- Unfolding: (Data.Text.Show.unpackCString# "resp"#) -}
-d8ee50651f812763812b92c5fe77b9d9
-  postCreateSampleR3 ::
+f0bf88f43ce75a24d82b12ca7a34278f
+  postCreateSampleR2 ::
     Model.Samples
     -> Control.Monad.Trans.Reader.ReaderT
          Database.Persist.Sql.Types.Internal.SqlBackend
@@ -479,7 +1161,7 @@ d8ee50651f812763812b92c5fe77b9d9
                    @ (Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO)
                    @ Model.Samples
                    (Yesod.Auth.$dmgetAuthEntity_$s$fMonadIOHandlerT @ Foundation.App)
-                   Handler.Samples.postCreateSampleR4
+                   Handler.Samples.getReadSamplesR7
                      `cast`
                    (GHC.Classes.(%,%)
                       <Database.Persist.Class.PersistEntity.PersistEntity
@@ -488,30 +1170,8 @@ d8ee50651f812763812b92c5fe77b9d9
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendSamples[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-2599b3813fff160c3f4e1ad69bee9b70
-  postCreateSampleR4 ::
-    (Database.Persist.Class.PersistEntity.PersistEntity Model.Samples,
-     Database.Persist.Sql.Types.Internal.SqlBackend
-     Data.Type.Equality.~ Database.Persist.Sql.Types.Internal.SqlBackend)
-  {- Strictness: m,
-     Unfolding: ((Model.$fPersistEntitySamples,
-                  Handler.Samples.postCreateSampleR5
-                    `cast`
-                  (Sym (Data.Type.Equality.N:~[0]
-                            <*>_N) <Database.Persist.Sql.Types.Internal.SqlBackend>_N <Database.Persist.Sql.Types.Internal.SqlBackend>_N))) -}
-40df0151602a246df8c761c80fa70c2c
-  postCreateSampleR5 ::
-    Database.Persist.Sql.Types.Internal.SqlBackend
-    GHC.Types.~~ Database.Persist.Sql.Types.Internal.SqlBackend
-  {- HasNoCafRefs, Strictness: m,
-     Unfolding: (GHC.Types.Eq#
-                   @ *
-                   @ *
-                   @ Database.Persist.Sql.Types.Internal.SqlBackend
-                   @ Database.Persist.Sql.Types.Internal.SqlBackend
-                   @~ <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
-3b58c1d7c2d39cdbe587aed5dde6d23c
-  postCreateSampleR6 ::
+13719c05312dd767fc16708edd2cc74a
+  postCreateSampleR3 ::
     Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO Model.Samples
   {- Unfolding: (Yesod.Core.Json.requireJsonBody
                    @ (Yesod.Core.Types.HandlerT Foundation.App GHC.Types.IO)
@@ -519,7 +1179,7 @@ d8ee50651f812763812b92c5fe77b9d9
                    (Yesod.Auth.defaultMaybeAuthId_$s$fMonadHandlerHandlerT
                       @ Foundation.App)
                    Model.$fFromJSONSamples) -}
-c0ac75b2cf27734014a58306566ec6bc
+ba524aeb6df01f38ac531f55bd9ac47d
   putUpdateSampleR ::
     Data.Text.Internal.Text
     -> Foundation.Handler Data.Aeson.Types.Internal.Value

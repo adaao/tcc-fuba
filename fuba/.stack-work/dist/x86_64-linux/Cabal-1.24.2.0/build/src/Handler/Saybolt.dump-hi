@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-22 03:05:59.146677 UTC
+2018-11-22 17:44:11.23884 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.Saybolt 8002
-  interface hash: 781db48d9d3591e684c15b018fb0ae6b
-  ABI hash: bb0fa2803c8977d01294db3858319121
+  interface hash: abf0c43c3610aa4f78361ece20ee0332
+  ABI hash: adde7253dcd2a595f0a0fe991a633ab5
   export-list hash: 5b4c48328287115ce1f0056537679896
   orphan hash: 4deda7a75a108d2bca1c96de3cdf745c
   flag hash: 6d73493edc0c8da032de4b3f8604d846
@@ -346,11 +346,11 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
 import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
 import  -/  blaze-html-0.9.0.1@blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p:Text.Blaze.Html 835f81951872bd48727588c57b8222c5
 import  -/  blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob:Text.Blaze.Internal c1d6ebf18cc7de440fbc2d1a2a795843
-import  -/  Foundation 2edbe38e28fd4e3734970b83c6a8b467
-  Handler e4403047841950ae0f50150539ef3540
-  LoggoutR 466452ff39ea8ec6567e3a969d50ca3b
-import  -/  Import baf254d3ea2dc4e888ab16fda1c64885
-  exports: b918c1a9b421c1219c3ed3435f5ff1bb
+import  -/  Foundation 551247d877232017e08d39f9e2f6babe
+  Handler 8c72a023a91ae70aed4b0f1399c6acab
+  LoggoutR 583c9e738187b35a2378e61adc866bc1
+import  -/  Import f320560fefad9b2e18d0c0d5e0bfbbd4
+  exports: 86da3b99e456c5e320460f320383ad80
 import  -/  shakespeare-2.0.14.1@shakespeare-2.0.14.1-B0oxsaKvBwSLFAsyl1NfKF:Text.Julius 2f02a954f5d2f7ddbf843c50c57f3cd2
 import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text e8aa34be3dde178f567ae461e65c988b
 import  -/  yesod-core-1.4.37.2@yesod-core-1.4.37.2-1ituzKMqV7DL2cDxlOmwIJ:Yesod.Core.Class.Yesod f524d4cbbe2ea403d5127ad16281dbb2
@@ -396,14 +396,14 @@ f47641820d69f9ae1f96ea817a24a790
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-00c684823806211389047fedfaed0a4c
+a5bbfb19ce0fad7384a130a6604e2c7d
   getSayboltHomeR :: Foundation.Handler Text.Blaze.Html.Html
   {- Unfolding: (Foundation.$fYesodApp_$cdefaultLayout
                    Handler.Saybolt.getSayboltHomeR1
                      `cast`
                    (Sym (Yesod.Core.Types.N:WidgetT[0]
                              <Foundation.App>_N <GHC.Types.IO>_N <()>_N))) -}
-27b1984307af36b47e8a0135fa21e4d9
+db4ca6dd3d3aac3c372e143baeb25a7d
   getSayboltHomeR1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -440,7 +440,7 @@ f47641820d69f9ae1f96ea817a24a790
                     ->_R Sym (Yesod.Core.Types.N:WidgetT[0]
                                   <Foundation.App>_N <GHC.Types.IO>_N <()>_N))
                    eta) -}
-1ca3c668bbecf6099bdb459c5ede4164
+495e58598a96e690c11021fd1f6ca6e2
   getSayboltHomeR10 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -467,7 +467,7 @@ f47641820d69f9ae1f96ea817a24a790
                        ->_N <[(Data.Text.Internal.Text, Data.Text.Internal.Text)]
                              -> Data.Text.Internal.Text>_N))_R
                    Handler.Saybolt.getSayboltHomeR11) -}
-14ca40e7a04dc7ebc7dccc4cac15a729
+f6bcad85770abd1209f20cd94ca273c3
   getSayboltHomeR11 ::
     (Yesod.Routes.Class.Route Foundation.App
      -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
@@ -577,7 +577,7 @@ f47641820d69f9ae1f96ea817a24a790
                                                         <Foundation.App>_N)))_R)_R)_R))
                       (Sym (Yesod.Core.Types.N:WidgetT[0]
                                 <Foundation.App>_N <GHC.Types.IO>_N <()>_N)))) -}
-3ee6f13bbd37202807ad8f2d2e65b05f
+1eb3ec8a467af8d38a17979d8c1c87e0
   getSayboltHomeR12 ::
     Yesod.Core.Types.WidgetT
       Foundation.App
@@ -590,7 +590,7 @@ f47641820d69f9ae1f96ea817a24a790
   {- Unfolding: (Yesod.Core.Handler.getUrlRenderParams
                    @ (Yesod.Core.Types.WidgetT Foundation.App GHC.Types.IO)
                    (Handler.Saybolt.$s$fMonadHandlerWidgetT @ Foundation.App)) -}
-e80311455c023bc19c08282e831bc4a6
+8805409b4da35f37bd46bb69f934429a
   getSayboltHomeR13 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -607,7 +607,7 @@ e80311455c023bc19c08282e831bc4a6
                               Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))
                    (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  Handler.Saybolt.getSayboltHomeR14 eta) -}
-d7e44c534513f43c6e6320f03124131b
+e3bb909fb76358c99d27d1ad4a7c0c27
   getSayboltHomeR14 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld,
@@ -619,7 +619,7 @@ d7e44c534513f43c6e6320f03124131b
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  (# s, Handler.Saybolt.getSayboltHomeR15 #)) -}
-ddfed1b96fb180d4f71a1f6c99093348
+361592ccd8620eeef9edb46faa4766cf
   getSayboltHomeR15 ::
     ((),
      Yesod.Core.Types.GWData
@@ -633,7 +633,7 @@ ddfed1b96fb180d4f71a1f6c99093348
                      (Yesod.Routes.Class.Route
                         (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteWidgetT[0]
                                   <GHC.Types.IO>_N <Foundation.App>_N)))_R)_R)) -}
-a2e2662e0498eb0e88c5a6d6a3aa77ad
+5fbc8892615ffcc8280376215fc05f21
   getSayboltHomeR16 ::
     Yesod.Core.Types.GWData (Yesod.Routes.Class.Route Foundation.App)
   {- Unfolding: (Yesod.Core.Types.GWData
@@ -675,7 +675,7 @@ a2e2662e0498eb0e88c5a6d6a3aa77ad
                      `cast`
                    (Sym (Yesod.Core.Types.N:Head[0]
                              <Yesod.Routes.Class.Route Foundation.App>_R))) -}
-8130613d5e1e741a38f03bfd5c1d4b77
+ed1492bfccdf26f9585f7149a939a109
   getSayboltHomeR17 ::
     (Yesod.Routes.Class.Route Foundation.App
      -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]
@@ -694,7 +694,7 @@ e53b37e16b7d5f346d4ce6a5c8a08223
   getSayboltHomeR19 :: Text.Blaze.Internal.ChoiceString
   {- Unfolding: (Text.Blaze.Internal.Text
                    Handler.Saybolt.getSayboltHomeR20) -}
-2dffa5513e4c8b179ce1314100d3321a
+f11c9b5d78f2710af62c139050128ad7
   getSayboltHomeR2 ::
     ()
     -> Yesod.Core.Types.HandlerData
@@ -739,7 +739,7 @@ e53b37e16b7d5f346d4ce6a5c8a08223
   {- Unfolding: (Data.Text.Show.unpackCString#
                    "<h1>bem vindo, saybolt!!!</h1>\n\
                    \<a href=\""#) -}
-9c4156cd3b1c8efa611a3148e1a3ee49
+6c084965e7cc5e88c63f126a29e879d5
   getSayboltHomeR3 ::
     ()
     -> Yesod.Core.Types.HandlerData
@@ -757,7 +757,7 @@ e53b37e16b7d5f346d4ce6a5c8a08223
                              Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO))[OneShot]
                    (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
                  (# eta1, Handler.Saybolt.getSayboltHomeR4 #)) -}
-56686f375d219ebc38a5c67397d553cc
+bbea53d503fd98d196384b136a30e650
   getSayboltHomeR4 ::
     ((),
      Yesod.Core.Types.GWData
@@ -771,7 +771,7 @@ e53b37e16b7d5f346d4ce6a5c8a08223
                      (Yesod.Routes.Class.Route
                         (Sym (Yesod.Core.Class.Handler.D:R:HandlerSiteWidgetT[0]
                                   <GHC.Types.IO>_N <Foundation.App>_N)))_R)_R)) -}
-17657d830ad7704022da86b92de7a881
+9b268addfcc997856a9cf21aaa043ca7
   getSayboltHomeR5 ::
     Yesod.Core.Types.GWData (Yesod.Routes.Class.Route Foundation.App)
   {- Unfolding: (Yesod.Core.Types.GWData
@@ -813,7 +813,7 @@ e53b37e16b7d5f346d4ce6a5c8a08223
                      `cast`
                    (Sym (Yesod.Core.Types.N:Head[0]
                              <Yesod.Routes.Class.Route Foundation.App>_R))) -}
-81381c5ec4eb3d06cf6f0b1983f82a00
+5685b471cbbf1c70cbc0050117dc7593
   getSayboltHomeR6 ::
     (Yesod.Routes.Class.Route Foundation.App
      -> [(Data.Text.Internal.Text, Data.Text.Internal.Text)]

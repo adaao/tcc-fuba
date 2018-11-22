@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-22 03:05:58.943673 UTC
+2018-11-22 17:44:11.033405 UTC
 
 interface fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx:Handler.SampleType 8002
-  interface hash: b5c85c534e8d187a76b762acb2a792f8
-  ABI hash: 2fa1797fad37fdf3b282cb487654aba8
+  interface hash: 938c5603f6e77d17e0a282f78d8899ba
+  ABI hash: 11605e1f91aa6eb457dc23f88fb25fb3
   export-list hash: 4d68673c0de72bfab046431596f2c3ed
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 041eba49da12a8669f859283b7eaf026
@@ -347,11 +347,11 @@ family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:
                          zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal f040a64200abf1dfa06f5db9b9e027c1
 import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d8ae0f04da94d706b89336fd9d0bf43b
-import  -/  Foundation 2edbe38e28fd4e3734970b83c6a8b467
-  Handler e4403047841950ae0f50150539ef3540
-import  -/  Import baf254d3ea2dc4e888ab16fda1c64885
-  exports: b918c1a9b421c1219c3ed3435f5ff1bb
-import  -/  Model 028f9d893ba4f877f9972f19b37fea78
+import  -/  Foundation 551247d877232017e08d39f9e2f6babe
+  Handler 8c72a023a91ae70aed4b0f1399c6acab
+import  -/  Import f320560fefad9b2e18d0c0d5e0bfbbd4
+  exports: 86da3b99e456c5e320460f320383ad80
+import  -/  Model a6f2f903652092a10e64b7ee0361fcd6
   SampleType f355708de561efea067e4c6edeb434d7
   SampleTypeDescription 4aee52e0ea9a1554b8c34c3eba366e70
   SampleTypeId adf4a1a7c12b09539ee6d14a47254e1a
@@ -379,7 +379,7 @@ c13c9d5a5fb6c483231b688750c5123b
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS
                    "fuba-0.0.0-3eieV6EmdEzEjRMM0bjQlx"#) -}
-5a60e65818a420f50347ff089558c04e
+87512b3831b669afb7158c232abcfc3d
   getListSampleTypes ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -394,7 +394,7 @@ c13c9d5a5fb6c483231b688750c5123b
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-4fce94caa982de3707fd85617947dfc4
+b3ddd04a7defa06a4ee2ed9fbe3babfc
   getListSampleTypes1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -510,7 +510,7 @@ c13c9d5a5fb6c483231b688750c5123b
 f648a9e05fefc41ac6ae8d1cfc43511e
   getListSampleTypes2 :: Data.Text.Internal.Text
   {- Unfolding: (Data.Text.Show.unpackCString# "resp"#) -}
-48852bea0b35707920ed0586914697e5
+0f59e53a0d948288e27a6c1e5de009f4
   getListSampleTypes3 ::
     Database.Persist.Sql.Types.Internal.SqlBackend
     -> Yesod.Core.Types.HandlerT
@@ -681,7 +681,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                 Data.Aeson.Types.Internal.Value,
               GHC.Types.Int) #)
   {- Arity: 7, Strictness: <S,U><S,1*U><L,U><L,U><L,U><L,U><L,U> -}
-4c22eb27afb9532dccb45273438d33f5
+52b2a485b52f97fa69134ed3290df387
   getListSampleTypes_m1 ::
     Control.Monad.Trans.Reader.ReaderT
       Database.Persist.Sql.Types.Internal.SqlBackend
@@ -708,7 +708,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                    (GHC.Types.[]
                       @ (Database.Persist.Class.PersistEntity.Filter Model.SampleType))
                    Handler.SampleType.getListSampleTypes4) -}
-5fedcf60d8b2e7a5e7948e5f5f48c8e9
+5508437dd88c50728792f66ef6cf9ef8
   getReadSampleTypeR ::
     Model.SampleTypeId
     -> Foundation.Handler Data.Aeson.Types.Internal.Value
@@ -725,7 +725,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                                     <Foundation.App>_N
                                     <GHC.Types.IO>_N
                                     <Data.Aeson.Types.Internal.Value>_N))) -}
-88ac0c5b903da5fac1077ff783ac3d7d
+a001484d88c3f4faa3c6802998129299
   getReadSampleTypeR1 ::
     Model.SampleTypeId
     -> Yesod.Core.Types.HandlerData
@@ -818,7 +818,7 @@ e21ab7ecd63a1f0a57108e45821e6a6e
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv }) -}
-b228f3d1a4b33be7b2d2fa50626dacdd
+4e5bc9d3559e09ec5830b7aa05c6cdeb
   getReadSampleTypeR2 ::
     Database.Persist.Class.PersistEntity.Key Model.SampleType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -838,7 +838,7 @@ b228f3d1a4b33be7b2d2fa50626dacdd
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendSampleType[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-7d2a26cb7ddb6bd9cecf5db6228b8160
+e0806901dac3d1bd3cde1bf59fd34276
   postInsertSampleTypeR ::
     Foundation.Handler Data.Aeson.Types.Internal.Value
   {- Arity: 2, Strictness: <L,U><S,U>,
@@ -853,7 +853,7 @@ b228f3d1a4b33be7b2d2fa50626dacdd
                                <Foundation.App>_N
                                <GHC.Types.IO>_N
                                <Data.Aeson.Types.Internal.Value>_N))) -}
-d355b32b65c0bc8b5e63dc456338528c
+b33b328366a8c88f621e727058986ab0
   postInsertSampleTypeR1 ::
     Yesod.Core.Types.HandlerData
       Foundation.App (Yesod.Core.Types.MonadRoute GHC.Types.IO)
@@ -921,7 +921,7 @@ d355b32b65c0bc8b5e63dc456338528c
                                nt `cast` (Sym (Data.ByteString.Builder.Internal.N:Builder[0]))
                                (GHC.Base.Nothing @ GHC.Types.Int))) } } }))
                    ipv2 } }) -}
-4327a3bb8d0d31524e4a917d983dd824
+9be33b1f3989a26e63368ef8f8ca9010
   postInsertSampleTypeR2 ::
     Model.SampleType
     -> Control.Monad.Trans.Reader.ReaderT
@@ -941,7 +941,7 @@ d355b32b65c0bc8b5e63dc456338528c
                          <*>_N
                          (Sym (Model.D:R:PersistEntityBackendSampleType[0]))
                          (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
-e5e74e6cf2807b9791527c6be4a00e4f
+c8373a9a2f9ead9de8ad2d32fa2b35b9
   postInsertSampleTypeR3 ::
     Yesod.Core.Types.HandlerT
       Foundation.App GHC.Types.IO Model.SampleType

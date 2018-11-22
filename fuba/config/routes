@@ -15,8 +15,9 @@
 -- a escrita esta errada propositalmente
 
 /samples/createSample   CreateSampleR POST
-/samples/readSamples/#Text   ReadSampleR GET
+/samples/readSamples/#Text   ReadSamplesR GET
 /samples/update/#Text   UpdateSampleR PUT
+/samples/get   SamplesR GET
 
 /sampleType/insert   InsertSampleTypeR POST
 /sampleType/#SampleTypeId/read   ReadSampleTypeR GET
